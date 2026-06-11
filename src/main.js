@@ -1,4 +1,25 @@
 import homeHTML from './pages/home.js';
+import mindsHTML from './pages/minds.js';
+import buffettHTML, { buffettPages } from './pages/buffett_berkshire.js';
+import aftermathHTML, { aftermathPages } from './pages/buffett_aftermath.js';
+import seesHTML, { seesPages } from './pages/buffett_sees_candies.js';
+import nfmHTML, { nfmPages } from './pages/buffett_nfm.js';
+import geicoHTML, { geicoPages } from './pages/buffett_geico.js';
+import genreHTML, { genrePages } from './pages/buffett_gen_re.js';
+import midamericanHTML, { midamericanPages } from './pages/buffett_midamerican.js';
+import bnsfHTML, { bnsfPages } from './pages/buffett_bnsf.js';
+import pccHTML, { pccPages } from './pages/buffett_pcc.js';
+import alleghanyHTML, { alleghanyPages } from './pages/buffett_alleghany.js';
+import appleHTML, { applePages } from './pages/buffett_apple.js';
+import buffettIndexHTML from './pages/buffett_index.js';
+import dcdsIndexHTML from './pages/dcds_index.js';
+import dcds2004HTML, { dcdsPages } from './pages/dcds_2004.js';
+import dcds2005HTML, { dcds2005Pages } from './pages/dcds_2005.js';
+import dcds2008HTML, { dcds2008Pages } from './pages/dcds_2008.js';
+import dcds2009HTML, { dcds2009Pages } from './pages/dcds_2009.js';
+import dcds2011HTML, { dcds2011Pages } from './pages/dcds_2011.js';
+import dcds2014HTML, { dcds2014Pages } from './pages/dcds_2014.js';
+import dcds2015HTML, { dcds2015Pages } from './pages/dcds_2015.js';
 
 const correctPassword = '231197';
 
@@ -82,18 +103,24 @@ function initApp() {
         <a class="nav-link active" href="#/home" data-link-route="/home">
           <span class="nav-index">00</span><span>Preface</span>
         </a>
+        <a class="nav-link" href="#/minds" data-link-route="/minds">
+          <span class="nav-index">01</span><span>What's in their minds</span>
+        </a>
         
         <details open class="nav-section">
           <summary><span>Quick Navigation</span><span class="chev">⌄</span></summary>
           <div class="nav-children">
             <a class="nav-link" href="#/home" data-link-route="/home">
-              <span class="nav-index">01</span><span>Home / Preface</span>
+              <span class="nav-index">01</span><span>Preface</span>
+            </a>
+            <a class="nav-link" href="#/minds" data-link-route="/minds">
+              <span class="nav-index">02</span><span>Minds</span>
             </a>
             <a class="nav-link" href="https://trandhquan-my-personal-vlsi-design-notebook.vercel.app/" target="_blank" rel="noopener">
-              <span class="nav-index">02</span><span>VLSI Notebook ↗</span>
+              <span class="nav-index">03</span><span>VLSI Notebook ↗</span>
             </a>
             <a class="nav-link" href="https://github.com/besthq2-tech/Quan-Tran-public-finance-research" target="_blank" rel="noopener">
-              <span class="nav-index">03</span><span>Finance Research ↗</span>
+              <span class="nav-index">04</span><span>Finance Research ↗</span>
             </a>
           </div>
         </details>
@@ -126,7 +153,28 @@ function initApp() {
   document.body.innerHTML = layoutHTML;
 
   const routes = {
-    '/home': homeHTML
+    '/home': homeHTML,
+    '/minds': mindsHTML,
+    '/minds/buffett-berkshire': buffettHTML,
+    '/minds/buffett-aftermath': aftermathHTML,
+    '/minds/buffett-sees-candies': seesHTML,
+    '/minds/buffett-nfm': nfmHTML,
+    '/minds/buffett-geico': geicoHTML,
+    '/minds/buffett-gen-re': genreHTML,
+    '/minds/buffett-midamerican': midamericanHTML,
+    '/minds/buffett-bnsf': bnsfHTML,
+    '/minds/buffett-pcc': pccHTML,
+    '/minds/buffett-alleghany': alleghanyHTML,
+    '/minds/buffett-apple': appleHTML,
+    '/minds/buffett': buffettIndexHTML,
+    '/minds/dcds': dcdsIndexHTML,
+    '/minds/dcds-2004': dcds2004HTML,
+    '/minds/dcds-2005': dcds2005HTML,
+    '/minds/dcds-2008': dcds2008HTML,
+    '/minds/dcds-2009': dcds2009HTML,
+    '/minds/dcds-2011': dcds2011HTML,
+    '/minds/dcds-2014': dcds2014HTML,
+    '/minds/dcds-2015': dcds2015HTML
   };
 
   // Routing logic
@@ -154,6 +202,60 @@ function initApp() {
         // Mount canvas if on home
         if (hash === '/home') {
           initEyeCanvas();
+        }
+        if (hash === '/minds/buffett-berkshire') {
+          initBookPagination(buffettPages);
+        }
+        if (hash === '/minds/buffett-aftermath') {
+          initBookPagination(aftermathPages);
+        }
+        if (hash === '/minds/buffett-sees-candies') {
+          initBookPagination(seesPages);
+        }
+        if (hash === '/minds/buffett-nfm') {
+          initBookPagination(nfmPages);
+        }
+        if (hash === '/minds/buffett-geico') {
+          initBookPagination(geicoPages);
+        }
+        if (hash === '/minds/buffett-gen-re') {
+          initBookPagination(genrePages);
+        }
+        if (hash === '/minds/buffett-midamerican') {
+          initBookPagination(midamericanPages);
+        }
+        if (hash === '/minds/buffett-bnsf') {
+          initBookPagination(bnsfPages);
+        }
+        if (hash === '/minds/buffett-pcc') {
+          initBookPagination(pccPages);
+        }
+        if (hash === '/minds/buffett-alleghany') {
+          initBookPagination(alleghanyPages);
+        }
+        if (hash === '/minds/buffett-apple') {
+          initBookPagination(applePages);
+        }
+        if (hash === '/minds/dcds-2004') {
+          initBookPagination(dcdsPages);
+        }
+        if (hash === '/minds/dcds-2005') {
+          initBookPagination(dcds2005Pages);
+        }
+        if (hash === '/minds/dcds-2008') {
+          initBookPagination(dcds2008Pages);
+        }
+        if (hash === '/minds/dcds-2009') {
+          initBookPagination(dcds2009Pages);
+        }
+        if (hash === '/minds/dcds-2011') {
+          initBookPagination(dcds2011Pages);
+        }
+        if (hash === '/minds/dcds-2014') {
+          initBookPagination(dcds2014Pages);
+        }
+        if (hash === '/minds/dcds-2015') {
+          initBookPagination(dcds2015Pages);
         }
       } else {
         container.innerHTML = `
@@ -299,6 +401,58 @@ function initApp() {
       window.removeEventListener('resize', resize);
       cancelAnimationFrame(animationFrameId);
     };
+  }
+
+  function initBookPagination(pages) {
+    let currentPage = 0;
+    const contentDiv = document.getElementById('bookContent');
+    const prevBtn = document.getElementById('prevPageBtn');
+    const nextBtn = document.getElementById('nextPageBtn');
+    const pageInput = document.getElementById('pageInput');
+    const pageTotal = document.getElementById('pageTotal');
+
+    function renderPage() {
+      if (!contentDiv) return;
+      contentDiv.innerHTML = pages[currentPage];
+      
+      if (pageInput) {
+        pageInput.value = currentPage + 1;
+        pageInput.max = pages.length;
+      }
+      if (pageTotal) {
+        pageTotal.textContent = `/ ${pages.length}`;
+      }
+      
+      if (prevBtn) prevBtn.disabled = currentPage === 0;
+      if (nextBtn) nextBtn.disabled = currentPage === pages.length - 1;
+    }
+
+    if (prevBtn && nextBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (currentPage > 0) {
+          currentPage--;
+          renderPage();
+        }
+      });
+      nextBtn.addEventListener('click', () => {
+        if (currentPage < pages.length - 1) {
+          currentPage++;
+          renderPage();
+        }
+      });
+      
+      if (pageInput) {
+        pageInput.addEventListener('change', (e) => {
+          let val = parseInt(e.target.value, 10);
+          if (isNaN(val) || val < 1) val = 1;
+          if (val > pages.length) val = pages.length;
+          currentPage = val - 1;
+          renderPage();
+        });
+      }
+      
+      renderPage();
+    }
   }
 
   // Start router
