@@ -5,7 +5,7 @@ const html = `
       <a href="#/minds/dcds" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">DCDS</a> · 2015-2017
     </div>
     <h1 style="margin-bottom: 8px;">The Golden Age</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2015 - 2017. Kỷ nguyên vàng của tăng trưởng, làn sóng thoái vốn tỷ đô và trái ngọt của sự kiên nhẫn.</p>
+    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2015 - 2017. Làn sóng thoái vốn nhà nước, mỏ vàng bán lẻ MWG, PNJ và trái ngọt trên đỉnh 1.200 điểm.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -32,43 +32,43 @@ const html = `
 let dcdsPagesRaw = [
   // Page 1
   `<img src="/images/dcds2015_1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Sau khi trải qua cơn bạo bệnh của năm 2008, những cơn co giật của năm 2010 và cuộc đại phẫu thuật đau đớn 2011-2013, nền kinh tế Việt Nam bước vào giai đoạn 2015 - 2017 với một thể trạng hoàn toàn mới. Giống như một võ sĩ vừa hồi phục sau chấn thương, nhẹ cân hơn nhưng cơ bắp săn chắc và dẻo dai hơn bao giờ hết.</p>
-  <p>Lạm phát được kiểm soát ở mức thấp kỷ lục. Dòng vốn FDI từ các tập đoàn toàn cầu như Samsung, LG đổ vào cuồn cuộn, biến Việt Nam thành công xưởng mới của thế giới. Tầng lớp trung lưu bùng nổ. Và trên thị trường chứng khoán, một "Kỷ nguyên vàng" (The Golden Age) chính thức bắt đầu.</p>`,
+  <p>Sau những cuộc đại phẫu thuật và thử thách sức bền, nền kinh tế Việt Nam bước vào năm 2015 với một thể trạng hoàn hảo. Giống như một võ sĩ vừa ép cân thành công, cơ bắp săn chắc và dẻo dai hơn bao giờ hết. Lạm phát được giữ ở mức thấp. Tầng lớp trung lưu bùng nổ, kéo theo sự bứt phá mạnh mẽ của chi tiêu tiêu dùng.</p>
+  <p>Và đối với những nhà quản lý quỹ tại DCDS, đây là một "Kỷ nguyên Vàng" (The Golden Age) mà chúng tôi đã kiên nhẫn chờ đợi suốt nửa thập kỷ. Dòng vốn FDI cuồn cuộn đổ vào, kéo theo sau là một làn sóng thoái vốn nhà nước (divestment) khổng lồ tại các "Mega-cap" (những doanh nghiệp có vốn hóa siêu lớn).</p>`,
 
   // Page 2
   `<img src="/images/dcds2015_2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>DCDS lúc này đã là một quỹ mở vận hành trơn tru. Lợi thế của cấu trúc quỹ mở bắt đầu phát huy sức mạnh khủng khiếp. Khi thị trường bước vào chu kỳ tăng, lợi nhuận thực tế (NAV) tăng lên, kéo theo dòng tiền mới từ các nhà đầu tư cá nhân và tổ chức không ngừng chảy vào quỹ. Chúng tôi có đạn dược dồi dào để săn bắn trên một cánh đồng đầy cơ hội.</p>
-  <p>Chủ đề đầu tư lớn nhất của chúng tôi trong giai đoạn này là "Sự trỗi dậy của tiêu dùng nội địa". Những doanh nghiệp bán lẻ, hàng tiêu dùng nhanh (FMCG), và hàng không giá rẻ bắt đầu ghi nhận những mức tăng trưởng doanh thu 30-40% mỗi năm. Bức tranh tiêu dùng của 90 triệu dân đang lột xác.</p>`,
+  <p>DCDS lúc này đã là một cỗ máy quỹ mở vận hành trơn tru. Khi thị trường bước vào chu kỳ tăng, lợi nhuận (NAV) tăng lên, kéo theo dòng tiền mới từ khách hàng không ngừng chảy vào quỹ. Chúng tôi có nguồn đạn dược dồi dào để săn bắn.</p>
+  <p>Luận điểm đầu tư (Investment Thesis) chủ đạo của chúng tôi trong giai đoạn này là sự chuyển dịch cơ cấu tiêu dùng: Người dân Việt Nam đang chuyển từ mua sắm tại chợ truyền thống sang các chuỗi bán lẻ hiện đại (modern trade). Bất kỳ doanh nghiệp nào có khả năng mở rộng chuỗi và quản trị hàng tồn kho xuất sắc sẽ là kẻ chiến thắng.</p>`,
 
   // Page 3
   `<img src="/images/dcds2015_3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Không chỉ có tiêu dùng, hệ thống ngân hàng - từng là nguyên nhân gây ra cuộc khủng hoảng - nay đã trở thành động lực kéo thị trường đi lên. VAMC đã nhốt xong phần lớn nợ xấu. Các ngân hàng thương mại cổ phần bắt đầu quá trình trích lập dự phòng mạnh mẽ và ghi nhận lợi nhuận cốt lõi phục hồi hình chữ V.</p>
-  <p>Chúng tôi phân bổ tỷ trọng lớn vào nhóm ngân hàng tư nhân năng động, những nơi áp dụng công nghệ bán lẻ hiện đại để chiếm lĩnh thị phần. Sự lựa chọn này đã mang lại tỷ suất sinh lời vượt trội, khi cổ phiếu ngân hàng trở thành những cỗ xe tăng không thể cản bước trên bảng điện tử.</p>`,
+  <p>Thương vụ kinh điển mang lại lợi nhuận bùng nổ nhất cho danh mục chính là <strong>Thế Giới Di Động (MWG)</strong> và <strong>Vàng bạc Đá quý Phú Nhuận (PNJ)</strong>. Khi MWG mới lên sàn năm 2014, nhiều người hoài nghi về khả năng bão hòa của thị trường điện thoại. Nhưng chúng tôi nhìn thấy ở họ một năng lực thực thi (execution) vô song. DCDS đã nắm giữ MWG qua suốt giai đoạn mở rộng "thần tốc" Điện Máy Xanh, thu về mức lợi nhuận tính bằng nhiều lần (multi-bagger).</p>
+  <p>Song song đó, nhóm ngân hàng cũng đóng góp cực lớn. Chúng tôi phân bổ tỷ trọng vào <strong>Vietcombank (VCB)</strong> và <strong>MBBank (MBB)</strong> - những ngân hàng có chất lượng tài sản tốt nhất, rũ bùn nợ xấu nhanh nhất để quay lại đà tăng trưởng lợi nhuận 30-40%/năm.</p>`,
 
   // Page 4
   `<img src="/images/dcds2015_4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nhưng điểm nhấn rực rỡ nhất của giai đoạn 2015-2017 chính là làn sóng thoái vốn nhà nước và sự xuất hiện của các "Mega-cap" (những doanh nghiệp vốn hóa siêu lớn) trên sàn chứng khoán. Nút thắt quy mô thị trường cuối cùng đã được cởi trói.</p>
-  <p>Chính phủ quyết định bán vốn tại những "viên kim cương" của quốc gia. Các thương vụ thoái vốn tỷ đô tại Vinamilk, Sabeco thu hút sự chú ý của toàn bộ giới tài chính toàn cầu. Những tay chơi khổng lồ từ Thái Lan, Singapore, Nhật Bản mang hàng tỷ USD tiền mặt đến Việt Nam để đấu giá.</p>`,
+  <p>Nhưng điểm nhấn rực rỡ nhất của giai đoạn này lại đến từ làn sóng thoái vốn nhà nước. Chính phủ quyết định bán phần vốn tại <strong>Vinamilk (VNM)</strong> và <strong>Sabeco (SAB)</strong>. Hàng tỷ USD tiền mặt từ các tập đoàn Thái Lan, Singapore đổ vào Việt Nam để đấu giá.</p>
+  <p>Việc các quỹ ngoại sẵn sàng trả mức giá P/E 30-40 lần để thâu tóm các công ty hàng tiêu dùng nội địa đã tạo ra một mặt bằng định giá hoàn toàn mới. Nút thắt quy mô thị trường (Market Cap) cuối cùng đã được cởi trói. Thị trường chứng khoán Việt Nam lột xác từ một "cái ao làng" thành một vùng biển lớn.</p>`,
 
   // Page 5
   `<img src="/images/dcds2015_5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Là một quỹ đầu tư nội địa am hiểu thị trường, DCDS đứng ở vị trí đắc địa nhất để tận hưởng làn sóng này. Việc các tập đoàn nước ngoài sẵn sàng trả mức giá P/E 30-40 lần để thâu tóm các công ty hàng tiêu dùng hàng đầu Việt Nam đã tạo ra một mặt bằng định giá hoàn toàn mới cho toàn bộ thị trường.</p>
-  <p>Bên cạnh đó, hàng loạt tập đoàn tư nhân khổng lồ như Vietjet Air, VPBank, và sau này là Vinhomes, Techcombank bắt đầu niêm yết. Thị trường chứng khoán Việt Nam lột xác từ một cái ao làng thành một vùng biển lớn, đủ sâu và rộng để tiếp nhận những dòng vốn ngoại khổng lồ.</p>`,
+  <p>Khi VN-Index bứt phá qua mốc 1.000 điểm và hướng thẳng lên 1.200 điểm vào cuối năm 2017, sự hưng phấn đạt đến đỉnh điểm. Tuy nhiên, trong một thị trường đi lên, sai lầm lớn nhất thường là sự bảo thủ.</p>
+  <p>Một sai lầm chiến lược của chúng tôi trong giai đoạn này là đã đánh giá quá thận trọng và <strong>bỏ lỡ một phần đà tăng nóng của nhóm cổ phiếu Bất động sản</strong> (đặc biệt là sự trỗi dậy của Vingroup - VIC). Nỗi ám ảnh từ cơn bão nợ xấu 2010 đã khiến chúng tôi giữ tỷ trọng bất động sản thấp hơn so với thị trường chung (underweight). Việc này đã khiến quỹ mất đi một cơ hội gia tăng thêm vài % lợi nhuận trong lúc nhóm này dẫn dắt chỉ số.</p>`,
 
   // Page 6
   `<img src="/images/dcds2015_6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Đỉnh cao của sự thăng hoa đến vào cuối năm 2017. Chỉ số VN-Index bứt phá mạnh mẽ, bỏ lại phía sau những cột mốc lịch sử, hướng thẳng lên vùng 1.000 điểm và sau đó là 1.200 điểm (vào đầu 2018). Mọi danh mục đầu tư đều tăng trưởng hai con số. Những báo cáo gửi khách hàng hàng tháng tràn ngập những tin tức tích cực.</p>
-  <p>Tuy nhiên, ký ức tàn khốc của năm 2007 vẫn luôn thường trực trong tâm trí tôi. Sự khác biệt giữa bong bóng năm 2007 và sự bùng nổ năm 2017 là gì? Năm 2007, người ta trả giá trên trời cho những công ty không có cốt lõi. Còn năm 2017, định giá tuy cao, nhưng nó được chống lưng bởi dòng tiền thực sự và tốc độ tăng trưởng EPS (lợi nhuận trên cổ phiếu) mạnh mẽ của các doanh nghiệp Blue-chips.</p>`,
+  <p>Dẫu vậy, kỷ luật vẫn là yếu tố sống còn. Trong bối cảnh hưng phấn cực độ năm 2017, hàng loạt cổ phiếu rác (penny stocks) và các doanh nghiệp thao túng báo cáo tài chính bắt đầu tăng giá gấp 3-5 lần mà không có nền tảng cơ bản.</p>
+  <p>Bài học từ siêu bong bóng 2007 nhắc nhở chúng tôi phải giữ đôi chân trên mặt đất. Chúng tôi kiên quyết từ chối những cuộc chơi bơm thổi, tập trung tối đa tỷ trọng vào nhóm 30 doanh nghiệp đầu ngành (VN30). Quản lý một danh mục khi thị trường tăng nóng áp lực không kém gì khi thị trường giảm, bởi vì khách hàng luôn nhìn sang nhà hàng xóm để so sánh lợi nhuận.</p>`,
 
   // Page 7
   `<img src="/images/dcds2015_7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Dẫu vậy, kỷ luật vẫn là yếu tố sống còn. Trong bối cảnh hưng phấn, chúng tôi bắt buộc mình không được hạ thấp tiêu chuẩn đầu tư. Khi các cổ phiếu đầu cơ rác rưởi (penny stocks) bắt đầu tăng giá gấp 3-5 lần mà không có lý do cơ bản, đó là tiếng chuông cảnh báo. Chúng tôi kiên quyết đứng ngoài những cuộc chơi bơm thổi đó, tập trung bảo vệ thành quả ở những doanh nghiệp chất lượng cao nhất.</p>
-  <p>Quản lý một danh mục khi thị trường tăng nóng đôi khi còn áp lực hơn cả khi thị trường giảm điểm. Nếu bạn quá thận trọng và giữ nhiều tiền mặt, bạn sẽ tụt hậu so với chỉ số Index (underperform) và khách hàng sẽ phàn nàn. Nếu bạn quá tham lam và mua đuổi, bạn sẽ dính bẫy khi thị trường điều chỉnh.</p>`,
+  <p>Và phần thưởng cho sự kiên định đó là một bảng thành tích rực rỡ nhất trong lịch sử hoạt động của quỹ mở. Kết thúc năm 2017, Giá trị Tài sản Ròng (NAV) của DCDS ghi nhận mức tăng trưởng xuất sắc trên <strong>+35%</strong>. Các khoản đầu tư chiến lược vào MWG, PNJ, HPG và MBB đã gặt hái những quả ngọt khổng lồ.</p>
+  <p>Tài sản quản lý (AUM) của quỹ phình to nhanh chóng nhờ đà tăng trưởng tự nhiên của danh mục và dòng tiền mới đổ vào mạnh mẽ. Không còn ai nhớ đến mức chiết khấu oan uổng của năm 2011. DCDS thực sự đã vươn lên trở thành một trong những quỹ cổ phiếu đại chúng xuất sắc nhất trên thị trường.</p>`,
 
   // Page 8
   `<img src="/images/dcds2015_8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Khép lại năm 2017, DCDS ghi nhận mức tăng trưởng thuộc hàng top trên thị trường. Nhưng điều làm tôi tự hào nhất không phải là con số lợi nhuận, mà là cách chúng tôi đạt được nó: Minh bạch, kiên định với phương pháp đầu tư giá trị tăng trưởng, và sử dụng trọn vẹn lợi thế của một quỹ mở hiện đại.</p>
-  <p>Nhìn lại chặng đường từ lúc khẩn hoang đập đá năm 2004, vượt qua vực thẳm 2008, và giờ đây đứng trên đỉnh cao rực rỡ của Kỷ nguyên Vàng, tôi hiểu rằng: Thị trường chứng khoán là một cỗ máy phần thưởng vô cùng công bằng. Nó lấy tiền của những kẻ thiếu kiên nhẫn, thích cờ bạc, và trao trọn vẹn phần thưởng đó cho những tổ chức biết giữ vững kỷ luật, có tầm nhìn thập kỷ, và trung thành với giá trị cốt lõi.</p>`
+  <p>Nhìn lại chặng đường từ lúc khẩn hoang đập đá năm 2004, vượt qua vực thẳm 2008, và giờ đây đứng trên đỉnh cao 1.200 điểm của Kỷ nguyên Vàng, tôi rút ra một chân lý: Thị trường chứng khoán là một cỗ máy luân chuyển tài sản vô cùng công bằng.</p>
+  <p>Nó lấy tiền của những kẻ thiếu kiên nhẫn, những người thích cờ bạc nay mua mai bán, và trao trọn vẹn phần thưởng đó cho những tổ chức biết giữ vững kỷ luật, có tầm nhìn thập kỷ, và trung thành với giá trị cốt lõi. Năm 2017 khép lại trong ánh hào quang, nhưng chúng tôi biết, bánh xe chu kỳ lại sắp sửa quay thêm một vòng mới.</p>`
 ];
 
 // Normalize text for Vietnamese rendering safety

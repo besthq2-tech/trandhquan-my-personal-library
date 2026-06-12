@@ -5,7 +5,7 @@ const html = `
       <a href="#/minds/dcds" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">DCDS</a> · 2009-2010
     </div>
     <h1 style="margin-bottom: 8px;">The False Dawn & The Hangover</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2009 - 2010. Gói kích cầu, cơn hưng phấn bằng steroid và bóng ma nợ xấu Vinashin.</p>
+    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2009 - 2010. Bình minh giả tạo từ gói kích cầu, sự phục hồi của HPG và trái đắng mang tên nợ xấu Vinashin.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -32,43 +32,43 @@ const html = `
 let dcdsPagesRaw = [
   // Page 1
   `<img src="/images/dcds2009_1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Khi khói bụi của thảm họa 2008 còn chưa kịp tan hết, năm 2009 mở ra với một liều adrenaline cực mạnh được tiêm thẳng vào tĩnh mạch của nền kinh tế. Chính phủ Việt Nam tung ra gói kích cầu trị giá 1 tỷ USD (sau đó quy mô thực tế còn lớn hơn rất nhiều) với chính sách hỗ trợ 4% lãi suất vay vốn cho các doanh nghiệp. Tiền rẻ đột ngột tràn ngập thị trường.</p>
-  <p>Thị trường chứng khoán, vốn đang nằm thoi thóp dưới đáy sâu 235 điểm, lập tức bật dậy như một chiếc lò xo bị nén chặt. Đó là một cú phục hồi hình chữ V ngoạn mục. Chỉ trong vài tháng, VN-Index tăng dựng đứng lên vượt mốc 600 điểm. Các bảng điện tử lại ngập tràn sắc tím hưng phấn.</p>`,
+  <p>Thảm họa 2008 để lại một thị trường hoang tàn, nhưng cũng tạo ra một mặt bằng giá rẻ không tưởng. VN-Index chạm đáy khoảng 235 điểm vào đầu năm 2009. Lúc này, để cứu vãn nền kinh tế đang hấp hối, Chính phủ tung ra gói kích cầu lịch sử trị giá 1 tỷ USD, hỗ trợ lãi suất 4%/năm cho doanh nghiệp.</p>
+  <p>Phản ứng của thị trường ngay lập tức giống như một người đang khát cháy họng được bơm một liều steroid cực mạnh. Tiền rẻ ngập tràn hệ thống. VN-Index có một cú bật tăng hình chữ V ngoạn mục, kéo thẳng một mạch lên hơn 600 điểm vào cuối năm. Sự lạc quan trở lại nhanh chóng đến mức người ta dường như đã quên mất nỗi đau vừa trải qua.</p>`,
 
   // Page 2
   `<img src="/images/dcds2009_2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Danh mục của DCDS phục hồi với tốc độ chóng mặt. Các cổ phiếu cơ bản mà chúng tôi đã cắn răng nắm giữ qua tâm bão giờ đây đền đáp xứng đáng. Nhưng với tư cách là những nhà quản lý tiền chuyên nghiệp, chúng tôi không cho phép mình bị cuốn vào cơn say. Lợi nhuận đang chảy vào quỹ, nhưng bộ não phân tích của chúng tôi lại cảnh báo tiếng còi báo động: Đây là một "Bình minh giả tạo" (False Dawn).</p>
-  <p>Chúng tôi nhận thấy dòng tiền kích cầu đáng lẽ phải chảy vào sản xuất kinh doanh thì lại đang chảy vòng vèo vào chứng khoán và bất động sản. Các doanh nghiệp vay vốn giá rẻ không để mở rộng nhà máy, mà để đi đánh tháp tài chính. Đó là tăng trưởng bằng steroid, và steroid thì luôn có tác dụng phụ tàn khốc.</p>`,
+  <p>Với nguồn tiền mặt bảo toàn được từ năm 2008, chúng tôi bắt đầu giải ngân mạnh tay vào những doanh nghiệp sản xuất cơ bản. Luận điểm đầu tư (Thesis) cực kỳ rõ ràng: Những công ty có nhà máy, có sản phẩm thực sẽ là những người hưởng lợi trực tiếp và nhanh nhất từ gói hỗ trợ lãi suất của Chính phủ.</p>
+  <p>Thương vụ xuất sắc nhất của chúng tôi trong đợt phục hồi này là <strong>Tập đoàn Hòa Phát (HPG)</strong>. Ngành thép đang ở đáy chu kỳ, nhưng gói kích cầu sẽ thổi bùng lại nhu cầu xây dựng và hạ tầng. HPG, với lợi thế quy mô và quản trị chi phí xuất sắc, đã mang lại cho quỹ lợi nhuận vượt trội khi giá cổ phiếu bật tăng x2, x3 từ đáy.</p>`,
 
   // Page 3
   `<img src="/images/dcds2009_3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Bước sang năm 2010, cơn say thuốc nhường chỗ cho một cơn đau đầu nhức nhối (The Hangover). Lượng tiền khổng lồ được bơm ra đã làm thức tỉnh con quái vật lạm phát một lần nữa. Lãi suất bắt đầu nhích lên. Dòng chảy tín dụng đột ngột bị siết lại. Và những doanh nghiệp đã lỡ "ăn chơi" quá đà bằng tiền vay giá rẻ bắt đầu lộ ra những lỗ hổng chết người.</p>
-  <p>Nguy hiểm nhất là hệ thống ngân hàng. Những món nợ kích cầu không thể thu hồi bắt đầu biến thành nợ xấu (Non-Performing Loans - NPL). Nợ xấu bị giấu giếm bằng việc đảo nợ, cấu trúc lại. Nhưng trên sổ sách của chúng tôi, khi phân tích sâu vào bảng cân đối kế toán của một số ngân hàng, chúng tôi thấy một cục máu đông đang phình to.</p>`,
+  <p>Bên cạnh HPG, chúng tôi tiếp tục gia tăng tỷ trọng tại <strong>Vinamilk (VNM)</strong>. Trong lúc khủng hoảng, nhu cầu tiêu thụ sữa của trẻ em không hề giảm sút. Sự ổn định của VNM hoạt động như một cỗ xe tăng phòng thủ, đồng thời mang lại dòng tiền cổ tức đều đặn để tái đầu tư.</p>
+  <p>Năm 2009, nhờ việc bắt đúng nhịp đập của chính sách kích cầu và nhóm sản xuất cơ bản, NAV của quỹ phục hồi mạnh mẽ, bù đắp được một phần đáng kể những tổn thất của năm 2008. Khách hàng bắt đầu thở phào nhẹ nhõm. Nhưng với tư cách là những người quan sát, chúng tôi cảm thấy có một thứ gì đó vô cùng bất ổn đang nhen nhóm dưới lớp vỏ bọc tăng trưởng này.</p>`,
 
   // Page 4
   `<img src="/images/dcds2009_4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Và rồi, quả bom lớn nhất phát nổ: Vinashin (Tập đoàn Công nghiệp Tàu thủy Việt Nam). Sự sụp đổ của một "quả đấm thép" nhà nước với khối nợ lên tới hơn 4 tỷ USD (gần 86.000 tỷ đồng lúc bấy giờ) đã làm chấn động toàn bộ nền kinh tế. Vinashin vay nợ khắp nơi, từ các tổ chức quốc tế cho đến các ngân hàng thương mại trong nước.</p>
-  <p>Sự kiện Vinashin không chỉ là một vụ vỡ nợ doanh nghiệp. Nó làm lung lay niềm tin của các nhà đầu tư nước ngoài vào mức độ an toàn của trái phiếu chính phủ và hệ thống tài chính Việt Nam. Các quỹ đầu tư quốc tế bắt đầu đặt câu hỏi gắt gao về tính minh bạch và rủi ro hệ thống.</p>`,
+  <p>Khi tiền quá rẻ và dễ dãi, nó hiếm khi được sử dụng đúng mục đích. Bước sang năm 2010, hiệu ứng của gói "steroid" bắt đầu nhạt phai, và cơn "say xỉn" (Hangover) chính thức ập tới. Rất nhiều doanh nghiệp thay vì dùng vốn kích cầu để sản xuất, đã ném nó vào đầu cơ bất động sản, chứng khoán hoặc các dự án tay trái ngoài ngành.</p>
+  <p>Bóng ma nợ xấu khổng lồ bắt đầu hiện hình trên bảng cân đối kế toán của các ngân hàng thương mại. Sự sụp đổ của thanh khoản bất động sản khiến những khoản vay này trở thành nợ khó đòi (NPL), đe dọa sự an toàn của toàn bộ hệ thống tài chính quốc gia.</p>`,
 
   // Page 5
   `<img src="/images/dcds2009_5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Đối mặt với bóng ma nợ xấu và cú sốc Vinashin, chiến lược của DCDS trong năm 2010 phải thay đổi quyết liệt. Chúng tôi phải trở thành những "bác sĩ pháp y" tài chính, mổ xẻ từng báo cáo lưu chuyển tiền tệ của doanh nghiệp. Lợi nhuận trên giấy không còn ý nghĩa gì nếu doanh nghiệp không thu được tiền mặt thật về két.</p>
-  <p>Chúng tôi thanh lọc danh mục, loại bỏ thẳng tay những công ty đa ngành nghiệp dư – những kẻ đi vay tiền để làm bất động sản, chơi chứng khoán trong khi cốt lõi là làm thủy sản hay dệt may. Chúng tôi thu hẹp vòng tròn đầu tư vào những doanh nghiệp có dòng tiền tự do (Free Cash Flow) cực mạnh, ít nợ vay, và có khả năng sống sót độc lập khỏi bầu vú tín dụng của ngân hàng.</p>`,
+  <p>Đỉnh điểm của cơn ác mộng năm 2010 là sự kiện đổ vỡ của quả đấm thép <strong>Vinashin</strong>. Một tập đoàn nhà nước khổng lồ ôm khối nợ lên tới 86.000 tỷ đồng không có khả năng chi trả. Cú sốc này giáng một đòn chí mạng vào niềm tin của các nhà đầu tư nước ngoài đối với trái phiếu và tính minh bạch của kinh tế Việt Nam.</p>
+  <p>Thị trường chứng khoán năm 2010 không sập thảm khốc như 2008, nhưng nó chìm vào một trạng thái suy kiệt thanh khoản, "cưa chân bàn" bào mòn tài khoản mỗi ngày. Nỗi sợ hãi bây giờ không phải là giá cổ phiếu giảm bao nhiêu, mà là nền kinh tế liệu có mất khả năng thanh toán hay không.</p>`,
 
   // Page 6
   `<img src="/images/dcds2009_6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Giai đoạn này là lúc giá trị thực sự của một nhà quản lý quỹ chủ động được bộc lộ. Nếu bạn mua một quỹ chỉ số ETF trong năm 2010, bạn sẽ bị kéo chìm bởi sức nặng của các cổ phiếu ngân hàng đầy nợ xấu và các tập đoàn nhà nước kém hiệu quả. Nhưng bằng cách chọn lọc khắt khe (stock picking), DCDS đã lách qua được những tảng đá ngầm.</p>
-  <p>Chúng tôi tập trung vào ngành hàng tiêu dùng thiết yếu, y tế, những ngành mà dù kinh tế có suy thoái, nợ xấu có tăng cao, thì người dân vẫn phải mua sữa cho con uống và mua thuốc khi ốm đau. Đó là những chiếc hầm trú ẩn chống bom hoàn hảo.</p>`,
+  <p>Và một lần nữa, chúng tôi lại phải trả giá cho một sai lầm lặp lại: <strong>Đánh giá thấp quy mô nợ xấu ngân hàng</strong>. Dù đã bán bớt, quỹ vẫn duy trì tỷ trọng tương đối tại các cổ phiếu ngân hàng hàng đầu như ACB, STB vì tin rằng họ đủ sức chống đỡ. Tuy nhiên, khi cơn bão Vinashin và nợ xấu bất động sản quét qua, không một ngân hàng nào được an toàn.</p>
+  <p>Sự sụt giảm mạnh của nhóm cổ phiếu tài chính đã kéo lùi hiệu suất của danh mục trong năm 2010, xóa sổ một phần đáng kể đà phục hồi rực rỡ của năm 2009.</p>`,
 
   // Page 7
   `<img src="/images/dcds2009_7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Cuối năm 2010, thị trường chìm vào một trạng thái lình xình, thanh khoản cạn kiệt, tâm lý nhà đầu tư chán nản cùng cực. Lạm phát lại một lần nữa ngóc đầu lên mức hai con số. Bóng đen của khủng hoảng nợ công châu Âu (Hy Lạp) bắt đầu manh nha, đe dọa trực tiếp đến dòng vốn ngoại.</p>
-  <p>Rất nhiều đồng nghiệp trong ngành quản lý quỹ đã bỏ cuộc trong giai đoạn này. Họ không chịu nổi áp lực của một thị trường đi ngang trong sự bào mòn. Việc giải thích với khách hàng tại sao NAV không tăng trưởng (dù đã né được rủi ro giảm sâu) là một bài thuyết trình vô cùng mệt mỏi và vô vọng.</p>`,
+  <p>Giai đoạn 2009-2010 là một đồ thị hình Sin cực đoan. Lên đỉnh nhờ gói kích cầu 2009, và rơi vào trì trệ, đi ngang trong suốt năm 2010 do gánh nặng nợ xấu. Hiệu suất (NAV) của quỹ biến động mạnh và kết thúc chu kỳ 2 năm này với một kết quả giằng co: Phục hồi mạnh mẽ ở đầu chu kỳ, nhưng lại để thị trường lấy đi một phần ở cuối chu kỳ.</p>
+  <p>Điều này càng làm gia tăng sự phẫn nộ của cổ đông về mức chiết khấu (discount) của quỹ đóng trên sàn. Giá chứng chỉ quỹ trên HOSE bị trừng phạt tàn nhẫn hơn cả bản thân NAV thực tế của nó.</p>`,
 
   // Page 8
   `<img src="/images/dcds2009_8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nhưng ngồi trong phòng làm việc tĩnh lặng lúc nửa đêm, tôi biết rằng quá trình thanh lọc này là cần thiết. Những cục nợ xấu phải được phơi bày, những doanh nghiệp zombie phải bị đào thải, những vết thương phải được cắt bỏ phần hoại tử. Việt Nam đang trả giá cho một thập kỷ tăng trưởng nóng và thiếu kiểm soát.</p>
-  <p>Tôi gập lại bản báo cáo kinh tế vĩ mô. Giai đoạn 2009-2010 dạy cho chúng tôi rằng: Đừng bao giờ nhầm lẫn giữa sự hỗ trợ của chính sách với sức mạnh nội tại của nền kinh tế. Sự phục hồi thực sự sẽ không đến từ những gói kích cầu tiền rẻ, nó sẽ phải đến từ sự tái cấu trúc đau đớn từ tận xương tủy mà chúng tôi sẽ phải chứng kiến trong những năm tiếp theo.</p>`
+  <p>Cuối năm 2010, ngồi nhìn những báo cáo nợ xấu chồng chất của ngành ngân hàng, tôi nhận ra rằng nền kinh tế Việt Nam đang cần một cuộc "đại phẫu thuật" cắt bỏ những khối u thực sự, chứ không phải là những viên thuốc giảm đau từ các gói kích cầu.</p>
+  <p>Và đối với bản thân quỹ VF1, chúng tôi cũng cần một cuộc đại phẫu thuật cho chính mình. Cấu trúc quỹ đóng đã quá cũ kỹ và bất công cho nhà đầu tư. Lựa chọn duy nhất để tồn tại và lấy lại niềm tin là phải đập bỏ chiếc áo cũ này, và chuyển mình thành một "quỹ mở" (open-ended fund) - một cuộc chiến sinh tử sẽ định hình thập kỷ tiếp theo.</p>`
 ];
 
 // Normalize text for Vietnamese rendering safety

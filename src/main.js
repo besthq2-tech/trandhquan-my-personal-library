@@ -13,13 +13,32 @@ import alleghanyHTML, { alleghanyPages } from './pages/buffett_alleghany.js';
 import appleHTML, { applePages } from './pages/buffett_apple.js';
 import buffettIndexHTML from './pages/buffett_index.js';
 import dcdsIndexHTML from './pages/dcds_index.js';
-import dcds2004HTML, { dcdsPages } from './pages/dcds_2004.js';
+import dcds2004HTML, { dcds2004Pages } from './pages/dcds_2004.js';
 import dcds2005HTML, { dcds2005Pages } from './pages/dcds_2005.js';
 import dcds2008HTML, { dcds2008Pages } from './pages/dcds_2008.js';
 import dcds2009HTML, { dcds2009Pages } from './pages/dcds_2009.js';
 import dcds2011HTML, { dcds2011Pages } from './pages/dcds_2011.js';
 import dcds2014HTML, { dcds2014Pages } from './pages/dcds_2014.js';
 import dcds2015HTML, { dcds2015Pages } from './pages/dcds_2015.js';
+import dcds2018HTML, { dcds2018Pages } from './pages/dcds_2018.js';
+import dcds2020HTML, { dcds2020Pages } from './pages/dcds_2020.js';
+import dcds2021HTML, { dcds2021Pages } from './pages/dcds_2021.js';
+import dcds2022HTML, { dcds2022Pages } from './pages/dcds_2022.js';
+import dcds2023HTML, { dcds2023Pages } from './pages/dcds_2023.js';
+import dcds2024HTML, { dcds2024Pages } from './pages/dcds_2024.js';
+import dcds2025HTML, { dcds2025Pages } from './pages/dcds_2025.js';
+import dcds2026HTML, { dcds2026Pages } from './pages/dcds_2026.js';
+import vesafIndexHTML from './pages/vesaf_index.js';
+import vesaf2017HTML, { vesaf2017Pages } from './pages/vesaf_2017.js';
+import vesaf2018HTML, { vesaf2018Pages } from './pages/vesaf_2018.js';
+import vesaf2019HTML, { vesaf2019Pages } from './pages/vesaf_2019.js';
+import vesaf2020HTML, { vesaf2020Pages } from './pages/vesaf_2020.js';
+import vesaf2021HTML, { vesaf2021Pages } from './pages/vesaf_2021.js';
+import vesaf2022HTML, { vesaf2022Pages } from './pages/vesaf_2022.js';
+import vesaf2023HTML, { vesaf2023Pages } from './pages/vesaf_2023.js';
+import vesaf2024HTML, { vesaf2024Pages } from './pages/vesaf_2024.js';
+import vesaf2025HTML, { vesaf2025Pages } from './pages/vesaf_2025.js';
+import vesaf2026HTML, { vesaf2026Pages } from './pages/vesaf_2026.js';
 
 const correctPassword = '231197';
 
@@ -174,7 +193,26 @@ function initApp() {
     '/minds/dcds-2009': dcds2009HTML,
     '/minds/dcds-2011': dcds2011HTML,
     '/minds/dcds-2014': dcds2014HTML,
-    '/minds/dcds-2015': dcds2015HTML
+    '/minds/dcds-2015': dcds2015HTML,
+    '/minds/dcds-2018': dcds2018HTML,
+    '/minds/dcds-2020': dcds2020HTML,
+    '/minds/dcds-2021': dcds2021HTML,
+    '/minds/dcds-2022': dcds2022HTML,
+    '/minds/dcds-2023': dcds2023HTML,
+    '/minds/dcds-2024': dcds2024HTML,
+    '/minds/dcds-2025': dcds2025HTML,
+    '/minds/dcds-2026': dcds2026HTML,
+    '/minds/vesaf': vesafIndexHTML,
+    '/minds/vesaf-2017': vesaf2017HTML,
+    '/minds/vesaf-2018': vesaf2018HTML,
+    '/minds/vesaf-2019': vesaf2019HTML,
+    '/minds/vesaf-2020': vesaf2020HTML,
+    '/minds/vesaf-2021': vesaf2021HTML,
+    '/minds/vesaf-2022': vesaf2022HTML,
+    '/minds/vesaf-2023': vesaf2023HTML,
+    '/minds/vesaf-2024': vesaf2024HTML,
+    '/minds/vesaf-2025': vesaf2025HTML,
+    '/minds/vesaf-2026': vesaf2026HTML
   };
 
   // Routing logic
@@ -237,7 +275,7 @@ function initApp() {
           initBookPagination(applePages);
         }
         if (hash === '/minds/dcds-2004') {
-          initBookPagination(dcdsPages);
+          initBookPagination(dcds2004Pages);
         }
         if (hash === '/minds/dcds-2005') {
           initBookPagination(dcds2005Pages);
@@ -257,6 +295,40 @@ function initApp() {
         if (hash === '/minds/dcds-2015') {
           initBookPagination(dcds2015Pages);
         }
+        if (hash === '/minds/dcds-2018') {
+          initBookPagination(dcds2018Pages);
+        }
+        if (hash === '/minds/dcds-2020') {
+          initBookPagination(dcds2020Pages);
+        }
+        if (hash === '/minds/dcds-2021') {
+          initBookPagination(dcds2021Pages);
+        }
+        if (hash === '/minds/dcds-2022') {
+          initBookPagination(dcds2022Pages);
+        }
+        if (hash === '/minds/dcds-2023') {
+          initBookPagination(dcds2023Pages);
+        }
+        if (hash === '/minds/dcds-2024') {
+          initBookPagination(dcds2024Pages);
+        }
+        if (hash === '/minds/dcds-2025') {
+          initBookPagination(dcds2025Pages);
+        }
+        if (hash === '/minds/dcds-2026') {
+          initBookPagination(dcds2026Pages);
+        }
+        if (hash === '/minds/vesaf-2017') initBookPagination(vesaf2017Pages);
+        if (hash === '/minds/vesaf-2018') initBookPagination(vesaf2018Pages);
+        if (hash === '/minds/vesaf-2019') initBookPagination(vesaf2019Pages);
+        if (hash === '/minds/vesaf-2020') initBookPagination(vesaf2020Pages);
+        if (hash === '/minds/vesaf-2021') initBookPagination(vesaf2021Pages);
+        if (hash === '/minds/vesaf-2022') initBookPagination(vesaf2022Pages);
+        if (hash === '/minds/vesaf-2023') initBookPagination(vesaf2023Pages);
+        if (hash === '/minds/vesaf-2024') initBookPagination(vesaf2024Pages);
+        if (hash === '/minds/vesaf-2025') initBookPagination(vesaf2025Pages);
+        if (hash === '/minds/vesaf-2026') initBookPagination(vesaf2026Pages);
       } else {
         container.innerHTML = `
           <div class="page-shell">

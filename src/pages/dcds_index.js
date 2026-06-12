@@ -58,6 +58,60 @@ export default `
         <p style="margin-top: 12px; margin-bottom: 16px;">Riding the monumental structural bull market as foreign capital flooded in, State megacaps divested, and the VN-Index historically crossed the 1,200 mark.</p>
         <div class="tag-row"><span>golden-age</span> <span>fdi</span> <span>megacap</span></div>
       </a>
+      <a class="card note-card" href="#/minds/dcds-2018" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2018 - 2019</span></div>
+        <h3>The Trade War & The Sideways</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">When the 1,200 peak was shattered by a single tweet. Surviving the US-China Trade War and the art of stock picking in a brutal sideways market.</p>
+        <div class="tag-row"><span>trade-war</span> <span>sideways</span> <span>stock-picking</span></div>
+      </a>
+      <a class="card note-card" href="#/minds/dcds-2020" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2020</span></div>
+        <h3>The Black Swan</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">The global COVID-19 pandemic lockdown and the panic selling of March. Navigating the crash and the subsequent massive central bank liquidity injection.</p>
+        <div class="tag-row"><span>covid-19</span> <span>black-swan</span> <span>liquidity</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2021" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2021</span></div>
+        <h3>The Era of F0 & Easy Money</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">Millions of retail investors entered the market. The massive bull run fueled by zero interest rates, driving VN-Index to an all-time high of 1,500.</p>
+        <div class="tag-row"><span>f0-investors</span> <span>bull-market</span> <span>euphoria</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2022" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2022</span></div>
+        <h3>The Perfect Storm</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">The brutal collision of Fed rate hikes, war in Ukraine, and the domestic corporate bond crisis. A painful lesson in systemic liquidity risk and macro shocks.</p>
+        <div class="tag-row"><span>fed-rates</span> <span>bond-crisis</span> <span>crash</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2023" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2023</span></div>
+        <h3>The Great Pivot</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">The State Bank of Vietnam goes against the Fed, cutting rates 4 times to rescue the economy. The beginning of a slow but steady recovery phase.</p>
+        <div class="tag-row"><span>rate-cuts</span> <span>recovery</span> <span>pivot</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2024" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2024</span></div>
+        <h3>The AI Boom & FDI Shift</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">Riding the global semiconductor and AI wave with FPT. Capitalizing on the "China + 1" strategy as foreign direct investment floods into industrial parks.</p>
+        <div class="tag-row"><span>ai-boom</span> <span>fdi</span> <span>tech</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2025" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2025</span></div>
+        <h3>The Emerging Market Upgrade</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">The historic milestone of Vietnam being upgraded to Emerging Market status. Front-running the massive influx of passive ETF capital into blue-chips.</p>
+        <div class="tag-row"><span>emerging-market</span> <span>etf</span> <span>upgrade</span></div>
+      </a>
+
+      <a class="card note-card" href="#/minds/dcds-2026" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>DCDS</b><span>2026</span></div>
+        <h3>The New Frontier</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">Navigating a highly mature, algo-driven market. The shift towards ESG and sustainable investing. A reflection on a 22-year journey of DCDS.</p>
+        <div class="tag-row"><span>esg</span> <span>algo-trading</span> <span>reflection</span></div>
+      </a>
     </div>
   </div>
 </section>

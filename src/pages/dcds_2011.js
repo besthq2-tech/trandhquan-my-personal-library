@@ -5,7 +5,7 @@ const html = `
       <a href="#/minds/dcds" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">DCDS</a> · 2011-2013
     </div>
     <h1 style="margin-bottom: 8px;">The Great Surgery & The Rebirth</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2011 - 2013. Cuộc đại phẫu thuật nợ xấu và bước chuyển mình lịch sử từ quỹ đóng sang quỹ mở.</p>
+    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2011 - 2013. Mua ròng VNM, DHG, FPT và cuộc đại phẫu lịch sử chuyển đổi thành quỹ mở.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -32,43 +32,43 @@ const html = `
 let dcdsPagesRaw = [
   // Page 1
   `<img src="/images/dcds2011_1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thập kỷ đầu tiên của thị trường chứng khoán Việt Nam khép lại trong một bầu không khí u ám và nặng nề. Giai đoạn 2011 - 2012 không còn những cú sập kinh hoàng trong một đêm như năm 2008, mà nó là một sự bào mòn từ từ, dai dẳng và nghẹt thở. Nền kinh tế đang phải trả giá cho thập kỷ tăng trưởng nóng và những gói kích cầu dễ dãi trước đó.</p>
-  <p>Căn bệnh nguy hiểm nhất lúc này không nằm trên sàn chứng khoán, mà nằm sâu bên trong cơ thể của hệ thống ngân hàng: Nợ xấu (NPL) và sở hữu chéo. Những khối ung nhọt tài chính khổng lồ bị giấu dưới những lớp báo cáo kế toán kỹ thuật, đe dọa đánh sập toàn bộ mạch máu của nền kinh tế.</p>`,
+  <p>Giai đoạn 2011 - 2013 không có những cú sập kinh hoàng trong một đêm, mà nó là một sự bào mòn dai dẳng. Căn bệnh nợ xấu (NPL) và sở hữu chéo đã ăn sâu vào hệ thống ngân hàng. Thị trường chứng khoán chán nản cùng cực. Thanh khoản teo tóp, dòng vốn ngoại rút lui.</p>
+  <p>Nhưng trong sự chán nản đó, chúng tôi nhận ra một cơ hội chuyển dịch danh mục mang tính sống còn. Luận điểm đầu tư (Thesis) của giai đoạn này là: <strong>Phải tránh xa các tâm chấn nợ xấu (Ngân hàng, Bất động sản) và trú ẩn vào các doanh nghiệp Hàng tiêu dùng, Dược phẩm, Công nghệ có dòng tiền tự do (Free Cash Flow) dương và độc quyền trong ngách của họ</strong>.</p>`,
 
   // Page 2
   `<img src="/images/dcds2011_2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thị trường chứng khoán phản ứng lại bằng một sự chán nản cùng cực. Thanh khoản teo tóp. Niềm tin của các nhà đầu tư nước ngoài sụt giảm nghiêm trọng. Hàng loạt công ty chứng khoán phải đóng cửa hoặc sáp nhập.</p>
-  <p>Đối với chúng tôi tại Dragon Capital, sự hoảng loạn của đám đông luôn là nơi chứa đựng những cơ hội vĩ đại nhất, nhưng chỉ khi bạn đủ tỉnh táo để phân biệt được đâu là "giá trị bị định giá thấp" và đâu là "cái bẫy giá trị" (value trap). Việc né tránh mảng ngân hàng và bất động sản trong giai đoạn này là một quyết định sinh tử. Chúng tôi đi tìm những doanh nghiệp sản xuất cơ bản, những cỗ máy tạo tiền mặt đều đặn miễn nhiễm với nợ xấu.</p>`,
+  <p>Những thương vụ thành công và đóng vai trò "cứu tinh" cho quỹ trong giai đoạn này chính là <strong>Dược Hậu Giang (DHG)</strong>, <strong>Vinamilk (VNM)</strong> và <strong>FPT</strong>. Khi các doanh nghiệp khác chật vật xoay tiền trả lãi vay ngân hàng, thì VNM, DHG và FPT lại sở hữu một lượng tiền mặt khổng lồ. Họ trả cổ tức tiền mặt đều đặn, một thứ xa xỉ phẩm trong thời kỳ khủng hoảng thanh khoản.</p>
+  <p>Nhờ chuyển trục quyết liệt sang các mã phòng thủ này, hiệu suất của quỹ bắt đầu ổn định trở lại dù thị trường chung vẫn đang ngụp lặn. Những viên gạch nền móng này về sau đã sinh lời rực rỡ khi nền kinh tế bước vào chu kỳ phục hồi.</p>`,
 
   // Page 3
   `<img src="/images/dcds2011_3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nhưng bên cạnh bài toán đầu tư, chúng tôi đang phải đối mặt với một vấn đề mang tính sống còn đối với chính thiết chế của quỹ. Quỹ VF1 (tiền thân của DCDS) vốn là một "quỹ đóng" (closed-end fund). Trong một quỹ đóng, chứng chỉ quỹ được giao dịch trên sàn chứng khoán như một cổ phiếu thông thường. Khi thị trường hoảng loạn, giá chứng chỉ quỹ trên sàn rớt thê thảm, thấp hơn rất nhiều so với Giá trị Tài sản Ròng (NAV) thực tế của danh mục.</p>
-  <p>Có những thời điểm, thị giá của VF1 trên sàn HOSE chiết khấu (discount) tới hơn 30% so với NAV. Điều này có nghĩa là nếu bạn bỏ ra 70 đồng để mua quỹ, bạn đang thực sự sở hữu 100 đồng giá trị cổ phiếu cơ sở. Nó là một món hời cho người mua mới, nhưng lại là sự bất công tột cùng đối với những nhà đầu tư gắn bó lâu năm nếu họ buộc phải bán ra.</p>`,
+  <p>Tuy nhiên, dù chúng tôi có chọn cổ phiếu giỏi đến đâu, quỹ VF1 vẫn phải đối mặt với một "lỗ hổng" chí mạng về mặt cấu trúc. VF1 là một "quỹ đóng" (closed-end fund). Có nghĩa là chứng chỉ quỹ bị giao dịch trên sàn chứng khoán như một cổ phiếu bị giới hạn nguồn cung.</p>
+  <p>Khi nhà đầu tư hoảng loạn muốn rút tiền, họ phải bán chứng chỉ quỹ trên sàn HOSE bằng mọi giá. Điều này tạo ra một hiện tượng đầy cay đắng: Thị giá chứng chỉ quỹ trên sàn bị chiết khấu (discount) tới hơn 30% so với Giá trị Tài sản Ròng (NAV) thực tế của danh mục.</p>`,
 
   // Page 4
   `<img src="/images/dcds2011_4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Mức chiết khấu khổng lồ này giống như một đám mây đen che phủ lên uy tín của toàn bộ ngành quản lý quỹ tại Việt Nam. Không ai muốn đầu tư vào một quỹ mà giá trị trên sàn luôn thấp hơn giá trị thực tế của nó. Cấu trúc quỹ đóng đã hoàn thành sứ mệnh lịch sử của nó trong giai đoạn sơ khai, nhưng giờ đây nó đã trở thành một chiếc áo chật hẹp cản trở sự phát triển.</p>
-  <p>Chúng tôi đi đến một quyết định lịch sử: Phải chuyển đổi VF1 từ quỹ đóng thành "quỹ mở" (open-ended fund). Trong quỹ mở, nhà đầu tư có quyền mua hoặc bán lại chứng chỉ quỹ trực tiếp cho công ty quản lý quỹ theo đúng mức giá NAV thực tế. Không còn mức chiết khấu nào nữa. Sự minh bạch và công bằng tuyệt đối được lập lại.</p>`,
+  <p>Hãy tưởng tượng: Quỹ đang cầm trong tay 100 đồng giá trị cổ phiếu VNM, DHG, FPT, nhưng thị trường chỉ định giá toàn bộ quỹ ở mức 70 đồng. Sự bất công này khiến những cổ đông trung thành chịu thiệt hại nặng nề nếu họ cần bán ra.</p>
+  <p>Lúc này, chúng tôi đưa ra một quyết định lịch sử: Phải chuyển đổi VF1 từ quỹ đóng thành "quỹ mở" (open-ended fund). Trong quỹ mở, nhà đầu tư có quyền mua hoặc bán lại chứng chỉ quỹ trực tiếp cho công ty quản lý quỹ theo đúng mức giá NAV thực tế. Xóa bỏ hoàn toàn mức chiết khấu 30% oan uổng kia.</p>`,
 
   // Page 5
   `<img src="/images/dcds2011_5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nhưng nói thì dễ, làm mới vô cùng gian nan. Lúc bấy giờ, khái niệm "quỹ mở" tại Việt Nam gần như là một vùng giấy trắng về mặt pháp lý. Chúng tôi lại một lần nữa khoác áo tiên phong, như những gì đã làm năm 2004. Hàng chục cuộc họp kéo dài vô tận với Ủy ban Chứng khoán Nhà nước, Bộ Tài chính để xây dựng hành lang pháp lý cho quỹ mở.</p>
-  <p>Chúng tôi phải giải bài toán hóc búa về thanh khoản: Làm sao để quỹ luôn có đủ tiền mặt đáp ứng lệnh rút vốn của nhà đầu tư mà không phải bán tháo cổ phiếu gây thiệt hại cho quỹ? Chúng tôi phải nâng cấp toàn bộ hệ thống IT, quy trình kế toán, và làm việc với ngân hàng giám sát để tính toán NAV hàng ngày (thay vì hàng tuần như trước).</p>`,
+  <p>Ý tưởng thì tuyệt vời, nhưng thực thi là một cơn ác mộng pháp lý. Khái niệm "quỹ mở" ở Việt Nam lúc đó vẫn chỉ nằm trên giấy. Rất nhiều cuộc họp căng thẳng với Ủy ban Chứng khoán, các ngân hàng giám sát và bộ phận IT để xây dựng quy trình định giá NAV hàng ngày (thay vì hàng tuần) và chuẩn bị dòng tiền mặt thanh khoản sẵn sàng đáp ứng lệnh rút của khách hàng.</p>
+  <p>Thách thức lớn nhất là tại Đại hội Cổ đông lịch sử năm 2013. Có nhiều ý kiến phản đối. Họ lo sợ nếu mở quỹ, tất cả nhà đầu tư sẽ ồ ạt rút vốn, quỹ sẽ sụp đổ. Chúng tôi phải giải thích từng rủi ro, vạch ra tầm nhìn dài hạn và cam kết danh mục đủ mạnh để đáp ứng thanh khoản.</p>`,
 
   // Page 6
   `<img src="/images/dcds2011_6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Đỉnh điểm của sự căng thẳng là Đại hội Cổ đông lịch sử vào năm 2013 để biểu quyết thông qua việc chuyển đổi quỹ. Có những cổ đông phản đối, có những người nghi ngờ. Phải mất rất nhiều công sức thuyết trình, giải thích về lợi ích dài hạn, chúng tôi mới nhận được cái gật đầu của đại đa số. Đó là một trận chiến thuyết phục sự đồng thuận khó khăn nhất mà tôi từng trải qua.</p>
-  <p>Sau nhiều nỗ lực phi thường, năm 2013, VF1 chính thức hoàn tất quá trình chuyển đổi, đổi tên thành DCDS (Dragon Capital Dynamic Securities Fund), và ghi danh vào lịch sử: Quỹ đầu tư đại chúng đầu tiên của Việt Nam chuyển đổi thành công từ dạng đóng sang dạng mở.</p>`,
+  <p>Tháng 10 năm 2013, VF1 chính thức hoàn tất quá trình chuyển đổi, đổi tên thành <strong>DCDS (Dragon Capital Dynamic Securities Fund)</strong>. Đây là một cột mốc đánh dấu sự trưởng thành của ngành quản lý quỹ Việt Nam: Quỹ đại chúng đầu tiên chuyển đổi thành công từ quỹ đóng sang quỹ mở.</p>
+  <p>Ngay trong tuần đầu tiên hoạt động dưới hình thức mới, áp lực rút vốn đổ về. Nhưng nhờ danh mục có tính thanh khoản cao (những cổ phiếu Blue-chips đã cơ cấu từ trước), DCDS đáp ứng trọn vẹn 100% lệnh rút vốn theo đúng NAV. Không có sự sụp đổ nào. Chỉ có sự minh bạch và công bằng được lập lại.</p>`,
 
   // Page 7
   `<img src="/images/dcds2011_7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Song song với cuộc đại phẫu thuật cấu trúc quỹ của chúng tôi, ở tầm vĩ mô, Chính phủ Việt Nam cũng thực hiện một cuộc đại phẫu thuật nền kinh tế. VAMC (Công ty Quản lý Tài sản của các TCTD Việt Nam) ra đời để gom và xử lý cục máu đông nợ xấu. Các vụ đại án ngân hàng được đưa ra xét xử nhằm lập lại trật tự và minh bạch hóa hệ thống.</p>
-  <p>Đó là những liều thuốc đắng, rất đắng, nhưng bắt buộc phải uống. Việc cắt bỏ phần hoại tử tuy đau đớn, nhưng nó là điều kiện tiên quyết để cơ thể có thể hồi phục và bước vào một chu kỳ tăng trưởng mới bền vững hơn.</p>`,
+  <p>Nhờ mức chiết khấu bị xóa bỏ hoàn toàn ngay lập tức, tài sản thực tế của những nhà đầu tư tiếp tục gắn bó với quỹ đã tăng lên ngay lập tức so với thị giá cũ trên sàn. Hiệu suất của DCDS trong giai đoạn này bắt đầu ghi nhận đà tăng trưởng vững chắc nhờ vào sự phục hồi của VNM, FPT và DHG.</p>
+  <p>Cùng thời điểm đó, trên bình diện vĩ mô, Chính phủ thành lập VAMC để xử lý "cục máu đông" nợ xấu ngân hàng. Cuộc đại phẫu thuật kép – cả ở tầm quốc gia lẫn trong lòng cấu trúc quỹ DCDS – đã hoàn tất. Phần hoại tử đã bị cắt bỏ.</p>`,
 
   // Page 8
   `<img src="/images/dcds2011_8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Cuối năm 2013, đứng trong văn phòng mới sau khi hoàn tất mọi thủ tục pháp lý cho DCDS, tôi thở phào nhẹ nhõm. Mức chiết khấu oan uổng trên thị trường đã biến mất. Nhà đầu tư đã có thể giao dịch ở giá trị thực NAV. Niềm tin bắt đầu quay trở lại.</p>
-  <p>Giai đoạn 2011-2013 giống như một đường hầm dài và tối. Nhưng ở cuối đường hầm, chúng tôi không chỉ tìm thấy ánh sáng, mà còn xây dựng xong một hạ tầng tài chính vững chắc và chuẩn mực hơn. Với cấu trúc quỹ mở hoàn toàn mới, DCDS giờ đây đã thực sự sẵn sàng để vươn ra biển lớn, đón đầu một thập kỷ bùng nổ tiếp theo của thị trường chứng khoán Việt Nam.</p>`
+  <p>Giai đoạn 2011-2013 dạy cho tôi một bài học quan trọng: Trong tài chính, cấu trúc và pháp lý đôi khi quan trọng không kém gì việc chọn đúng cổ phiếu. Một danh mục tốt đặt trong một cấu trúc quỹ đóng tồi tệ (bị discount 30%) vẫn sẽ mang lại sự đau khổ cho khách hàng.</p>
+  <p>Cuối năm 2013, nhìn bảng định giá NAV hàng ngày được tự động cập nhật, tôi biết rằng DCDS đã cởi bỏ được chiếc áo chật hẹp nhất của mình. Quỹ mở là một sân chơi minh bạch, nơi bạn không thể trốn tránh bằng những báo cáo đóng hộp. Giờ đây, DCDS đã thực sự sẵn sàng để vươn ra biển lớn, đón sóng cho thập kỷ bùng nổ tiếp theo của thị trường cận biên Việt Nam.</p>`
 ];
 
 // Normalize text for Vietnamese rendering safety

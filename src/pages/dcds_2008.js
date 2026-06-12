@@ -5,7 +5,7 @@ const html = `
       <a href="#/minds/dcds" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">DCDS</a> · 2008
     </div>
     <h1 style="margin-bottom: 8px;">The Abyss</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2008. Khủng hoảng kép, sự sụp đổ tàn khốc và bài toán sinh tồn trong vực thẳm.</p>
+    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2008. Thảm họa kép từ lạm phát đình đốn và khủng hoảng tài chính toàn cầu. Trả giá đắt vì ôm nhóm ngân hàng.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -32,43 +32,43 @@ const html = `
 let dcdsPagesRaw = [
   // Page 1
   `<img src="/images/dcds2008_1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nếu 2006-2007 là một bữa tiệc hoang lạc ngập ngụa champagne, thì 2008 là buổi sáng thức dậy với một cơn dư chấn kinh hoàng, bị trói trên ghế, và nhận ra căn nhà đang bốc cháy. Đối với thị trường tài chính Việt Nam, 2008 không chỉ là một đợt điều chỉnh. Nó là một sự hủy diệt có hệ thống. Nó là Vực Thẳm.</p>
-  <p>Chúng tôi bước vào năm 2008 với một dự cảm tồi tệ, nhưng không ai có thể tưởng tượng được mức độ tàn khốc của cơn bão. Đó là một "Khủng hoảng Kép". Bên ngoài, hệ thống tài chính toàn cầu đang sụp đổ dưới sức nặng của nợ dưới chuẩn Mỹ. Lehman Brothers đệ đơn phá sản. Bên trong, kinh tế vĩ mô Việt Nam lên cơn sốt rét run người.</p>`,
+  <p>Năm 2008 là một năm mà bất cứ ai làm nghề tài chính tại Việt Nam cũng muốn xóa khỏi ký ức. Đó không phải là một đợt điều chỉnh (correction), đó là sự sụp đổ toàn diện (collapse). Nó giống như việc bạn đang khiêu vũ trên đỉnh tòa nhà chọc trời thì bất ngờ một cơn động đất giật sập toàn bộ móng.</p>
+  <p>Thảm họa bắt đầu không phải từ Phố Wall, mà từ chính nội tại nền kinh tế Việt Nam. Lạm phát bùng nổ lên mức phi mã 23%. Ngân hàng Nhà nước buộc phải đạp phanh gấp bằng cách tăng lãi suất cơ bản liên tục. Lãi suất cho vay trên thị trường nhảy vọt lên mức 21%, thậm chí 25%/năm. Mạch máu tín dụng nuôi dưỡng nền kinh tế bị cắt đứt đột ngột.</p>`,
 
   // Page 2
   `<img src="/images/dcds2008_2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Lạm phát trong nước phi mã vượt mức 20%. Bạn có thể cảm nhận được sự hoảng loạn trên từng con phố khi giá gạo, giá xăng tăng theo ngày. Ngân hàng Nhà nước buộc phải phanh gấp, thắt chặt tiền tệ một cách cực đoan. Lãi suất huy động tại các ngân hàng vọt lên 18%, 20%, thậm chí có lúc thỏa thuận ngầm lên tới 25% một năm.</p>
-  <p>Khi lãi suất phi rủi ro lên tới hơn 20%, mọi kênh tài sản rủi ro đều bị định giá lại. Bất động sản đóng băng hoàn toàn. Và thị trường chứng khoán - nơi vốn dĩ được bơm căng bằng tiền vay nợ - bắt đầu một quá trình vỡ nợ dây chuyền tàn khốc nhất lịch sử.</p>`,
+  <p>Điều tồi tệ nhất là Việt Nam lại phải đối mặt với một cú đấm bồi từ bên ngoài: Cuộc khủng hoảng tài chính toàn cầu bắt nguồn từ sự sụp đổ của Lehman Brothers. Dòng tiền ngoại - vốn là động lực chính kéo thị trường đi lên trong giai đoạn 2006-2007 - bắt đầu tháo chạy ồ ạt để cứu lấy chính mình ở quê nhà.</p>
+  <p>Thị trường chứng khoán Việt Nam rơi tự do. Chỉ số VN-Index bốc hơi hơn 70%, từ vùng đỉnh 1.170 điểm xuống còn khoảng 315 điểm. Hàng ngàn tài khoản bị giải chấp (margin call) mỗi ngày. Bảng điện tử bị bao trùm bởi một màu xanh lơ tuyệt vọng của giá sàn.</p>`,
 
   // Page 3
   `<img src="/images/dcds2008_3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Chỉ số VN-Index rơi tự do từ đỉnh cao 1.170 điểm xuống tận đáy dưới 240 điểm. Gần 80% giá trị vốn hóa bốc hơi. Không một đồ thị phân tích kỹ thuật nào có ý nghĩa. Không một mô hình định giá nào có thể giải thích được. Đó đơn thuần là sự sụp đổ của thanh khoản.</p>
-  <p>Những tiếng chuông điện thoại reo liên tục tại văn phòng Dragon Capital. Lần này không phải để hỏi mua chứng chỉ quỹ, mà là những lời chất vấn giận dữ, những lệnh yêu cầu rút tiền trong hoảng loạn. Khách hàng nước ngoài gọi điện từ London, New York hỏi xem liệu nền kinh tế Việt Nam có bị vỡ nợ quốc gia hay không.</p>`,
+  <p>Trong bối cảnh hỗn loạn đó, bạn không thể nói về "cổ phiếu thành công". Thành công duy nhất của các nhà quản lý quỹ trong năm 2008 là giữ được tiền mặt và không bị ngân hàng gọi tên giải chấp. May mắn thay, cấu trúc quỹ đại chúng của VF1 hoàn toàn cấm việc sử dụng đòn bẩy tài chính (margin). Điều đó đã cứu chúng tôi khỏi việc bị ép bán (forced selling) ở đáy.</p>
+  <p>Nhưng không sử dụng đòn bẩy không có nghĩa là chúng tôi miễn nhiễm với sát thương. Khi thị trường sụp đổ, các mô hình định giá DCF hay P/E trở nên hoàn toàn vô nghĩa. Mọi tài sản, dù là kim cương hay rác rưởi, đều bị bán tháo không thương tiếc để thu tiền mặt.</p>`,
 
   // Page 4
   `<img src="/images/dcds2008_4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nỗi đau đớn nhất của một người quản lý quỹ không phải là nhìn NAV suy giảm. Nỗi đau lớn nhất là sự bất lực. Khi Margin Call (lệnh giải chấp) được kích hoạt hàng loạt trên toàn thị trường, các công ty chứng khoán thi nhau bán tống bán tháo mọi thứ để thu hồi nợ. Tốt, xấu, rác rưởi hay kim cương đều bị ném chung vào một cái lò thiêu.</p>
-  <p>Chúng tôi nắm giữ những doanh nghiệp đầu ngành tuyệt vời, tiền mặt dồi dào, kinh doanh vẫn có lãi. Nhưng giá cổ phiếu của họ trên bảng điện vẫn giảm sàn la liệt không người mua ngày này qua ngày khác. Thị trường hoàn toàn phi lý, nhưng cơn bĩ cực của thanh khoản ép tất cả phải quy phục.</p>`,
+  <p>Sai lầm chí mạng nhất của chúng tôi trong giai đoạn này là sự chậm trễ trong việc xả hàng nhóm cổ phiếu Tài chính và Ngân hàng. Chúng tôi đã ôm một tỷ trọng lớn các cổ phiếu ngân hàng trên cả sàn niêm yết và thị trường OTC (như STB, ACB). Luận điểm trước đó của chúng tôi là các ngân hàng sẽ tiếp tục tăng trưởng mạnh nhờ tín dụng tiêu dùng và bán lẻ.</p>
+  <p>Nhưng chúng tôi đã đánh giá quá thấp sự tàn phá của mức lãi suất 25%/năm lên bảng cân đối kế toán của ngân hàng. Khi doanh nghiệp phá sản vì lãi suất cao, nợ xấu hệ thống lập tức tăng vọt. Cổ phiếu ngân hàng, từ chỗ là "cỗ máy in tiền", bỗng trở thành những "hố đen" hút mất vốn của quỹ.</p>`,
 
   // Page 5
   `<img src="/images/dcds2008_5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Mùa hè năm 2008, tôi thường ngồi lại văn phòng rất khuya. Ánh đèn đường hắt lên từ phố Nguyễn Huệ trống rỗng. Mọi thứ dường như tĩnh lặng đến nghẹt thở. Có những khoảnh khắc, tôi đã hoài nghi chính bản thân mình. Liệu chúng tôi có sai lầm khi đặt niềm tin vào thị trường sơ khai này? Liệu cuộc chơi này có thực sự kết thúc ở đây?</p>
-  <p>Nhưng trong bóng tối, bản năng sinh tồn và kỷ luật đầu tư lại trỗi dậy. Đây là lúc chúng tôi phải hành xử như những người bảo vệ cuối cùng của nguồn vốn. Chúng tôi không được phép hoảng loạn cùng đám đông.</p>`,
+  <p>Việc bán các cổ phiếu ngân hàng trên thị trường OTC lúc này gần như là điều bất khả thi. Thanh khoản hoàn toàn đóng băng. Một cổ phiếu ngân hàng (chưa lên sàn) từng được tranh nhau mua với giá 100.000 VNĐ, nay rao bán với giá 20.000 VNĐ cũng không có người đoái hoài. Bạn đang ôm một khối tài sản trên giấy mà không thể chuyển hóa thành tiền.</p>
+  <p>Đây là hậu quả trực tiếp của lòng tham trong giai đoạn siêu bong bóng. Chúng tôi đã phải ghi nhận những khoản lỗ từ chênh lệch giá chưa thực hiện (unrealized losses) lên tới hàng ngàn tỷ đồng.</p>`,
 
   // Page 6
   `<img src="/images/dcds2008_6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Chúng tôi dành thời gian đến thăm trực tiếp các doanh nghiệp trong danh mục. Gặp các CEO, đi xuống nhà máy. Chúng tôi phải đảm bảo rằng họ vẫn sống sót, vẫn sản xuất, dòng tiền của họ không bị đứt gãy bởi lãi suất 25%. Chỉ cần doanh nghiệp còn sống qua mùa đông, cổ phiếu sẽ hồi sinh khi mùa xuân đến.</p>
-  <p>Chúng tôi viết những bản tin gửi nhà đầu tư với sự trung thực tuyệt đối. Không tô hồng, không hứa hẹn viển vông. Chỉ có sự lạnh lùng của phân tích vĩ mô và lời cam kết rằng: "Đừng bán ra lúc này. Mọi thứ đang rẻ đến mức vô lý. Định giá đã rơi xuống mức mà rủi ro duy nhất là việc bạn rời bỏ thị trường".</p>`,
+  <p>Trong năm 2008, những cuộc điện thoại từ khách hàng là một nỗi ám ảnh. Nhà đầu tư hoảng loạn, tức giận, và đôi khi là tuyệt vọng. Thị giá chứng chỉ quỹ VF1 trên sàn HOSE sụt giảm mạnh mẽ, rớt xuống thấp hơn rất nhiều so với Giá trị Tài sản Ròng (NAV). Mức chiết khấu khổng lồ này khiến nỗi đau của các cổ đông càng bị khoét sâu.</p>
+  <p>Chúng tôi phải liên tục tổ chức các buổi gặp gỡ, gửi thư giải trình. Thông điệp duy nhất có thể đưa ra lúc đó là: "Quỹ không dùng đòn bẩy. Danh mục của chúng ta vẫn bao gồm những doanh nghiệp đầu ngành như VNM, FPT. Lãi suất không thể ở mức 25% mãi mãi. Bán tháo lúc này là tự cắt đứt cơ hội phục hồi".</p>`,
 
   // Page 7
   `<img src="/images/dcds2008_7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thảm kịch 2008 giống như một trận cháy rừng cực lớn. Rất nhiều tài sản bị thiêu rụi, rất nhiều "chuyên gia" tự xưng biến mất không để lại dấu vết. Những nhà đầu tư dùng đòn bẩy quá mức đã bị quét sạch khỏi cuộc chơi vĩnh viễn.</p>
-  <p>Nhưng lửa cũng dọn dẹp những thứ mục nát. Sau trận cháy rừng, hạt giống của một thị trường vốn lành mạnh hơn bắt đầu nảy mầm. Ủy ban Chứng khoán bắt đầu thắt chặt lại các quy định về margin, yêu cầu minh bạch hóa thông tin. Nỗi đau đã tạo ra kháng thể.</p>`,
+  <p>Kết thúc năm 2008, bảng thành tích của quỹ là một màu đỏ thẫm. <strong>Giá trị Tài sản Ròng (NAV) của VF1 sụt giảm tới -52,6%</strong>. Tổng tài sản lùi sâu về mức 1.697 tỷ đồng. Quỹ báo lỗ và không thể chia cổ tức.</p>
+  <p>Mặc dù mức giảm -52,6% của NAV vẫn nhẹ hơn so với mức giảm hơn -70% của VN-Index (cho thấy khả năng phòng thủ tương đối của danh mục đầu tư cơ bản so với thị trường chung), nhưng đó hoàn toàn không phải là điều đáng tự hào. Nó là một cú tát tỉnh người về sự nghiệt ngã của chu kỳ kinh tế.</p>`,
 
   // Page 8
   `<img src="/images/dcds2008_8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Ngày hôm nay, khi lật lại những bản báo cáo NAV nhuốm màu đỏ máu của năm 2008, tôi thấy được những vết sẹo. DCDS đã sống sót, NAV đã giảm sâu nhưng không vỡ trận, vì chúng tôi không sử dụng đòn bẩy và danh mục dựa trên nền tảng cơ bản.</p>
-  <p>Thị trường tài chính không bao giờ là một đường thẳng đi lên. Nếu bạn chưa từng nhìn vào vực thẳm của năm 2008, chưa từng cảm nhận cái sự tuyệt vọng tột cùng khi thanh khoản biến mất, bạn sẽ không bao giờ thực sự hiểu được sự khốc liệt và vẻ đẹp của nghề quản lý quỹ. Sẹo lồi là huy chương của những người sống sót.</p>`
+  <p>Đứng nhìn biểu đồ VN-Index rơi tự do từ 1.170 xuống sát 300, tôi nhận ra bài học lớn nhất trong nghề đầu tư: <strong>Đừng bao giờ chiến đấu chống lại Ngân hàng Trung ương</strong>. Khi vĩ mô xoay trục và lãi suất bị đẩy lên mức cắt cổ, không một cổ phiếu xuất sắc nào có thể trụ vững.</p>
+  <p>Năm 2008 đã thiêu rụi thành quả của nhiều năm trước đó. Nhưng từ trong đống tro tàn của sự hoảng loạn, những doanh nghiệp yếu kém đã bị loại bỏ, và những doanh nghiệp tốt bị bán tống bán tháo xuống mức giá rẻ không tưởng. Chúng tôi gạt bỏ sự tuyệt vọng, rà soát lại danh mục, và chuẩn bị đạn dược. Vì lịch sử luôn chứng minh: Đáy của khủng hoảng chính là nơi sản sinh ra những tỷ suất lợi nhuận vĩ đại nhất.</p>`
 ];
 
 // Normalize text for Vietnamese rendering safety

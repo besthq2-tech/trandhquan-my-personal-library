@@ -22,6 +22,13 @@ export default `
         <p style="margin-top: 12px; margin-bottom: 16px;">The pioneer of Vietnam's capital market. Experience the journey of launching the country's first public fund and navigating a nascent frontier market.</p>
         <div class="tag-row"><span>vietnam</span> <span>frontier-market</span> <span>pioneer</span></div>
       </a>
+
+      <a class="card note-card" href="#/minds/vesaf" style="text-decoration: none; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--paper); transition: all 0.2s ease;">
+        <div class="card-meta"><b>FUND MANAGER</b><span>2017 - Present</span></div>
+        <h3>VESAF (VinaCapital)</h3>
+        <p style="margin-top: 12px; margin-bottom: 16px;">The kings of the Mid-Cap segment. A story of hunting for hidden gems, achieving legendary outperformance, and thriving on the edge of the frontier.</p>
+        <div class="tag-row"><span>vietnam</span> <span>mid-cap</span> <span>alpha</span></div>
+      </a>
     </div>
   </div>
 </section>
