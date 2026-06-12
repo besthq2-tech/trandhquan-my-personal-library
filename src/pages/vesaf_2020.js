@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2020" data-route="/minds/vesaf-2020" data-title="The Pandemic Pivot">
+<section class="page active" id="page-vesaf-2020" data-route="/minds/vesaf-2020" data-title="Đảo chiều đại dịch">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2020
     </div>
-    <h1 style="margin-bottom: 8px;">The Pandemic Pivot</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2020. Đại dịch bùng nổ, thị trường sụp đổ. VESAF thực hiện cú xoay trục quyết liệt, ôm trọn những siêu cổ phiếu như DGC và FPT.</p>
+    <h1 style="margin-bottom: 8px;">Đảo chiều đại dịch</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Giữa nỗi hoảng loạn tột độ của COVID-19, VESAF nhìn thấy cơ hội ngàn năm có một để định hình lại danh mục với những mức giá rẻ không tưởng.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tháng 3 năm 2020. Đường phố vắng lặng. Một màu xám xịt bao phủ khắp nơi khi lệnh phong tỏa (Lockdown) có hiệu lực toàn cầu. Trên màn hình máy tính, màu xanh lơ của những lệnh bán tháo nhấp nháy không ngừng. VN-Index cắm đầu xuyên thủng mọi ngưỡng hỗ trợ, tạo ra hố sâu hoảng loạn tồi tệ nhất kể từ cuộc khủng hoảng tài chính 2008.</p>
-  <p>Những tiếng điện thoại đổ chuông liên tục tại văn phòng VinaCapital. Lệnh rút vốn xuất hiện. Nhưng ở cương vị người quản lý quỹ, đây chính là khoảnh khắc mà chúng tôi được trả tiền để làm: Giữ cái đầu lạnh nhất khi cả thế giới đang cháy.</p>`,
+  <p>Tháng 3/2020. Bản tin buổi sáng của VinaCapital không nói về tỷ giá hay lãi suất, mà nói về số ca nhiễm COVID-19 và lệnh phong tỏa Vũ Hán. Rất nhanh sau đó, "Thiên Nga Đen" chính thức giáng đòn xuống thị trường chứng khoán Việt Nam.</p>
+  <p>Chỉ trong vài tuần ngắn ngủi, VN-Index bốc hơi hơn 30% giá trị, rơi thẳng đứng xuống mốc 650 điểm. Cảnh tượng la liệt lệnh bán sàn trắng bên mua diễn ra mỗi ngày. Các quỹ ngoại kích hoạt lệnh Margin Call và bán tháo bất chấp giá nào. Một nỗi sợ hãi tột cùng bao trùm lấy thị trường.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Chúng tôi nhận ra rằng, dù con người phải ở trong nhà, nhưng các nhà máy sản xuất hàng thiết yếu không thể dừng lại. Đại dịch làm gián đoạn chuỗi cung ứng toàn cầu, tạo ra sự khan hiếm cục bộ. Và ai sở hữu nguồn cung, người đó sẽ chiến thắng.</p>
-  <p>Cú "Pivot" (Xoay trục) lớn nhất lịch sử VESAF bắt đầu. Chúng tôi chuyển hướng mạnh mẽ sang các doanh nghiệp sản xuất và xuất khẩu nguyên vật liệu. Một cái tên tỏa sáng rực rỡ trong tầm ngắm của chúng tôi: <strong>Hóa chất Đức Giang (DGC)</strong>.</p>`,
+  <p>Nhưng trong phòng họp của VESAF, sự bình tĩnh được đặt lên hàng đầu. Đội ngũ quản lý lật lại bài học kinh điển của Warren Buffett: "Hãy tham lam khi người khác sợ hãi".</p>
+  <p>Vấn đề là, tham lam vào cái gì? Giữa lúc chuỗi cung ứng đứt gãy và tiêu dùng đóng băng, chúng tôi nhận ra đây là đợt "Reset" (Thiết lập lại) vĩ đại nhất của thập kỷ. Hàng loạt doanh nghiệp hàng đầu (Blue-chips và Mid-caps) đang bị bán với mức giá rẻ mạt đến mức phi lý, chỉ tương đương giá trị thanh lý tài sản.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>DGC sở hữu công nghệ lõi sản xuất Phốt pho vàng - một nguyên liệu cực kỳ quan trọng cho chất bán dẫn và pin xe điện. Khi Trung Quốc cắt giảm sản lượng phốt pho vàng vì lý do môi trường, DGC gần như thâu tóm thị phần xuất khẩu sang châu Á. Sự đứt gãy chuỗi cung ứng đẩy giá bán lên mức không tưởng.</p>
-  <p>VESAF giải ngân quyết liệt vào DGC. Chúng tôi không mua một cổ phiếu hóa chất, chúng tôi mua một "người hưởng lợi độc quyền" từ sự hỗn loạn của đại dịch. Quyết định này đã đặt nền móng cho mức sinh lời phi thường trong suốt 2 năm sau đó.</p>`,
+  <p>Quyết định xoay trục (Pivot) mang tính lịch sử được đưa ra: Tận dụng tiền mặt dự trữ, mạnh tay giải ngân vào các ngành công nghiệp cốt lõi và xuất khẩu - những lĩnh vực sẽ hưởng lợi lớn nhất khi thế giới mở cửa trở lại hoặc gián đoạn nguồn cung.</p>
+  <p>Cái tên đầu tiên được đưa vào tầm ngắm mạnh mẽ là <strong>Hóa Chất Đức Giang (DGC)</strong>. Khi dịch bệnh bùng phát, nhu cầu chất bán dẫn và chất khử trùng toàn cầu tăng vọt, trong khi nguồn cung phốt pho vàng từ Trung Quốc bị gián đoạn. VESAF đã gom DGC với một mức định giá siêu rẻ.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Cùng lúc đó, <strong>FPT</strong> một lần nữa chứng minh tại sao nó lại là hạt nhân bất khả xâm phạm trong danh mục VESAF. Khi cả thế giới phải làm việc tại nhà, nhu cầu chuyển đổi số (Digital Transformation) bùng nổ. FPT ký được hàng loạt hợp đồng triệu đô với khách hàng Nhật và Mỹ ngay trong tâm dịch.</p>
-  <p>Chúng tôi mạnh tay mua thêm FPT ở những phiên sập sàn hoảng loạn của tháng 3. Giá vốn của VESAF tại FPT được kéo xuống mức rẻ mạt, tạo ra một biên an toàn (Margin of Safety) khổng lồ.</p>`,
+  <p>Tiếp đó là <strong>Hòa Phát (HPG)</strong>. Dự án Dung Quất đang ở giai đoạn hái quả ngọt, nhưng thị trường lại bán tháo HPG vì lo ngại bất động sản đóng băng. Chúng tôi hiểu rằng, lợi thế chi phí thấp của HPG sẽ giúp họ đè bẹp các đối thủ trong lúc khó khăn nhất và gia tăng thị phần mạnh mẽ.</p>
+  <p>Việc gom mua những cổ phiếu chu kỳ ở ngay vùng đáy hoảng loạn đòi hỏi một thần kinh thép. Bạn phải sẵn sàng chấp nhận việc NAV tiếp tục đỏ thêm 5-10% trước khi nó chạm đáy thật sự.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Một điểm sáng khác trong chiến lược linh hoạt của chúng tôi là việc bắt đúng mạch phục hồi của dòng tiền giá rẻ. Khi Fed bơm thanh khoản không giới hạn, tiền nhàn rỗi trong dân đổ xô vào chứng khoán. VESAF lập tức gia tăng vị thế ở các cổ phiếu được hưởng lợi kép từ lãi suất thấp và cầu tiêu dùng nội địa, trong đó có <strong>MWG</strong> và <strong>HPG</strong>.</p>
-  <p>Nhờ quy mô linh hoạt, quỹ luân chuyển dòng vốn giữa nhóm xuất khẩu (DGC) và nhóm hưởng lợi dòng tiền nội (HPG) một cách nhịp nhàng.</p>`,
+  <p>Đến giữa năm 2020, điều kỳ diệu bắt đầu. Các ngân hàng trung ương toàn cầu, đi đầu là Fed, ồ ạt bơm tiền cứu nền kinh tế. Tiền rẻ ngập tràn hệ thống tài chính. Lãi suất tại Việt Nam cũng hạ xuống mức thấp kỷ lục.</p>
+  <p>Dòng tiền F0 (nhà đầu tư cá nhân mới) bắt đầu cuồn cuộn chảy vào thị trường chứng khoán. Những mỏ vàng mà VESAF đã âm thầm đào đắp trong suốt tháng 3 và tháng 4 bắt đầu phát nổ.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tuy nhiên, năm 2020 không dành cho những người yếu bóng vía. Đã có những thời điểm danh mục quỹ âm nặng. Rất nhiều nhà đầu tư cá nhân tự hoảng loạn cắt lỗ ở đúng vùng đáy. Việc giao tiếp và giữ chân nhà đầu tư của VESAF trở nên khó khăn hơn bao giờ hết.</p>
-  <p>Chúng tôi kiên định tổ chức các buổi hội thảo trực tuyến, lặp đi lặp lại một thông điệp: "Đừng bán những tài sản tốt nhất của bạn chỉ vì một con virus. Giá trị nội tại của doanh nghiệp không thay đổi trong dài hạn".</p>`,
+  <p>DGC liên tục thiết lập các đỉnh cao mới khi giá phốt pho thế giới lập kỷ lục. HPG trở thành "Cổ phiếu quốc dân" kéo chỉ số đi lên. <strong>FPT</strong> và <strong>MWG</strong> nhanh chóng phục hồi lại mức giá trước dịch khi chứng minh được sự kiên cường trong mô hình kinh doanh.</p>
+  <p>Chúng tôi bắt đầu hái quả ngọt. Việc không hoảng loạn và bám sát giá trị nội tại đã biến cuộc khủng hoảng COVID-19 từ một thảm họa trở thành bệ phóng vĩ đại cho quỹ.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thời gian đã trả lời. Khi vắc-xin bắt đầu được thử nghiệm thành công và thanh khoản ngập tràn hệ thống, VN-Index hồi phục hình chữ V thần tốc. Các cổ phiếu "Hidden Gems" của VESAF không chỉ phục hồi mà còn phá đỉnh lịch sử.</p>
-  <p>Năm 2020 kết thúc đầy kịch tính, quỹ VESAF ghi nhận hiệu suất tăng trưởng <strong>+25,6%</strong>. Lật ngược thế cờ từ vực thẳm tháng 3, đây là minh chứng hùng hồn nhất cho nghệ thuật Stock-picking (chọn cổ phiếu) của đội ngũ VinaCapital.</p>`,
+  <p>Khép lại năm 2020 đầy biến động, VN-Index phục hồi thần kỳ và kết năm với mức tăng +14,9%. Nhưng đó chưa là gì so với VESAF.</p>
+  <p>Quỹ ghi nhận tỷ suất lợi nhuận bùng nổ <strong>+25,6%</strong>. Khoảng cách Outperform (Hiệu suất vượt trội) khổng lồ này khẳng định vị thế của VinaCapital như một trong những "tay chơi" sắc bén nhất trên thị trường trong việc nhận diện điểm uốn của chu kỳ vĩ mô.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Những bông hoa giấy cuối năm 2020 đã rơi, nhưng chúng tôi biết bữa tiệc thực sự bây giờ mới bắt đầu. Tiền trong dân cư đang dồi dào chưa từng thấy. Khái niệm "nhà đầu tư F0" xuất hiện với tần suất dày đặc trên truyền thông.</p>
-  <p>Năm 2021 đang tới, hứa hẹn sẽ giải phóng một cơn sóng thần vĩ đại nhất lịch sử chứng khoán Việt Nam. Và VESAF, với danh mục đã nạp đầy những quả bom nguyên tử như DGC và FPT, đã sẵn sàng để trở thành quỹ đầu tư có hiệu suất khủng khiếp nhất thị trường.</p>`
+  <p>Năm 2020 đóng lại trong sự phấn khích tột độ của giới đầu tư toàn cầu. Dòng tiền rẻ vẫn đang chảy xiết, và thị trường chứng khoán Việt Nam chuẩn bị bước vào một cơn điên rồ (Euphoria) chưa từng có.</p>
+  <p>Tại văn phòng VinaCapital, mọi người cụng ly chúc mừng. Nhưng trong ánh mắt của các Giám đốc danh mục, có một ngọn lửa tham vọng lớn hơn: Bệ phóng đã được thiết lập xong. Năm 2021 sắp tới sẽ không chỉ là một năm thành công, mà phải là một năm đi vào huyền thoại.</p>`
 ];
 
 const nfdMap = {

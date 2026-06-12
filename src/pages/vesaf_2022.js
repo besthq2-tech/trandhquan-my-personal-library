@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2022" data-route="/minds/vesaf-2022" data-title="The Great Washout">
+<section class="page active" id="page-vesaf-2022" data-route="/minds/vesaf-2022" data-title="Cú sập hầm lịch sử">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2022
     </div>
-    <h1 style="margin-bottom: 8px;">The Great Washout</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2022. Fed tăng lãi suất bạo lực, bom nợ trái phiếu phát nổ. Một cú giũ bỏ tàn khốc của thị trường, và bài học đẫm máu về quản trị rủi ro thanh khoản.</p>
+    <h1 style="margin-bottom: 8px;">Cú sập hầm lịch sử</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Bữa tiệc tiền rẻ kết thúc bằng một thảm họa trái phiếu và Call Margin hệ thống. Một năm đẫm máu mà mục tiêu duy nhất là bảo toàn sinh mạng để chờ ngày tái thiết.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>2022 bắt đầu bằng một tiếng sấm sét từ bên kia bán cầu: Fed (Cục Dự trữ Liên bang Mỹ) tuyên bố bước vào chu kỳ thắt chặt tiền tệ quyết liệt nhất trong 40 năm để chống lại bóng ma lạm phát. Dòng vốn ngoại lập tức đảo chiều, rút tháo chạy khỏi các thị trường mới nổi, trong đó có Việt Nam.</p>
-  <p>Nhưng đó mới chỉ là giông bão từ xa. Cơn sóng thần thực sự đánh ập vào thị trường nội địa đến từ những quả bom mang tên: FLC, Tân Hoàng Minh, và tàn khốc nhất là Vạn Thịnh Phát. Niềm tin vào thị trường trái phiếu doanh nghiệp sụp đổ trong chớp mắt.</p>`,
+  <p>Tháng 4/2022. Sự kiện bắt giữ lãnh đạo Tân Hoàng Minh và FLC như một mồi lửa ném vào kho thuốc súng margin đang phình to của thị trường. Cùng lúc đó, Fed bắt đầu chuỗi tăng lãi suất dồn dập tàn khốc nhất lịch sử để chống lạm phát toàn cầu. Bữa tiệc đã thực sự kết thúc.</p>
+  <p>Và rồi cơn ác mộng lớn nhất ập đến vào tháng 10/2022: Khủng hoảng Vạn Thịnh Phát và Ngân hàng SCB. Niềm tin vào thị trường trái phiếu doanh nghiệp sụp đổ hoàn toàn. Thanh khoản nền kinh tế đông cứng. VN-Index rơi tự do từ 1.500 xuống chạm mốc 873 điểm.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Sự hoảng loạn (Panic) lan rộng như một cơn dịch bệnh. Các doanh nghiệp bất động sản khát tiền để đảo nợ trái phiếu, họ buộc phải bán tháo cổ phiếu trên sàn để thu hồi thanh khoản. Một vòng xoáy giải chấp chéo (Cross-Margin Call) lớn nhất lịch sử chứng khoán Việt Nam diễn ra. VN-Index rơi tự do từ 1.530 điểm xuống vùng 873 điểm.</p>
-  <p>Tại VinaCapital, bầu không khí đặc quánh. Quỹ VESAF, dù đã né được phần lớn các cổ phiếu bất động sản đầu cơ, vẫn không thể chống lại sức hút lực hấp dẫn của một thị trường sụp đổ toàn diện.</p>`,
+  <p>Lúc này, "Rủi ro hệ thống" (Systemic Risk) bao trùm tất cả. Khái niệm định giá rẻ (P/E, P/B) trở nên vô nghĩa. Các công ty chứng khoán phải tiến hành Force-Sell (bán giải chấp) chéo mọi cổ phiếu trong danh mục của nhà đầu tư để thu hồi nợ.</p>
+  <p>Kể cả những cổ phiếu tốt nhất, làm ăn lợi nhuận ngàn tỷ như FPT hay MBB cũng bị lôi ra bán sàn nằm la liệt chỉ vì chúng có thanh khoản để bán. Tại VESAF, chúng tôi phải chứng kiến những tài sản tuyệt vời bị định giá rớt xuống mức của thời kỳ đồ đá.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Khi đám đông mất lý trí, các cổ phiếu "tốt" lại bị đem ra bán mạnh nhất, bởi vì chúng là những thứ duy nhất còn thanh khoản để bán. Những siêu cổ phiếu làm nên tên tuổi của VESAF năm 2021 như DGC, HAH, hay MWG cũng bị cuốn phăng theo dòng nước lũ, bốc hơi 30-50% giá trị chỉ trong vài tháng.</p>
-  <p>Đó là bài học đẫm máu về Rủi ro Hệ thống (Systemic Risk): Khi thanh khoản quốc gia khô cạn do NHNN hút tiền về để bảo vệ tỷ giá, định giá P/E có rẻ đến mấy cũng trở nên vô nghĩa.</p>`,
+  <p>Nhờ việc duy trì kỷ luật khắt khe trong năm 2021, VESAF đã hoàn toàn không nắm giữ bất kỳ cổ phiếu bất động sản đầu cơ nào. Khách hàng của chúng tôi không phải chứng kiến cảnh cổ phiếu mất 80-90% giá trị không có thanh khoản như nhóm NVL hay PDR.</p>
+  <p>Tuy nhiên, là một quỹ mở cổ phiếu, việc phải duy trì một tỷ lệ giải ngân cao (Fully-invested) khiến quỹ không thể miễn nhiễm với đà giảm chung của thị trường. NAV của quỹ liên tục bốc hơi từng ngày.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tuy nhiên, sự khác biệt giữa nhà đầu tư chuyên nghiệp và F0 nằm ở khả năng chịu đựng nỗi đau. Giữa tâm bão tháng 11/2022, khi hàng loạt cổ phiếu bất động sản dư bán sàn chục triệu cổ, đội ngũ VESAF vẫn bình tĩnh rà soát lại sổ sách của từng doanh nghiệp trong danh mục.</p>
-  <p>Chúng tôi nhận thấy <strong>Gemadept (GMD)</strong> vẫn tiếp tục ghi nhận lợi nhuận gộp khổng lồ từ cảng Gemalink và cụm cảng Hải Phòng, bất chấp sóng gió vĩ mô. Tiền mặt ròng của FPT vẫn dồi dào. Chúng là những pháo đài không thể bị phá vỡ bởi khủng hoảng nợ.</p>`,
+  <p>Giữa tâm bão, chiến lược của đội ngũ VinaCapital chuyển sang "Phòng thủ cực đoan". Mục tiêu số một không phải là kiếm tiền, mà là <strong>bảo toàn sinh mạng</strong> để có thể quay trở lại vào chu kỳ sau.</p>
+  <p>Chúng tôi tập trung rà soát lại toàn bộ bảng cân đối kế toán của các doanh nghiệp đang nắm giữ. Tiêu chí sống còn lúc này là: Tiền mặt dồi dào, nợ vay bằng USD thấp (để né tỷ giá bùng nổ), và hoàn toàn không dính dáng đến trái phiếu sai phạm.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thay vì hoảng loạn bán tháo ở đáy, VESAF quyết định sử dụng lượng tiền mặt dự trữ (Cash Buffer) để dũng cảm mua vào. Chúng tôi gia tăng mạnh tỷ trọng ở <strong>GMD, FPT</strong> và các ngân hàng tư nhân top đầu bị định giá quá thấp như <strong>MBB, ACB</strong>. Chúng tôi biết rằng khi cơn bão qua đi, đây sẽ là những cái tên bật dậy đầu tiên.</p>
-  <p>Nhờ việc né hoàn toàn nhóm Bất động sản rác, mức sụt giảm của VESAF vẫn được kiểm soát tốt hơn đáng kể so với thiệt hại của các cá nhân đu đỉnh.</p>`,
+  <p>Những khoản đầu tư vào <strong>FPT</strong>, <strong>Gemadept (GMD)</strong> và <strong>DGC</strong> vẫn được giữ lại làm xương sống. FPT với dòng tiền ngoại tệ đổ về từ mảng xuất khẩu phần mềm tỏ ra cực kỳ lỳ lợm trước giông bão. GMD hưởng lợi nhờ mảng khai thác cảng cốt lõi không bị ảnh hưởng bởi tín dụng.</p>
+  <p>Chúng tôi thấu hiểu sự hoảng loạn của nhà đầu tư khi phải nhận những bản tin báo cáo NAV đỏ lửa mỗi tháng. Nhiều đêm thức trắng, áp lực đè nặng lên vai các nhà quản lý quỹ. Lời khuyên duy nhất lúc này là: Đừng buông xuôi ngay tại đáy.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2022 là bài kiểm tra tàn khốc về tâm lý. Có những ngày quỹ nhận được hàng loạt yêu cầu rút vốn (Redemption) từ các nhà đầu tư chán nản tột độ. Vai trò của người quản lý quỹ lúc này là chuyên gia tâm lý học: Chúng tôi phải liên tục gửi thư trấn an, phân tích vĩ mô, và thuyết phục khách hàng không rời bỏ thị trường ở ngưỡng định giá rẻ nhất thập kỷ (P/E ~ 9x).</p>
-  <p>Mỗi cuộc khủng hoảng đều là một lần chuyển giao tài sản vĩ đại. Những ai chịu đựng được bóng tối sẽ đón ánh bình minh chói lọi.</p>`,
+  <p>Vào tháng 11/2022, khi sự bi quan đạt đến cực điểm, một dòng vốn ngoại khối lượng lớn (chủ yếu từ các quỹ ETF Đài Loan và khối ngoại) đã ào ạt giải ngân bắt đáy. VN-Index bật chữ V dữ dội từ đáy 873 lên lại mốc 1.000 điểm.</p>
+  <p>Sự kiên định ôm chặt các cổ phiếu chất lượng cao đã giúp VESAF bật nảy cực mạnh trong nhịp hồi phục này, thu hẹp đáng kể mức thua lỗ trong năm.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Khép lại năm 2022, VN-Index ghi nhận mức giảm lịch sử <strong>-32,7%</strong>. Quỹ VESAF kết năm với mức giảm <strong>-24,4%</strong>. Dù không thể thoát khỏi một năm âm nặng, mức chênh lệch hiệu suất (Outperformance) so với chỉ số tham chiếu vẫn cho thấy khả năng phòng vệ xuất sắc của quỹ trong những tình huống khắc nghiệt nhất.</p>
-  <p>Những bong bóng đầu cơ đã bị chọc thủng, những doanh nghiệp "thây ma" bị thanh lọc. Nước rút đi, trả lại một thị trường sạch sẽ và lành mạnh hơn.</p>`,
+  <p>Năm 2022 khép lại như một vết sẹo lớn đối với giới tài chính. VN-Index chốt sổ với mức sụt giảm kinh hoàng <strong>-32,8%</strong>, lọt top các thị trường chứng khoán giảm mạnh nhất thế giới.</p>
+  <p>Quỹ VESAF cũng phải chịu một năm đẫm máu với mức giảm <strong>-24,4%</strong>. Dù đây là một mức sụt giảm lớn, nhưng xét trên bình diện tương quan, việc đỡ thiệt hại hơn chỉ số chung gần 8,5% chứng minh rằng danh mục cổ phiếu chất lượng cao đã làm tốt vai trò chiếc dù cứu sinh của nó.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Bước vào những ngày cuối năm 2022, dòng vốn ngoại khổng lồ từ các quỹ ETF như Fubon bất ngờ giải ngân hàng chục nghìn tỷ đồng vào thị trường Việt Nam. Họ đã nhìn thấy điều mà đám đông hoảng loạn không thấy: Cổ phiếu Việt Nam đang rẻ đến mức vô lý.</p>
-  <p>Tại VinaCapital, danh mục của VESAF đã được tái cơ cấu gọn gàng và tinh nhuệ nhất. Chúng tôi sẵn sàng cho một cú nảy chữ V (V-shape Rebound) lịch sử vào năm 2023, khi chính sách tiền tệ đảo chiều để giải cứu nền kinh tế.</p>`
+  <p>Sau đống tro tàn, sự thật luôn được phơi bày: Những công ty làm ăn gian dối đã bị đào thải, những nhà đầu tư dùng margin quá mức đã bị xóa sổ. Thị trường trở về với mức định giá rẻ đến vô lý.</p>
+  <p>Vết thương 2022 là một bài học đắt giá về sự tàn nhẫn của chu kỳ tín dụng. Nhưng ở VinaCapital, chúng tôi biết rằng, hạt giống của một chu kỳ tăng trưởng mới luôn được gieo mầm ngay giữa mùa đông khắc nghiệt nhất.</p>`
 ];
 
 const nfdMap = {

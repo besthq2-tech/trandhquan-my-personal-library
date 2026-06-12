@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2025" data-route="/minds/vesaf-2025" data-title="The Premium Game">
+<section class="page active" id="page-vesaf-2025" data-route="/minds/vesaf-2025" data-title="Nỗi đau của sự lỡ nhịp">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2025
     </div>
-    <h1 style="margin-bottom: 8px;">The Premium Game</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2025. Cuộc chơi Nâng hạng thị trường bắt đầu. VESAF tối đa hóa lợi nhuận bằng việc nắm giữ các cổ phiếu cạn Room Ngoại.</p>
+    <h1 style="margin-bottom: 8px;">Nỗi đau của sự lỡ nhịp</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Một năm tồi tệ (Underperform) nhất trong lịch sử khi VN-Index được kéo lên bằng những trụ cột vốn hóa lớn mà VESAF không nắm giữ. Sự dằn vặt giữa kỷ luật và hiệu suất.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>2025. Sự kiện được chờ đợi nhất trong hai thập kỷ của chứng khoán Việt Nam cuối cùng cũng diễn ra: Việc nâng hạng lên Thị trường Mới nổi (Emerging Market) của FTSE Russell. Hệ thống giao dịch mới vận hành trơn tru, tiêu chuẩn ký quỹ "Prefunding" được tháo gỡ hoàn toàn cho nhà đầu tư tổ chức nước ngoài.</p>
-  <p>Tuy nhiên, một vấn đề muôn thuở vẫn chưa được giải quyết triệt để: Room ngoại (Foreign Ownership Limit - FOL). Các cổ phiếu tốt nhất, hấp dẫn nhất như FPT, MWG, PNJ luôn trong tình trạng kín room 49%. Khối ngoại muốn mua, nhưng không ai bán.</p>`,
+  <p>Lịch sử thị trường tài chính chỉ ra rằng: Cách nhanh nhất để hủy hoại danh tiếng của một nhà quản lý quỹ xuất sắc không phải là làm mất tiền, mà là để cho thị trường tăng giá vượt qua mình mà mình không được chia phần (Underperformance). Và năm 2025 chính xác là một nỗi đau như vậy đối với VESAF.</p>
+  <p>Bức tranh vĩ mô năm 2025 chứng kiến dòng tiền đổ dồn vào một nhóm rổ cổ phiếu vô cùng đặc thù: Các tập đoàn cấu trúc Holding phức tạp và các Blue-chip vốn hóa khổng lồ. VN-Index liên tục thăng hoa, màu xanh ngập tràn bảng điện.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Đây chính là nơi VinaCapital và đặc biệt là VESAF tỏa sáng. Nhờ lợi thế là một Quỹ Mở Nội Địa, chúng tôi không bị giới hạn bởi Room ngoại. Chúng tôi có thể mua bán tự do các cổ phiếu này trên sàn khớp lệnh hàng ngày với mức giá niêm yết.</p>
-  <p>Trong khi đó, các quỹ ETF ngoại khổng lồ từ Đài Loan, Mỹ, châu Âu khi được rót vốn thụ động bắt buộc phải mua các cổ phiếu này. Họ đành phải tìm đến các giao dịch thỏa thuận (Put-through) ngoài sàn, và chấp nhận trả một mức giá chênh lệch khổng lồ, gọi là **Premium**.</p>`,
+  <p>Đứng đầu sóng gió là nhóm cổ phiếu nhà <strong>Vingroup (VIC, VHM)</strong> và tập đoàn <strong>GELEX (GEX)</strong>. Bằng những câu chuyện về tái cấu trúc và IPO công ty con, các mã cổ phiếu này ghi nhận mức tăng từ 25% đến hơn 40% chỉ trong vài tháng ngắn ngủi.</p>
+  <p>Do tỷ trọng vốn hóa của nhóm này (đặc biệt là họ Vin) chiếm tới gần 18% của toàn bộ VN-Index, động lực kéo trụ này đã đẩy điểm số của Index bay cao vút. Một cảm giác FOMO (Sợ bỏ lỡ) tột độ lan tỏa khắp ngóc ngách của thị trường.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Cuộc chơi "The Premium Game" (Trò chơi phần bù rủi ro) diễn ra khốc liệt. Mức Premium của FPT có lúc vọt lên 15-20% so với giá trên sàn, MWG cũng lên tới 10-15%. Lợi thế của VESAF là chúng tôi đã xây dựng sẵn một kho hàng khổng lồ những cổ phiếu "Diamond" (Kim cương) này từ những năm trước.</p>
-  <p>Khi NAV của quỹ được định giá lại theo giá trị thực tế của các giao dịch thỏa thuận, mức sinh lời của VESAF tăng vọt chỉ sau một đêm. Quỹ nội địa bỗng nhiên nắm trong tay quyền sinh quyền sát đối với dòng vốn ngoại thụ động.</p>`,
+  <p>Nhưng bên trong VESAF, là sự im lặng đầy ức chế. Theo điều lệ quỹ và triết lý đầu tư khắt khe của VinaCapital, quỹ ưu tiên các doanh nghiệp có mô hình kinh doanh cốt lõi đơn giản, rõ ràng, và tránh xa các tập đoàn có cấu trúc nợ chéo phức tạp hoặc độ pha loãng cổ đông cao.</p>
+  <p>Hệ quả là: VESAF hoàn toàn KHÔNG nắm giữ (hoặc nắm giữ tỷ trọng cực thấp) các mã cổ phiếu đang "làm mưa làm gió" kia. Quỹ vẫn kiên định ôm những FPT, GMD, KDH - những cổ phiếu tuyệt vời nhưng đang tạm nghỉ ngơi, lình xình đi ngang.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Song song với trò chơi Room ngoại, năm 2025 cũng chứng kiến sự thức tỉnh của một nhóm ngành ngủ quên: Bán lẻ Tiêu dùng. Lạm phát toàn cầu được kiểm soát hoàn toàn, thu nhập thực tế của người dân đô thị tại Việt Nam hồi phục mạnh mẽ.</p>
-  <p>VESAF dồn lực gom mạnh <strong>Masan Group (MSN)</strong>. Chuỗi siêu thị WinMart sau nhiều năm tái cơ cấu đã bắt đầu tạo ra dòng tiền dương. Hệ sinh thái tiêu dùng Point-of-Life của Masan bắt đầu cho quả ngọt. Cổ phiếu MSN, từ một mã bị bỏ rơi trong năm 2022-2023, đã trở lại đường đua mạnh mẽ.</p>`,
+  <p>Mỗi tháng trôi qua là một bản Factsheet (Báo cáo tháng) đỏ mặt. Tháng 5/2025, VN-Index tăng gần 9%, trong khi NAV của quỹ lẹt đẹt ở mức 6%. Càng về cuối năm, khoảng cách (Tracking error) càng bị nới rộng một cách đau đớn.</p>
+  <p>Áp lực đè nặng lên các Giám đốc danh mục. Nhà đầu tư cá nhân bắt đầu chất vấn: "Tại sao quỹ lại cầm những mã đi ngang trong khi ngoài kia người ta ăn bằng lần?". Làn sóng rút vốn (Redemption) râm ran xuất hiện.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Một điểm đáng chú ý khác là cách VESAF xử lý rủi ro "Tin ra là bán" (Buy the rumor, sell the news). Khi tin nâng hạng chính thức được công bố, thị trường có một nhịp xả hàng rất mạnh từ các tay chơi đầu cơ lướt sóng, khiến VN-Index giảm nhanh trong vài tuần.</p>
-  <p>Nhưng bộ máy phân tích của VinaCapital giữ cái đầu cực lạnh. Chúng tôi hiểu rằng dòng vốn ETF là dòng vốn thụ động, chúng giải ngân từ từ qua từng quý theo tỷ trọng chỉ số, chứ không phải đổ ập vào trong một ngày. Do đó, nhịp rũ bỏ ngắn hạn này chỉ là cơ hội để cơ cấu lại danh mục với giá rẻ hơn.</p>`,
+  <p>Sự dằn vặt lên đến tột đỉnh trong các cuộc họp giao ban sáng thứ Hai. Có những ý kiến yêu cầu quỹ phải "linh hoạt" bẻ cong nguyên tắc, giải ngân một phần vào nhóm đầu cơ kéo trụ để cứu vãn tỷ suất lợi nhuận (Window dressing). Nhưng Ban giám đốc đầu tư của VinaCapital đã nói "KHÔNG".</p>
+  <p>"Kỷ luật là thứ duy nhất phân biệt chúng ta với một tay cờ bạc. Nếu cấu trúc doanh nghiệp đó không vượt qua được bộ lọc rủi ro, chúng ta chấp nhận Underperform." - Đó là quyết định đẫm máu nhưng cần thiết.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thực tế đã chứng minh, chỉ sau 1 tháng rung lắc, dòng tiền tổ chức quốc tế cuồn cuộn đổ vào, đẩy VN-Index vượt 1.500 điểm và tiến thẳng lên mốc 1.600 điểm. Khác với sự điên rồ của dòng tiền F0 năm 2021, điểm số của năm 2025 được bảo chứng bằng nền tảng lợi nhuận doanh nghiệp thực chất.</p>
-  <p>Tỷ trọng P/E của thị trường vẫn duy trì ở mức hấp dẫn 13-14x, nhờ EPS (Lợi nhuận trên mỗi cổ phiếu) của các doanh nghiệp trong danh mục tăng trưởng trung bình 20-25%.</p>`,
+  <p>Nhưng sự ức chế này cũng làm lộ ra một điểm nghẽn tử huyệt của quỹ: "Không gian Mid-Cap". Khi NAV của quỹ đã phình to lên mức hàng nghìn tỷ đồng sau những chu kỳ thành công trước, việc luồn lách mua bán ở nhóm vốn hóa vừa trở nên bất khả thi.</p>
+  <p>Nếu bạn cầm một lượng tiền quá lớn và chỉ được phép đầu tư vào một cái ao (Mid-Cap), bạn sẽ không thể bơi. Và khi cái ao đó không đón được dòng tiền vĩ mô, quỹ sẽ bị thị trường chung (Index) đè bẹp.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Khép lại năm 2025 lịch sử, quỹ VESAF một lần nữa đứng trên đỉnh vinh quang với mức tăng trưởng NAV <strong>+38%</strong>. Các nhà đầu tư cá nhân ủy thác vào VESAF chứng kiến tài sản của mình nhân lên mạnh mẽ mà không cần phải tự mình đánh vật với bảng điện tử.</p>
-  <p>Đây là chiến thắng của phương pháp luận đầu tư bài bản, của sự kiên nhẫn nắm giữ tài sản tốt, và sự hiểu biết sâu sắc về cấu trúc vi mô (Microstructure) của dòng vốn ngoại trên thị trường Việt Nam.</p>`,
+  <p>Năm 2025 khép lại trong sự ê chề. Quỹ VESAF chỉ đạt mức tăng trưởng vỏn vẹn <strong>+6,3%</strong>.</p>
+  <p>Con số này bị VN-Index bỏ xa tít tắp ở phía trước. Từ vị thế "The Mid-Cap Kings", quỹ bỗng trở thành tâm điểm của sự hoài nghi. Cảm giác bất lực khi nhìn thấy tiền trôi qua kẽ tay mà không thể với lấy, chỉ vì phải bám giữ lấy những nguyên lý sách vở rập khuôn.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Việt Nam năm 2025 đã khác rất xa so với năm 2015. Chúng ta đã có tên trên bản đồ của dòng vốn toàn cầu. Sự minh bạch được đẩy lên mức tối đa.</p>
-  <p>Nhưng cuộc chơi ở một Thị trường Mới nổi cũng tàn khốc hơn. Dòng "Hot money" có thể rút ra nhanh như cách nó bơm vào nếu vĩ mô toàn cầu đảo chiều. Năm 2026 đang đến, đánh dấu kỷ niệm 10 năm thành lập của quỹ VESAF. Và chúng tôi chuẩn bị bước vào một kỷ nguyên mới, nơi thuật toán và dữ liệu sẽ quyết định kẻ thắng người thua.</p>`
+  <p>Thất bại của năm 2025 không phải là một chu kỳ xui xẻo, mà là hồi chuông cảnh báo về giới hạn mô hình. Thị trường chứng khoán Việt Nam đã trưởng thành, vốn hóa phình to, luật chơi đã khác. Những mánh lới "ăn chênh lệch quỹ ngoại" (FOL) hay săn hàng Mid-cap không còn đủ sức gánh vác tương lai.</p>
+  <p>Ban lãnh đạo VinaCapital hiểu rằng: Để tồn tại trong một thập kỷ mới, VESAF phải tự đập bỏ đi chính bản ngã của mình. Một cuộc lột xác đau đớn, một cú xoay trục lịch sử đã được bí mật lên kế hoạch cho năm 2026.</p>`
 ];
 
 const nfdMap = {

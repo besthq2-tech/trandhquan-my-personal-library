@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2018" data-route="/minds/vesaf-2018" data-title="The Shield">
+<section class="page active" id="page-vesaf-2018" data-route="/minds/vesaf-2018" data-title="Thử lửa thị trường gấu">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2018
     </div>
-    <h1 style="margin-bottom: 8px;">The Shield</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2018. Chiến tranh thương mại Mỹ - Trung châm ngòi cho sự sụp đổ. VESAF chứng minh bản lĩnh khi bảo vệ dòng vốn trong giông bão.</p>
+    <h1 style="margin-bottom: 8px;">Thử lửa thị trường gấu</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Chiến tranh thương mại và chu kỳ tăng lãi suất bóp nghẹt thanh khoản toàn cầu. VESAF chứng minh năng lực quản trị rủi ro vượt trội giữa tâm bão sụp đổ.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Mùa xuân năm 2018, VN-Index chính thức phá vỡ đỉnh lịch sử 1.200 điểm được thiết lập từ năm 2007. Khắp các sàn giao dịch, nhà đầu tư ôm nhau ăn mừng. Các chuyên gia đua nhau dự báo về mốc 1.500, thậm chí 2.000 điểm. Lòng tham chạm ngưỡng cực đại.</p>
-  <p>Nhưng tại VinaCapital, hệ thống cảnh báo rủi ro của chúng tôi bắt đầu nhấp nháy đỏ. Định giá thị trường (P/E) đã bị kéo giãn lên mức 22x - mức cao nhất trong một thập kỷ. Quá nhiều "tiền nóng" đang bơm căng các cổ phiếu Blue-chips. Cảm giác bất an bao trùm cuộc họp giao ban sáng đầu tuần.</p>`,
+  <p>Mùa xuân năm 2018, VN-Index chính thức thiết lập đỉnh lịch sử mới tại mốc 1.200 điểm. Định giá P/E của thị trường vọt lên 22x, một con số đầy rủi ro. Khắp các diễn đàn, đám đông đua nhau sử dụng Margin cực đại để mua các cổ phiếu ngân hàng và bất động sản rác.</p>
+  <p>Và rồi, tiếng sấm từ Washington D.C vang lên. Những dòng tweet của Donald Trump khơi mào cuộc Chiến tranh Thương mại Mỹ - Trung. Hàng rào thuế quan được dựng lên, đe dọa làm gián đoạn chuỗi cung ứng toàn cầu. Khối ngoại lập tức kích hoạt chế độ "Risk-Off" (Thoát khỏi tài sản rủi ro), ồ ạt bán tháo cổ phiếu tại các thị trường mới nổi.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Và rồi, sự sụp đổ luôn bắt đầu từ nơi không ai ngờ tới. Một dòng tweet của cựu Tổng thống Mỹ Donald Trump châm ngòi cho cuộc Chiến tranh thương mại Mỹ - Trung. Các hàng rào thuế quan được dựng lên, đe dọa chuỗi cung ứng toàn cầu. Sự sợ hãi lây lan từ Phố Wall sang châu Á, và dội một gáo nước lạnh vào Việt Nam.</p>
-  <p>Sự sụp đổ diễn ra khốc liệt. VN-Index từ 1.200 rơi thẳng đứng không phanh, cuốn phăng mọi thành quả của năm 2017. Những danh mục đầu cơ margin bốc hơi 50-70% giá trị chỉ trong vài tháng.</p>`,
+  <p>Sự hoảng loạn nhanh chóng lây lan sang nhà đầu tư trong nước. Cú sập hầm diễn ra khốc liệt. VN-Index rơi tự do từ 1.200 xuống vùng 900 điểm, thổi bay hàng trăm nghìn tỷ đồng vốn hóa. Hàng loạt tài khoản bốc hơi 50% chỉ trong vòng vài tháng.</p>
+  <p>Đứng giữa tâm bão, VESAF phải đối mặt với bài kiểm tra sinh tồn đầu tiên. Chiến lược săn Mid-Cap và giá trị giờ đây phải chứng minh được một điều: Nó không chỉ biết cách tấn công, mà còn biết cách dựng khiên phòng thủ.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Đứng giữa tâm bão, quỹ VESAF phải đối mặt với thử thách sinh tồn đầu tiên. Triết lý đầu tư Giá trị và tập trung vào Mid-Cap của chúng tôi giờ đây phải chứng minh được sức mạnh phòng thủ.</p>
-  <p>Chúng tôi đã chủ động hạ tỷ trọng cổ phiếu từ vùng đỉnh, đưa tỷ lệ tiền mặt lên mức an toàn. Quan trọng hơn, bộ khung danh mục của VESAF là những doanh nghiệp tạo ra "Dòng tiền tự do" (Free Cash Flow) cực mạnh, thay vì những công ty "đốt tiền" để tăng trưởng nóng.</p>`,
+  <p>Vũ khí phòng thủ số 1 của chúng tôi chính là chất lượng doanh nghiệp. Trong khi các quỹ chạy theo đà tăng trưởng nóng (Momentum) mắc kẹt với một đống cổ phiếu rác vô giá trị, danh mục của VESAF vẫn là những cỗ máy tạo tiền mặt (Cash Cows) thực thụ.</p>
+  <p>Chúng tôi đã chủ động hạ tỷ trọng các cổ phiếu bị kéo căng về định giá từ đầu năm, và bảo vệ chặt chẽ các vị thế cốt lõi như <strong>MWG, MBB, PNJ</strong>. Việc sở hữu các cổ phiếu "Kín Room Ngoại" cũng tạo ra một tấm nệm đỡ giá hiệu quả, vì lực cầu thỏa thuận ngoài sàn luôn trực chờ.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Trong khi các cổ phiếu vốn hóa lớn thuộc rổ VN30 bị khối ngoại bán tháo tàn bạo qua các rổ ETF, thì các cổ phiếu Mid-Cap kín room của VESAF lại cho thấy sự lỳ lợm đáng kinh ngạc. <strong>PNJ</strong> vẫn duy trì tốc độ mở mới cửa hàng đều đặn. <strong>FPT</strong> vẫn ký được các hợp đồng phần mềm bất chấp rủi ro thương mại toàn cầu.</p>
-  <p>Việc không chạy theo cơn sốt cổ phiếu Bất động sản và Tài chính đầu cơ ở đầu năm 2018 đã tạo ra một "Tấm khiên" (The Shield) vững chắc bảo vệ tài sản của khách hàng.</p>`,
+  <p>Khi thị trường sụp đổ, bóng tối của người này là cơ hội của kẻ khác. Một trong những chiến thuật đặc thù của đội ngũ VinaCapital là "Buy on blood" (Mua khi máu đổ) - nhưng chỉ mua những thứ có giá trị nội tại.</p>
+  <p>Khi nhóm Ngân hàng bị bán tống bán tháo vì tâm lý chung, <strong>MBB (Ngân hàng Quân đội)</strong> rớt xuống vùng định giá P/B cực kỳ hấp dẫn. Chúng tôi đánh giá chất lượng tài sản của MBB vẫn vững như bàn thạch, và không ngần ngại gom thêm cổ phiếu này ngay trong những nhịp hoảng loạn.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Những nhịp rơi sâu của thị trường luôn là mỏ vàng đối với những người cầm tiền mặt. Khi P/E của nhiều doanh nghiệp xuất sắc rơi về mức 8x, 9x, VESAF bắt đầu đi săn.</p>
-  <p>Chúng tôi để mắt đến nhóm Khu công nghiệp. Luận điểm rất rõ ràng: Chiến tranh thương mại Mỹ-Trung sẽ buộc các tập đoàn đa quốc gia phải dời nhà máy khỏi Trung Quốc để tránh thuế. Việt Nam, với vị trí địa lý đắc địa và chi phí nhân công rẻ, sẽ là điểm đến số một.</p>`,
+  <p>Thêm vào đó, chúng tôi bắt đầu ngắm tới <strong>Khang Điền (KDH)</strong>. Giữa lúc ngành bất động sản đứng trước nguy cơ siết tín dụng, KDH nổi lên với quỹ đất sạch khổng lồ, cấu trúc vốn an toàn và pháp lý minh bạch.</p>
+  <p>Sự khác biệt của VESAF là luôn đánh giá rủi ro dòng tiền của doanh nghiệp trước khi nhìn vào tiềm năng tăng trưởng. Chính sự thận trọng này đã cứu chúng tôi khỏi hố sâu tử thần mà nhiều quỹ khác đã sa chân vào.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tuy nhiên, những thương vụ bắt đáy này đòi hỏi thời gian để "ngấm". Trong năm 2018, áp lực từ đà giảm chung của thị trường là quá lớn để bất kỳ cổ phiếu nào có thể đi ngược dòng hoàn toàn.</p>
-  <p>Ban điều hành quỹ VESAF liên tục phải trả lời các chất vấn của nhà đầu tư. Chúng tôi kiên định giải thích rằng: Đầu tư cổ phiếu không phải là trò chơi đoán xem ngày mai VN-Index xanh hay đỏ. Đó là việc mua doanh nghiệp và đồng hành cùng lợi nhuận của họ qua nhiều năm.</p>`,
+  <p>Tuy nhiên, không có một con đê nào hoàn toàn khô ráo trong một trận đại hồng thủy. Áp lực giảm giá chung của toàn thị trường (Systemic Risk) là quá lớn. NAV của quỹ không thể tránh khỏi việc trượt dốc theo đà sụt giảm của các cổ phiếu trụ cột.</p>
+  <p>Phòng quan hệ nhà đầu tư của VinaCapital làm việc hết công suất để trấn an khách hàng. Chúng tôi phải liên tục nhắc nhở họ rằng: Sự biến động giá trên sàn không đồng nghĩa với sự suy giảm giá trị của công ty. FPT vẫn bán được phần mềm, MWG vẫn mở thêm cửa hàng.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Kết thúc năm 2018 đầy giông bão, VN-Index ghi nhận mức giảm thê thảm -9,3%. Rất nhiều quỹ đầu tư lớn trên thị trường bốc hơi từ 12% đến 15% giá trị NAV do kẹp hàng Blue-chips.</p>
-  <p>Trong bối cảnh đó, quỹ VESAF chỉ ghi nhận mức sụt giảm <strong>-7,6%</strong>. Mặc dù là một con số âm, nhưng trong giới quản lý quỹ chuyên nghiệp, việc thua lỗ ít hơn thị trường chung trong một năm Bear Market (Thị trường gấu) được coi là một chiến thắng về mặt chiến thuật phòng thủ.</p>`,
+  <p>Kết thúc năm 2018 thảm khốc, VN-Index ghi nhận mức giảm <strong>-9,3%</strong>. Hàng loạt quỹ mở lớn trên thị trường sụt giảm từ 12% đến 15%.</p>
+  <p>Trong khi đó, quỹ VESAF chốt sổ với mức giảm <strong>-7,6%</strong>. Trong giới tài chính chuyên nghiệp, việc thua lỗ ít hơn Benchmark (Chỉ số tham chiếu) trong một năm Bear Market (Thị trường gấu) được coi là một chiến thắng rực rỡ về mặt chiến thuật. Chúng tôi đã thành công trong việc tạo ra "Alpha" bằng cách giữ tiền không bị bốc hơi.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2018 khép lại với bầu không khí ảm đạm bao trùm giới tài chính. Đám đông nhà đầu tư cá nhân rời bỏ thị trường, thanh khoản teo tóp, các room chat chứng khoán tĩnh lặng như tờ.</p>
-  <p>Nhưng tại VinaCapital, chúng tôi biết rằng bóng tối sâu nhất là lúc rạng đông sắp đến. Thị trường sắp bước vào một giai đoạn đi ngang (sideways) chán nản kéo dài. Và lịch sử đã chứng minh, thị trường đi ngang chính là thiên đường cho chiến lược Stock-Picking (Chọn lọc cổ phiếu) của VESAF.</p>`
+  <p>Năm 2018 đi qua, để lại một tâm lý ê chề trên toàn thị trường. Tiền rẻ đã bị hút về, margin đã bị quét sạch. Những năm tháng đánh cược nhắm mắt mua bừa đã kết thúc.</p>
+  <p>Phía trước là một giai đoạn u ám và đi ngang (Sideways). Nhưng đối với những kẻ đi săn theo chiến lược Bottom-up như VESAF, đây chính là lúc những phẩm chất của một Stock-Picker (Chuyên gia chọn cổ phiếu) được phát huy tối đa nhất.</p>`
 ];
 
 const nfdMap = {

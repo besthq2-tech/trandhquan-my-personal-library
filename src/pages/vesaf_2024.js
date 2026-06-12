@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2024" data-route="/minds/vesaf-2024" data-title="The Moat & The AI">
+<section class="page active" id="page-vesaf-2024" data-route="/minds/vesaf-2024" data-title="Nương tựa Hào kinh tế">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2024
     </div>
-    <h1 style="margin-bottom: 8px;">The Moat & The AI</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2024. Kỷ nguyên của Trí tuệ Nhân tạo (AI) và dịch chuyển FDI. VESAF nắm chặt những doanh nghiệp sở hữu "Hào hào kinh tế" rộng nhất.</p>
+    <h1 style="margin-bottom: 8px;">Nương tựa Hào kinh tế</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Năm bùng nổ của AI và làn sóng FDI công nghệ cao. VESAF củng cố sức mạnh của danh mục bằng cách nắm giữ chặt chẽ những doanh nghiệp có vị thế độc quyền tự nhiên.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>2024. Thế giới quay cuồng trong cơn sốt mang tên Trí tuệ Nhân tạo (AI) do OpenAI và Nvidia tạo ra. Tại Việt Nam, nhiều nhà đầu tư cảm thấy đứng ngoài cuộc chơi vì sàn HOSE không có những "Big Tech" (Công ty công nghệ khổng lồ) theo tiêu chuẩn Mỹ. Nhưng đối với quỹ VESAF, cơ hội luôn tồn tại nếu bạn biết nhìn đúng chỗ.</p>
-  <p>Đại diện duy nhất và xuất sắc nhất của Việt Nam trong chuỗi giá trị bán dẫn và phần mềm toàn cầu chính là <strong>FPT</strong>. Là một cổ phiếu vốn đã đồng hành cùng VESAF từ nhiều năm trước, năm 2024, chúng tôi quyết định biến FPT thành trụ cột lớn nhất (Largest Holding).</p>`,
+  <p>Thế giới năm 2024 chìm đắm trong cơn sốt Trí tuệ nhân tạo (AI). Cổ phiếu Nvidia trên phố Wall liên tục xô đổ các kỷ lục định giá, kéo theo đó là một làn sóng đầu tư cơ sở hạ tầng công nghệ khổng lồ trên toàn cầu. Việt Nam cũng không đứng ngoài lề xu thế đó.</p>
+  <p>Với vị thế địa chính trị chiến lược, Việt Nam đón nhận hàng loạt chuyến thăm của các tỷ phú công nghệ (Jensen Huang, Bill Gates). Dòng vốn FDI thế hệ mới - chất lượng cao và hướng vào chuỗi giá trị bán dẫn - bắt đầu được giải ngân mạnh mẽ. VESAF biết rằng họ phải bắt trọn con sóng này.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Luận điểm của chúng tôi không chỉ là sự tăng trưởng lợi nhuận 20% mỗi năm của FPT. Thứ mà VinaCapital nhìn thấy là một "Hào hào kinh tế" (Economic Moat) không thể bị phá vỡ. FPT sở hữu nguồn nhân lực kỹ sư phần mềm khổng lồ và rẻ so với quốc tế, giúp họ liên tục trúng thầu các dự án tỷ đô từ Nhật và Mỹ.</p>
-  <p>Khi cơn sốt AI lan rộng, mọi tập đoàn trên thế giới đều cần nâng cấp hệ thống dữ liệu, và FPT chính là những người thợ xây được thuê để làm việc đó. Cổ phiếu FPT tăng giá ngoạn mục, liên tục phá đỉnh mọi thời đại, kéo theo đà tăng của cả quỹ VESAF.</p>`,
+  <p>Khoản đầu tư cốt lõi nhất của quỹ vẫn xướng tên <strong>FPT</strong>. Năm 2024 chứng kiến FPT bước lên một tầm vóc hoàn toàn khác: Ký kết hợp tác chiến lược với Nvidia xây dựng AI Factory, đồng thời đẩy mạnh mảng xuất khẩu phần mềm sang khối Automotive (Ô tô điện).</p>
+  <p>FPT không còn là một cổ phiếu giá rẻ. Định giá P/E vọt lên mốc 20x. Nhưng chúng tôi hiểu rằng, đối với những cỗ máy tăng trưởng sở hữu "Hào kinh tế" (Economic Moat) vững chắc, việc trả một mức giá đắt (Premium) là hoàn toàn xứng đáng. Cổ phiếu FPT trở thành động cơ phản lực kéo NAV của VESAF vượt đỉnh lịch sử.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Song hành cùng AI là dòng vốn FDI khổng lồ. Việc Việt Nam nâng cấp quan hệ đối tác chiến lược toàn diện với Mỹ và Nhật Bản vào cuối năm 2023 đã mở ra một kỷ nguyên mới của dòng vốn đầu tư. Làn sóng dịch chuyển chuỗi cung ứng (China + 1) chưa bao giờ mạnh mẽ đến thế.</p>
-  <p>Nhưng thay vì đầu tư vào các nhà máy sản xuất, VESAF tiếp tục mua những "kẻ thu rào": Các doanh nghiệp hạ tầng Logistics và Khu công nghiệp. <strong>Gemadept (GMD)</strong> là một lựa chọn hoàn hảo.</p>`,
+  <p>Cùng hưởng lợi từ làn sóng FDI là ngành Logistics. Cửa ngõ xuất nhập khẩu hàng hóa đang chứng kiến sản lượng container bùng nổ. VESAF gia tăng tỷ trọng tại <strong>Gemadept (GMD)</strong>.</p>
+  <p>GMD sở hữu lợi thế Độc quyền tự nhiên (Natural Monopoly) tuyệt đối nhờ cụm cảng nước sâu Gemalink lớn nhất miền Nam. Việc có thể đón được các siêu tàu mẹ đi thẳng sang Mỹ và Châu Âu giúp GMD không có đối thủ cạnh tranh xứng tầm. Chúng tôi thích những mô hình kinh doanh có rào cản gia nhập thị trường cực kỳ khó như vậy.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>GMD sở hữu cảng nước sâu Gemalink lớn nhất miền Nam, nơi duy nhất có thể đón các siêu tàu mẹ đi thẳng sang Mỹ và châu Âu. Đây là một lợi thế độc quyền tự nhiên (Natural Monopoly). Bạn không thể khơi thông thêm một dòng sông hay xây thêm một cảng nước sâu sát bên cạnh Gemalink.</p>
-  <p>Giá cước xếp dỡ liên tục được điều chỉnh tăng. GMD tạo ra dòng tiền khủng khiếp mỗi năm. VESAF thu lợi nhuận lớn từ việc kiên trì nắm giữ GMD vượt qua những giai đoạn rung lắc của thị trường.</p>`,
+  <p>Bức tranh thị trường năm 2024 cũng chứng kiến một hiện tượng kỳ lạ: "Sự thèm khát cổ phiếu cạn room". Câu chuyện Nâng hạng thị trường từ Cận biên (Frontier) lên Mới nổi (Emerging) của FTSE Russell trở thành chất xúc tác nóng.</p>
+  <p>Các nhà đầu tư tổ chức nước ngoài đổ xô tìm kiếm các kênh gián tiếp để mua những cổ phiếu "hàng tuyển" của Việt Nam đã kín room. Các quỹ ETF mô phỏng chỉ số VN-Diamond liên tục phát hành chứng chỉ quỹ mới. VESAF, với tư cách là quỹ nội địa nắm giữ những viên ngọc này từ sớm, được hưởng lợi trực tiếp từ dòng tiền ngoại ồ ạt đổ vào đẩy giá lên.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Bên cạnh đó, năm 2024 cũng đánh dấu sự phục hồi của ngành Ngân hàng sau khi giải quyết xong bài toán trái phiếu. VESAF tập trung vào những ngân hàng có bộ đệm vốn dày và chất lượng tài sản tốt nhất như <strong>MBB</strong> và <strong>TCB</strong>.</p>
-  <p>Chúng tôi mua TCB khi định giá P/B của ngân hàng này rớt xuống mức 0.8x - mức định giá rẻ đến mức phi lý đối với một ngân hàng tư nhân hàng đầu có hệ sinh thái khách hàng VIP khổng lồ. Khi thị trường nhận ra sai lầm, TCB đã bật tăng mạnh mẽ, đóng góp lớn vào hiệu suất của quỹ.</p>`,
+  <p>Trong khi nhóm công nghệ và logistics thăng hoa, mảng ngân hàng lại phân hóa sâu sắc. Tín dụng bơm ra khó khăn, nợ xấu tiềm ẩn từ nhóm bất động sản khiến nhiều nhà băng chao đảo.</p>
+  <p>VESAF duy trì sự thận trọng cực độ. Chúng tôi chỉ giữ lại <strong>MBB</strong> nhờ tệp khách hàng cá nhân vững chắc từ hệ sinh thái quân đội, và hoàn toàn né tránh các ngân hàng có mô hình kinh doanh phụ thuộc vào việc phát hành trái phiếu "ba không" cho các sân sau bất động sản.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Một câu hỏi thường trực của các nhà đầu tư cá nhân là: "Tại sao tôi phải mua chứng chỉ quỹ VESAF trong khi tôi có thể tự mua FPT hay GMD?".</p>
-  <p>Câu trả lời nằm ở quản trị rủi ro và tâm lý. Sẽ có những phiên thị trường chung sập 30 điểm vì những tin đồn vĩ mô. Nhà đầu tư cá nhân sẽ hoảng loạn bán tháo FPT ở đáy, và sợ hãi không dám mua lại. Nhưng với quỹ VESAF, tính kỷ luật của hội đồng đầu tư giúp chúng tôi cầm chặt những "Viên kim cương" này qua mọi giông bão.</p>`,
+  <p>Nửa cuối năm 2024, câu chuyện tỷ giá USD/VND căng thẳng do Fed chần chừ hạ lãi suất. Áp lực hút tiền qua kênh tín phiếu của NHNN làm dấy lên những lo ngại về một cú sập hầm lặp lại như năm 2022.</p>
+  <p>Tuy nhiên, sự khác biệt nằm ở chỗ doanh nghiệp hiện tại đã có bộ đệm tiền mặt (Cash buffer) dồi dào hơn rất nhiều. VESAF không thực hiện những cú cắt lỗ hoảng loạn, mà tận dụng nhịp rung lắc để gom thêm FPT và KDH ở mức giá chiết khấu.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Kết thúc năm 2024, bức tranh vĩ mô ổn định hơn bao giờ hết. VN-Index dao động quanh biên độ 1.250 - 1.300 điểm. Quỹ VESAF tiếp tục chuỗi thành tích đánh bại thị trường, ghi nhận mức lợi nhuận <strong>trên +25%</strong>.</p>
-  <p>Thành công của VESAF năm 2024 không đến từ việc lướt sóng các mã đầu cơ, mà đến từ việc nhận diện đúng những doanh nghiệp có "Hào hào kinh tế" rộng nhất, và ôm chặt chúng trong xu hướng siêu chu kỳ công nghệ.</p>`,
+  <p>Kết thúc năm 2024, VN-Index thiết lập mức tăng trưởng <strong>+12,1%</strong> trong một năm vĩ mô khá phức tạp.</p>
+  <p>Quỹ VESAF tiếp tục chuỗi phong độ cực kỳ ổn định với tỷ suất lợi nhuận <strong>+22,1%</strong>. Mức "Alpha" 10% này đến trực tiếp từ việc chúng tôi hiểu rõ rào cản kinh tế (Moat) của từng doanh nghiệp trong danh mục, chứ không phải từ việc đoán mò đỉnh đáy của thị trường chung.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2024 qua đi, để lại một nền tảng vững chắc cho nền kinh tế Việt Nam. Các dự án hạ tầng giao thông kết nối các vùng miền đang thành hình. Sân bay Long Thành đang đẩy nhanh tiến độ.</p>
-  <p>Nhưng câu chuyện lớn nhất, thứ sẽ hút mọi nguồn lực của giới tài chính trong năm tới, chính là Sự kiện Nâng hạng Thị trường Mới nổi (Emerging Market Upgrade). Một trò chơi lớn của những tay chơi tỷ đô đang chuẩn bị bắt đầu vào năm 2025.</p>`
+  <p>Thành công rực rỡ của VESAF trong những năm qua đã khiến quy mô quỹ (AUM) phình to nhanh chóng. Chúng tôi không còn là một quỹ nhỏ bé có thể dễ dàng luồn lách qua các mã cổ phiếu thanh khoản thấp như những ngày đầu tiên.</p>
+  <p>Áo đã chật, và chiếc "Hộp Mid-Cap" bắt đầu bộc lộ giới hạn của nó. Không ai trong đội ngũ quản lý có thể ngờ rằng, năm 2025 sắp tới sẽ mang đến một "sự ức chế" khủng khiếp, một nỗi đau tột cùng của sự lỡ nhịp, buộc quỹ phải đưa ra một quyết định tàn nhẫn nhất trong lịch sử hoạt động.</p>`
 ];
 
 const nfdMap = {

@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2017" data-route="/minds/vesaf-2017" data-title="The Genesis of Hidden Gems">
+<section class="page active" id="page-vesaf-2017" data-route="/minds/vesaf-2017" data-title="Khởi đầu từ những ngách hẹp">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2017
     </div>
-    <h1 style="margin-bottom: 8px;">The Genesis of Hidden Gems</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2017. VinaCapital ra mắt VESAF giữa lúc thị trường đang hừng hực khí thế. Sứ mệnh của chúng tôi: Đi tìm những viên ngọc trong đá ở phân khúc Mid-Cap.</p>
+    <h1 style="margin-bottom: 8px;">Khởi đầu từ những ngách hẹp</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Thành lập vào tháng 4/2017. Sứ mệnh của VESAF không phải là đấu tay đôi với các ETF Blue-chips, mà là khai phá những khoảng trống định giá ở phân khúc SMID-Cap.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tháng 4 năm 2017, Quỹ Đầu tư Cổ phiếu Tiếp cận Thị trường Việt Nam (VESAF) chính thức được VinaCapital khai sinh. Đứng trước một thị trường đang bị thống trị bởi các quỹ mô phỏng chỉ số (ETF) nhắm vào nhóm Blue-chips, chúng tôi tự hỏi: Đâu là lợi thế cạnh tranh thực sự của mình?</p>
-  <p>Câu trả lời nằm ở "khoảng trống thông tin" (Information Gap). Trong khi hàng chục chuyên gia phân tích bám sát từng động thái của Vinamilk hay Vietcombank, thì hàng trăm doanh nghiệp quy mô vừa và nhỏ (Mid-Cap & Small-Cap) bị bỏ ngỏ. Đó chính là sân chơi của VESAF.</p>`,
+  <p>Ngày 18/04/2017, Quỹ Đầu tư Cổ phiếu Tiếp cận Thị trường Việt Nam (VESAF) chính thức được VinaCapital ra mắt. Đứng trước một thị trường đang bị thống trị bởi các quỹ ngoại khổng lồ bám theo rổ chỉ số VN30, đội ngũ điều hành của chúng tôi phải trả lời một câu hỏi sinh tử: Lý do tồn tại của VESAF là gì?</p>
+  <p>Câu trả lời nằm ở khái niệm "Khoảng trống thông tin" (Information Gap). Trong khi hàng tá báo cáo phân tích mổ xẻ từng động thái nhỏ nhất của Vietcombank hay Vinamilk, thì có hàng trăm doanh nghiệp quy mô vừa và nhỏ (SMID-Cap) đang làm ăn cực tốt nhưng lại bị giới tài chính bỏ ngỏ.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Triết lý đầu tư của quỹ từ ngày đầu tiên rất rõ ràng: Xây dựng một danh mục cô đặc (Concentrated Portfolio) gồm những "viên ngọc trong đá" - những doanh nghiệp có nền tảng vững chắc, sở hữu lợi thế cạnh tranh độc quyền, nhưng đang bị định giá thấp do thanh khoản kém hoặc chưa được đám đông chú ý.</p>
-  <p>Một vũ khí bí mật khác của VESAF là khả năng tiếp cận các cổ phiếu đã kín "Room ngoại" (Foreign Ownership Limit - FOL). Dưới lớp vỏ của một quỹ nội địa, chúng tôi có thể tự do mua sắm những tài sản mà các tay chơi tỷ đô quốc tế thèm khát nhưng không thể chạm tới.</p>`,
+  <p>Mục tiêu ban đầu của VESAF là đi săn những "viên ngọc trong đá" này. Đó là những doanh nghiệp có lợi thế cạnh tranh riêng biệt, bộ máy quản trị sạch sẽ, tạo ra tiền mặt đều đặn, nhưng thanh khoản cổ phiếu quá thấp để các tay chơi tỷ đô dòm ngó tới.</p>
+  <p>Bên cạnh đó, VESAF sở hữu một vũ khí bí mật tuyệt đối: Thể chế Quỹ Nội Địa. Nó cho phép quỹ mua vào các cổ phiếu cực tốt nhưng đã hết Room Ngoại (Foreign Ownership Limit - FOL). Chúng tôi đóng vai trò là chiếc phễu giúp nhà đầu tư tiếp cận những tài sản "vô giá" này.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2017 là một năm thăng hoa tột độ của VN-Index. Dòng tiền ngoại cuồn cuộn chảy vào thị trường, đẩy điểm số băng băng hướng tới mốc 1.000 điểm. Sự hưng phấn hiện diện trên khắp các mặt báo.</p>
-  <p>Trong bối cảnh đó, nhiệm vụ của đội ngũ VESAF là không được để dòng tiền rẻ làm mờ mắt. Chúng tôi kiên nhẫn giải ngân vào <strong>MBB (Ngân hàng Quân đội)</strong>. Với chất lượng tài sản thuộc hàng top hệ thống nhưng P/B chỉ nhỉnh hơn 1.0x ở thời điểm đó, MBB là một món hời không thể bỏ qua đối với dòng tiền thông minh.</p>`,
+  <p>Bối cảnh ra mắt của quỹ là một năm 2017 thăng hoa rực rỡ của VN-Index. Điểm số băng băng hướng tới mốc 1.000, lòng tham tràn ngập trên các diễn đàn chứng khoán. Tiền rẻ bơm vào nền kinh tế khiến việc mua gì cũng thắng.</p>
+  <p>Thách thức lớn nhất đối với một quỹ mới thành lập không phải là tìm cách kiếm tiền nhanh, mà là không để bị cuốn vào vòng xoáy đầu cơ. Chúng tôi kiên định giải ngân vào những công ty có câu chuyện tăng trưởng thực chất, điển hình là <strong>Thế Giới Di Động (MWG)</strong>.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thương vụ thứ hai định hình năm 2017 của chúng tôi là <strong>PNJ (Vàng bạc đá quý Phú Nhuận)</strong>. Đây là ví dụ kinh điển về cổ phiếu "kín room ngoại". PNJ sở hữu chuỗi bán lẻ trang sức không có đối thủ tại Việt Nam, biên lợi nhuận mở rộng liên tục nhờ chuyển dịch từ bán vàng miếng sang vàng trang sức.</p>
-  <p>Khối ngoại liên tục trả giá chênh lệch (Premium) để mua PNJ, trong khi VESAF có thể mua trực tiếp trên sàn với giá chiết khấu. PNJ nhanh chóng trở thành một trong những trụ cột sinh lời mạnh nhất của danh mục.</p>`,
+  <p>MWG lúc bấy giờ đang trong giai đoạn bành trướng mạnh mẽ chuỗi Điện Máy Xanh và bắt đầu thử nghiệm Bách Hóa Xanh. Quan trọng hơn, MWG luôn ở trong tình trạng "Kín Room Ngoại". Khối ngoại phải thỏa thuận mua ngoài sàn với mức chênh lệch (Premium) rất cao, trong khi VESAF có thể từ tốn gom hàng trên sàn khớp lệnh.</p>
+  <p>Sự chênh lệch này là một khoản lợi nhuận rủi ro thấp (Arbitrage) tuyệt vời mà cấu trúc quỹ nội địa mang lại.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Bên cạnh MBB và PNJ, chúng tôi cũng bắt đầu tích lũy <strong>FPT</strong>. Dù thời điểm đó FPT vẫn chưa bứt phá mạnh mẽ và bị coi là một cổ phiếu "nặng mông", nhưng phân tích của chúng tôi cho thấy mảng Xuất khẩu phần mềm đang âm thầm tăng trưởng ở mức hai con số.</p>
-  <p>Đầu tư vào giá trị đôi khi đòi hỏi sự kiên nhẫn đến tàn nhẫn. Chúng tôi chấp nhận nhìn các cổ phiếu đầu cơ tăng bằng lần, miễn là FPT vẫn đang đi đúng quỹ đạo kinh doanh cốt lõi của nó.</p>`,
+  <p>Tương tự như MWG, <strong>Vàng bạc Đá quý Phú Nhuận (PNJ)</strong> cũng lọt vào mắt xanh của quỹ. Ngành bán lẻ trang sức có thương hiệu tại Việt Nam phân mảnh trầm trọng, và PNJ đang dùng năng lực chế tác tinh xảo của mình để nuốt chửng thị phần của các tiệm vàng truyền thống.</p>
+  <p>Một cổ phiếu khác là <strong>FPT</strong>. Dù thời điểm đó, FPT vẫn mang hình bóng của một tập đoàn công nghệ có tính "nhà nước" nặng nề, nhưng dòng tiền từ mảng xuất khẩu phần mềm đang âm thầm phình to. VESAF mua FPT đơn giản vì định giá P/E của nó quá rẻ cho một cỗ máy tạo tiền.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Vì quy mô NAV ban đầu còn khiêm tốn (vài trăm tỷ đồng), quỹ có độ linh hoạt (Agility) cực cao. Khi phát hiện một doanh nghiệp vừa và nhỏ có chất xúc tác (Catalyst) tăng trưởng lợi nhuận, VESAF có thể giải ngân và đạt tỷ trọng ý nghĩa chỉ trong vài phiên giao dịch, điều mà các quỹ tỷ đô không làm được.</p>
-  <p>Đây chính là Alpha - mức sinh lời vượt trội - mà chúng tôi hứa hẹn mang lại cho các nhà đầu tư cá nhân khi họ ủy thác tiền cho VinaCapital.</p>`,
+  <p>Nhờ quy mô NAV ban đầu chưa quá lớn, quỹ thể hiện sự linh hoạt (Agility) đáng kinh ngạc. Chúng tôi luân chuyển vốn nhanh gọn giữa các mã Mid-Cap khi chúng đạt tới định giá hợp lý, mà không gây ra tác động trượt giá lớn trên biểu đồ giao dịch.</p>
+  <p>Chính lợi thế về quy mô này đã giúp tạo ra mức "Alpha" (Lợi suất vượt trội) mạnh mẽ trong những năm đầu đời của quỹ.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Kết thúc năm 2017 (tính từ tháng 4), quỹ VESAF ghi nhận mức tăng trưởng ấn tượng <strong>+23,5%</strong>. Một khởi đầu như mơ đối với một chứng chỉ quỹ hoàn toàn mới trên thị trường.</p>
-  <p>Mức lợi suất này không chỉ giúp quỹ xây dựng được track-record (lịch sử hiệu suất) vững chắc, mà còn chứng minh rằng: Ở Việt Nam, chiến lược "Bottom-up" (chọn lọc từ dưới lên) hoàn toàn có thể chiến thắng đà tăng chung của thị trường.</p>`,
+  <p>Kết thúc năm 2017 (tính từ giữa tháng 4), VESAF ghi nhận mức tăng trưởng <strong>+23,5%</strong>. Một khởi đầu đẹp như mơ đối với đội ngũ quản lý của VinaCapital.</p>
+  <p>Sự ra mắt thành công này đã xây dựng được "Track-record" vững chắc, chứng minh với giới đầu tư rằng chiến lược đi săn từ đáy lên (Bottom-up) ở phân khúc vốn hóa vừa và nhỏ là hoàn toàn khả thi và đem lại hiệu quả cao.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2017 khép lại trong sự tung hô của đám đông và rượu champagne. VN-Index tiến sát đỉnh lịch sử. Mọi người đều nghĩ mình là thiên tài đầu tư. Nhưng phòng phân tích của VinaCapital bắt đầu nhận thấy những điểm nóng trong nền kinh tế toàn cầu.</p>
-  <p>Một vị tổng thống mới tại Mỹ đang đe dọa viết lại luật chơi thương mại thế giới. Chúng tôi biết rằng, phép thử thực sự của một quỹ đầu tư không nằm ở những năm thị trường giá lên, mà nằm ở khả năng sống sót qua mùa đông. Và mùa đông năm 2018 đang gõ cửa.</p>`
+  <p>Năm 2017 khép lại trong rượu champagne. Rất nhiều nhà đầu tư trên thị trường đắc thắng với đòn bẩy Margin cao chót vót. Nhưng tại phòng phân tích của VinaCapital, mọi người trở nên tĩnh lặng.</p>
+  <p>Mức định giá P/E của VN-Index đang bị đẩy lên ngưỡng cực kỳ nguy hiểm. Ở nước Mỹ xa xôi, Fed bắt đầu bắn tín hiệu thu hẹp nới lỏng tiền tệ. Chúng tôi hiểu rằng, phép thử thực sự của VESAF không nằm ở những ngày nắng ráo. Bài kiểm tra về năng lực quản lý rủi ro sắp sửa diễn ra vào năm 2018.</p>`
 ];
 
 const nfdMap = {

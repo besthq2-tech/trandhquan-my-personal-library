@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2023" data-route="/minds/vesaf-2023" data-title="The V-Shape Rebound">
+<section class="page active" id="page-vesaf-2023" data-route="/minds/vesaf-2023" data-title="Vươn lên từ tro tàn">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2023
     </div>
-    <h1 style="margin-bottom: 8px;">The V-Shape Rebound</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2023. Ngân hàng Nhà nước hạ lãi suất cứu nền kinh tế. VESAF hồi phục thần tốc +30,9%, bỏ xa đà tăng của VN-Index nhờ chiến lược đi trước dòng tiền.</p>
+    <h1 style="margin-bottom: 8px;">Vươn lên từ tro tàn</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Lợi dụng động thái hạ lãi suất quyết liệt của Ngân hàng Nhà nước, VESAF tái cấu trúc danh mục và đón đầu cú "V-Shape Rebound" ngoạn mục nhất lịch sử.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nền kinh tế Việt Nam bước vào năm 2023 với những vết thương chằng chịt từ cuộc khủng hoảng nợ trái phiếu. Các doanh nghiệp "chết lâm sàng" vì không tiếp cận được vốn tín dụng. Nhưng trong nguy luôn có cơ. Đối với những quỹ quản lý tài sản lớn như VESAF, sự bĩ cực của thị trường chính là tiếng còi báo hiệu chân sóng.</p>
-  <p>Tháng 3/2023, Ngân hàng Nhà nước (NHNN) thực hiện một bước đi lịch sử: Đi ngược lại hoàn toàn xu hướng thắt chặt của Mỹ để hạ lãi suất điều hành. Tín hiệu vĩ mô đã rõ ràng: Chính phủ chọn "cứu tăng trưởng" thay vì "bảo vệ tỷ giá" bằng mọi giá.</p>`,
+  <p>Tháng 3/2023. Trong khi nền kinh tế toàn cầu vẫn đang thắt lưng buộc bụng vì nỗi sợ hãi lạm phát, Ngân hàng Nhà nước Việt Nam (NHNN) đã có một quyết định đi ngược chiều thế giới: Chủ động hạ lãi suất điều hành.</p>
+  <p>Đây là một động thái "quay xe" (Pivot) chính sách tiền tệ cực kỳ quan trọng. Đối với thị trường chứng khoán, tiền rẻ luôn là "oxygen" giúp phục hồi định giá tài sản sau một cơn bạo bệnh. Tại VESAF, chúng tôi nhận thấy cơ hội để tạo ra một cú phục hồi hình chữ V (V-Shape Rebound) đã đến.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Tại VinaCapital, bộ phận phân tích lập tức phát lệnh tấn công. Luận điểm đầu tư được định hình: "Lãi suất giảm là kẻ thù của tiền gửi, nhưng là bạn thân của chứng khoán". Nhóm ngành nhạy cảm nhất với lãi suất là Chứng khoán và Bất động sản Khu công nghiệp.</p>
-  <p>VESAF tăng mạnh tỷ trọng ở <strong>VCI (Chứng khoán Vietcap)</strong> và <strong>SSI</strong>. Đây là những doanh nghiệp hàng đầu trong mảng môi giới tổ chức và tự doanh. Khi mặt bằng lãi suất giảm, thanh khoản thị trường sẽ hồi phục, kéo theo định giá của nhóm chứng khoán được định giá lại (Re-rating) lên mức cao hơn.</p>`,
+  <p>Nhóm ngành nhạy cảm nhất với lãi suất chính là Chứng khoán. Sự sụt giảm của lãi suất tiết kiệm sẽ tất yếu đẩy dòng tiền nhàn rỗi quay lại sàn giao dịch. Thanh khoản thị trường phục hồi đồng nghĩa với lợi nhuận mảng môi giới và cho vay Margin sẽ bùng nổ trở lại.</p>
+  <p>VESAF lập tức gia tăng tỷ trọng tại các công ty chứng khoán hàng đầu như <strong>SSI</strong> và <strong>VCI (Vietcap)</strong>. Chúng tôi tận dụng việc định giá P/B (Price-to-Book) của nhóm này đang ở mức thấp nhất trong nhiều năm để xây dựng một vị thế cốt lõi lớn.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Một vũ khí bí mật khác của VESAF trong năm 2023 là nhóm <strong>Bất động sản Khu công nghiệp (BĐS KCN)</strong>. Trong khi thị trường nhà ở dân dụng đóng băng vì khủng hoảng, BĐS KCN lại hái ra tiền nhờ dòng vốn FDI khổng lồ chuyển dịch từ Trung Quốc sang Việt Nam.</p>
-  <p>Chúng tôi tập trung vào <strong>IDC (Idico)</strong> và <strong>SZC (Sonadezi Châu Đức)</strong>. Các doanh nghiệp này sở hữu quỹ đất sẵn sàng cho thuê khổng lồ ở phía Nam, biên lợi nhuận gộp lên tới 40-50%, và trả cổ tức bằng tiền mặt cực kỳ đều đặn.</p>`,
+  <p>Câu chuyện lớn thứ hai của năm 2023 là làn sóng Dịch chuyển Chuỗi cung ứng Toàn cầu. Chiến lược "Trung Quốc + 1" của các tập đoàn đa quốc gia và việc nâng cấp quan hệ Đối tác Chiến lược Toàn diện giữa Việt Nam và Mỹ đã phả hơi nóng vào nhóm Bất động sản Khu công nghiệp.</p>
+  <p>Khác với bất động sản dân cư vẫn đang tê liệt vì nợ trái phiếu, bất động sản khu công nghiệp là nhóm tạo ra tiền thật (Real cash flow). VESAF nhắm đến <strong>IDC (Idico)</strong> và <strong>SZC (Sonadezi Châu Đức)</strong> với quỹ đất thương phẩm sẵn sàng cho thuê khổng lồ.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thực tế năm 2023 đã diễn ra đúng như kịch bản của chúng tôi. Lãi suất tiền gửi từ mức 10%/năm lao dốc không phanh xuống còn 5%/năm. Dòng tiền nhàn rỗi trong dân cư không còn lựa chọn nào khác ngoài việc quay trở lại kênh chứng khoán.</p>
-  <p>VN-Index từ đáy 900 điểm lầm lũi bò lên vùng 1.100 - 1.200 điểm. Các cổ phiếu trong danh mục của VESAF như VCI, IDC tăng giá từ 50% đến 80%, đóng góp khổng lồ vào đà phục hồi của quỹ.</p>`,
+  <p>Tất nhiên, danh mục không thể thiếu <strong>FPT</strong>. Năm 2023, doanh thu từ thị trường nước ngoài của FPT lần đầu tiên vượt mốc 1 tỷ USD. Mảng kinh doanh AI và Cloud tiếp tục tăng trưởng bằng lần.</p>
+  <p>Chúng tôi coi FPT như một "Trái phiếu lợi suất cao" (High-yield bond) trong danh mục. Sự lỳ lợm của FPT trong năm 2022 đã được đền đáp bằng việc cổ phiếu này liên tục phá vỡ mọi đỉnh lịch sử trong năm 2023, mang lại sự ổn định tuyệt đối cho NAV của quỹ.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Một điểm nhấn đặc biệt của năm 2023 là những cú "Flash Crash" (sập mạnh trong phiên) liên quan đến sự kiện hút tín phiếu của NHNN vào tháng 9 để điều tiết tỷ giá. Rất nhiều nhà đầu tư cá nhân hoảng loạn bán tháo vì sợ lặp lại kịch bản sập hầm của năm 2022.</p>
-  <p>Nhưng quỹ VESAF đã phản ứng hoàn toàn khác. Với kinh nghiệm dày dặn, chúng tôi nhận định đây chỉ là nghiệp vụ điều tiết thanh khoản ngắn hạn, không phải là sự đảo chiều chính sách. Thay vì bán tháo, VESAF tận dụng những phiên giảm 30-40 điểm để gom thêm hàng giá rẻ.</p>`,
+  <p>Việc mạnh dạn thay đổi chiến lược phòng thủ của năm ngoái sang tấn công có chọn lọc đòi hỏi sự quyết đoán. Đội ngũ đầu tư của VinaCapital phải liên tục theo dõi tốc độ giải ngân vốn FDI, chỉ số PMI sản xuất, và dữ liệu tăng trưởng tín dụng.</p>
+  <p>Thị trường chứng khoán phục hồi đi kèm với sự hoài nghi của đám đông. Phần lớn nhà đầu tư cá nhân vẫn đang "liếm láp vết thương" từ năm 2022 và không dám giải ngân. Nhưng chính "bức tường lo âu" (Wall of Worry) này lại là môi trường hoàn hảo để một chu kỳ tăng giá mới bắt đầu.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Vào những tháng cuối năm 2023, chúng tôi cũng bắt đầu gia tăng tỷ trọng ở nhóm Xuất khẩu, đặc biệt là Thủy sản và Dệt may, với kỳ vọng chu kỳ tồn kho tại Mỹ và châu Âu đã chạm đáy. Các mã như <strong>VHC (Vĩnh Hoàn)</strong> được đưa vào tầm ngắm, đánh dấu sự dịch chuyển chiến lược chuẩn bị cho năm 2024.</p>
-  <p>Năng lực dự báo và đi trước dòng tiền (Front-running) đã trở thành thương hiệu của VESAF. Quỹ luôn mua khi tin xấu tràn ngập, và thong thả chốt lời khi tin tốt xuất hiện trên mặt báo.</p>`,
+  <p>Từ đáy sâu của sự tuyệt vọng cuối 2022, những cổ phiếu bị bán tháo quá đà trong danh mục của VESAF chứng kiến đà phục hồi 50%, 70%, thậm chí 100% giá trị. Đây là minh chứng rõ ràng nhất cho nguyên lý CMean Reversion (Sự trở về mức trung bình) trong tài chính: Giá cả có thể dao động điên loạn, nhưng cuối cùng nó sẽ quay về với trục Giá trị Nội tại.</p>
+  <p>Những khoản "Lỗ trên giấy" (Unrealized Loss) năm ngoái nhanh chóng chuyển thành màu xanh. Lòng tin của nhà đầu tư vào phương pháp luận của VinaCapital bắt đầu được hàn gắn.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Kết thúc năm 2023, trong khi VN-Index chỉ phục hồi ở mức khiêm tốn <strong>+12,2%</strong>, quỹ VESAF đã ghi nhận mức lợi nhuận nhảy vọt <strong>+30,9%</strong>.</p>
-  <p>Sự chênh lệch hiệu suất khổng lồ này (Alpha xấp xỉ +18,7%) đã chứng minh một điều: Đầu tư thụ động (ôm index) trong một thị trường nhiễu động không mang lại hiệu quả cao bằng chiến lược đầu tư chủ động (Active Management) của các chuyên gia săn Mid-Cap.</p>`,
+  <p>Kết thúc năm 2023, VN-Index hồi phục +12,2%. Tuy nhiên, một lần nữa, VESAF lại làm nên chuyện.</p>
+  <p>Quỹ chốt năm với mức tăng trưởng <strong>+30,9%</strong>, Outperform (Đánh bại) Index tới 18,7 điểm phần trăm. Sự phục hồi từ tro tàn (Rising from Ashes) này khẳng định năng lực quản lý chủ động vượt trội. Nó chứng minh rằng VESAF không chỉ biết ôm hàng phòng thủ, mà còn biết tung ra những cú đấm knock-out khi thị trường mở ra cơ hội.</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Năm 2023 khép lại với những tín hiệu phục hồi vĩ mô rõ nét. Chuyến thăm lịch sử của Tổng thống Mỹ Joe Biden vào tháng 9 đã nâng tầm quan hệ Việt-Mỹ, mở ra làn sóng đầu tư vào Công nghệ Bán dẫn và Trí tuệ Nhân tạo (AI).</p>
-  <p>Một chu kỳ kinh tế mới đang thành hình. Và VESAF, với danh mục được tinh chỉnh sắc bén, đã sẵn sàng để cất cánh trong năm 2024 - năm của những Hào hào Kinh tế và Kỷ nguyên Số.</p>`
+  <p>Bước sang năm mới, bức tranh vĩ mô dường như đang dần sáng tỏ hơn. Dòng vốn FDI vẫn chảy mạnh, và câu chuyện Nâng hạng thị trường (Market Upgrade) bắt đầu được nhắc đến sôi nổi.</p>
+  <p>Nhưng thay vì ngủ quên trên chiến thắng, đội ngũ VESAF lại bắt đầu tập trung vào một khái niệm mới: Kinh tế Hào rãnh (Economic Moats). Trong một thế giới hậu đại dịch đang thay đổi chóng mặt, chỉ những doanh nghiệp có rào cản xâm nhập vô hình mới có thể bảo vệ được biên lợi nhuận của mình trong năm 2024 sắp tới.</p>`
 ];
 
 const nfdMap = {

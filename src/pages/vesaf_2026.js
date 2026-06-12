@@ -1,11 +1,11 @@
 const html = `
-<section class="page active" id="page-vesaf-2026" data-route="/minds/vesaf-2026" data-title="The Mid-Cap Kings">
+<section class="page active" id="page-vesaf-2026" data-route="/minds/vesaf-2026" data-title="Tái định vị: Cú xoay trục sinh tử">
   <div class="page-shell">
     <div class="page-kicker" style="margin-top: 10px;">
       <a href="#/minds/vesaf" style="color: var(--soft); text-decoration: none; transition: color 0.2s ease;" onmouseover="this.style.color='var(--ink)'" onmouseout="this.style.color='var(--soft)'">VESAF</a> · 2026
     </div>
-    <h1 style="margin-bottom: 8px;">The Mid-Cap Kings</h1>
-    <p class="section-desc" style="margin-bottom: 32px;">TP.HCM, 2026. Hành trình 10 năm của những kẻ đi săn "Viên ngọc trong đá". VESAF vững vàng trên ngôi vị Quỹ Mở Cổ phiếu số 1 Việt Nam.</p>
+    <h1 style="margin-bottom: 8px;">Tái định vị: Cú xoay trục sinh tử</h1>
+    <p class="section-desc" style="margin-bottom: 32px;">Giới hạn của chiếc áo Mid-Cap bị phá vỡ. Ngày 12/06/2026, VinaCapital khai tử cái tên cũ, mở ra kỷ nguyên Quỹ Tăng Trưởng Chiến Lược để bước vào đại dương xanh.</p>
 
     <div class="book-reader" style="max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 56px 64px; position: relative; min-height: 65vh; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.02), inset 0 0 120px rgba(255,249,240,0.5);">
       
@@ -30,36 +30,36 @@ const html = `
 
 let pagesRaw = [
   `<img src="/images/dcds1.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>10 năm. Một thập kỷ đầy thăng trầm của thị trường chứng khoán Việt Nam. Ngồi trong phòng họp của VinaCapital chi nhánh TP.HCM vào đầu năm 2026, nhìn lại bảng hiệu suất dài hạn của Quỹ VESAF (2017-2026), ngay cả những người quản trị nghiêm khắc nhất cũng phải mỉm cười tự hào.</p>
-  <p>Từ một quỹ mở có quy mô vài trăm tỷ đồng những ngày đầu thành lập, VESAF giờ đây đã quản lý hàng ngàn tỷ đồng. Nhưng điều đáng tự hào nhất không phải là AUM (Tổng tài sản quản lý), mà là việc quỹ liên tục duy trì được mức lợi suất kép (CAGR) vượt trội so với VN-Index trong suốt một thập kỷ.</p>`,
+  <p>Nửa đầu năm 2026 tiếp tục là một giai đoạn nghẹt thở. Cơn bĩ cực của năm 2025 như bóng ma ám ảnh các cuộc họp buổi sáng tại VinaCapital. Thị trường chứng khoán Việt Nam phân hóa cực đoan đến mức méo mó (Market Polarization).</p>
+  <p>Báo cáo tháng 4/2026 chỉ ra một sự thật cay đắng: Mặc cho VN-Index xanh vỏ do lực kéo từ các mã trụ vốn hóa lớn, phần lớn rổ cổ phiếu Mid-Cap của thị trường lại cắm đầu giảm. NAV của quỹ ghi nhận mức lùi sâu từ -1% đến -3,1%. Lại một lần nữa, quỹ bị bỏ lại trong một đợt tăng điểm ảo ảnh.</p>`,
 
   `<img src="/images/dcds2.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Bí quyết của "Những vị vua Mid-Cap" là gì? Rất nhiều người đã cố gắng sao chép danh mục của VESAF qua các báo cáo hàng tháng. Nhưng họ nhanh chóng nhận ra: Bạn có thể sao chép ba chữ cái cổ phiếu, nhưng bạn không thể sao chép được sự kiên nhẫn và kỷ luật của người quản lý quỹ.</p>
-  <p>Khi DGC rơi 30% trong năm 2020 vì dịch bệnh, chúng tôi mua thêm thay vì cắt lỗ. Khi FPT dậm chân tại chỗ nhiều năm, chúng tôi hiểu rõ đó là giai đoạn tích lũy nội lực. Khi đám đông điên cuồng với đất nền năm 2021, chúng tôi kiên định ôm cổ phiếu sản xuất xuất khẩu.</p>`,
+  <p>Quy mô (Size) đã trở thành kẻ thù số một của hiệu suất. Khi AUM của quỹ đã lên tới hàng nghìn tỷ, một mã SMID-Cap tăng trần cũng không đủ sức làm nhúc nhích NAV tổng. Chiếc áo "Quỹ đầu tư cổ phiếu tiếp cận thị trường" (VESAF) đã trở thành một chiếc vòng kim cô trói buộc đôi tay của các Giám đốc đầu tư.</p>
+  <p>Nền tảng triết lý cũ đã hoàn thành xuất sắc sứ mệnh lịch sử của nó. Nhưng nếu tiếp tục cố chấp bám víu vào vùng an toàn (Comfort zone) đó, quỹ sẽ chết chìm. Một cuộc đại phẫu là không thể tránh khỏi.</p>`,
 
   `<img src="/images/dcds3.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Thị trường chứng khoán năm 2026 đã là một đấu trường hoàn toàn khác. Việc Việt Nam nâng hạng khiến dòng vốn ngoại ồ ạt chảy vào các rổ chỉ số (Passive Funds). Rất nhiều chuyên gia cho rằng kỷ nguyên của quỹ chủ động (Active Funds) đã kết thúc, giống như những gì đã diễn ra ở Mỹ.</p>
-  <p>Nhưng VinaCapital không nghĩ vậy. Thị trường Việt Nam vẫn là một thị trường Mới nổi, nơi có vô số sự bất cân xứng thông tin (Information Asymmetry). Thuật toán có thể định giá được P/E của Vietcombank trong 1 giây, nhưng thuật toán không thể đến tận nhà máy của một doanh nghiệp hóa chất ở miền Tây để đánh giá năng lực của ban lãnh đạo.</p>`,
+  <p>Ngày <strong>12/06/2026</strong> chính thức đánh dấu một cột mốc lịch sử. VinaCapital ra thông cáo báo chí, chính thức đệ trình Ủy ban Chứng khoán Nhà nước về việc đổi tên và thay đổi điều lệ quỹ.</p>
+  <p>Cái tên VESAF vang bóng một thời bị khai tử. Quỹ khoác lên mình một diện mạo mới, tham vọng hơn và quyết liệt hơn: <strong>Quỹ Đầu tư cổ phiếu Tăng trưởng chiến lược VinaCapital</strong>.</p>`,
 
   `<img src="/images/dcds4.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Trong năm 2026, để tạo ra Alpha (mức sinh lời vượt trội), VESAF bắt đầu săn lùng những công ty thuộc thế hệ tiếp theo (Next-gen). Đó là các công ty về năng lượng tái tạo, xử lý rác thải và công nghệ môi trường (ESG). Các tập đoàn lớn trên thế giới đang ép chuỗi cung ứng tại Việt Nam phải xanh hóa.</p>
-  <p>Những cổ phiếu như <strong>REE</strong> và những doanh nghiệp điện gió, điện mặt trời có dòng tiền đều đặn bắt đầu chiếm tỷ trọng cao trong danh mục, mang lại tấm khiên phòng thủ vững chắc giữa một thị trường đầy nhiễu động.</p>`,
+  <p>Sự thay đổi tên gọi không phải là một chiêu trò Marketing bình mới rượu cũ. Đó là một cú xoay trục chiến lược (Strategic Pivot) nhằm tái định nghĩa lại vũ trụ đầu tư (Investment Universe) của quỹ.</p>
+  <p>Việc rũ bỏ cái mác "Tiếp cận thị trường" giúp quỹ thoát khỏi ràng buộc phải tập trung quá lớn vào nhóm cổ phiếu hết room ngoại hay vốn hóa vừa và nhỏ. Không gian đầu tư giờ đây được mở rộng tối đa ra nhóm Blue-Chips, Large-Caps, và những gã khổng lồ đang dẫn dắt nền kinh tế.</p>`,
 
   `<img src="/images/dcds5.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Cuộc chiến không bao giờ dễ dàng. Có những tháng, NAV của VESAF đi sau thị trường vì dòng tiền đầu cơ điên cuồng kéo trụ (các cổ phiếu vốn hóa lớn). Nhưng chúng tôi đã học được cách phớt lờ FOMO (Nỗi sợ bị bỏ lỡ).</p>
-  <p>Nhiệm vụ của chúng tôi không phải là chạy đua theo từng phiên giao dịch. Nhiệm vụ của VESAF là bảo vệ tài sản của khách hàng khỏi những "Hố đen" phá sản, và đưa tài sản đó sinh sôi nảy nở ổn định ở mức 15-20% mỗi năm trong dài hạn. Đó mới là sức mạnh thực sự của Lãi Kép.</p>`,
+  <p>Mục tiêu "Tăng trưởng chiến lược" cho phép các Giám đốc danh mục tập trung hỏa lực vào những doanh nghiệp đầu ngành, những công ty có tiềm năng vươn mình ra khu vực, hoặc những hạt nhân công nghệ nắm giữ chìa khóa đổi mới sáng tạo quốc gia.</p>
+  <p>Bằng cách nâng cấp vũ khí, quỹ sẵn sàng đánh những trận đánh tỷ đô, không còn e sợ việc thanh khoản bị bó hẹp khi muốn giải ngân hay chốt lời khối lượng lớn. Dòng tiền của quỹ giờ đây được tự do chảy đến nơi có tốc độ tăng trưởng EPS cao nhất.</p>`,
 
   `<img src="/images/dcds6.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Sự trưởng thành lớn nhất của quỹ không nằm ở các công cụ tài chính, mà nằm ở hệ thống phân tích doanh nghiệp. Đội ngũ chuyên gia của VinaCapital không chỉ đọc báo cáo tài chính, họ "sống" cùng doanh nghiệp. Họ đối thoại với CEO, khảo sát nhà cung cấp, và đo lường từng biến số vĩ mô.</p>
-  <p>Danh hiệu "Quỹ mở cổ phiếu tốt nhất Việt Nam" nhiều năm liền không tự nhiên mà có. Nó được xây đắp bằng hàng ngàn giờ lao động trí óc căng thẳng và những quyết định lạnh lùng khi ngã rẽ xuất hiện.</p>`,
+  <p>Hiệu ứng của sự thay đổi lập tức thể hiện qua những con số. Bằng việc tái cơ cấu danh mục nhạy bén hơn, tính đến cuối tháng 5 và đầu tháng 6/2026, hiệu suất đầu tư (YTD) của quỹ bắt đầu lội ngược dòng, ghi nhận mức tăng khoảng <strong>+13,84%</strong>.</p>
+  <p>Dù vẫn là một năm vĩ mô chứa đựng nhiều biến số như lạm phát rình rập và tỷ giá bấp bênh, nhưng bộ mặt của quỹ đã trở nên sáng sủa hơn rất nhiều. Lòng tin của giới đầu tư cá nhân bắt đầu quay trở lại.</p>`,
 
   `<img src="/images/dcds7.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Nhìn lại 10 năm, nếu một nhà đầu tư kiên trì ủy thác số tiền tiết kiệm của mình vào VESAF từ năm 2017 và tái đầu tư liên tục, tài sản của họ đã tăng trưởng gấp nhiều lần so với việc ôm vàng hay gửi tiết kiệm ngân hàng.</p>
-  <p>Đây là minh chứng rõ ràng nhất cho việc: Tại Việt Nam, kênh đầu tư chứng khoán thông qua các tổ chức quản lý quỹ chuyên nghiệp đã thực sự trưởng thành và mang lại giá trị bền vững cho xã hội.</p>`,
+  <p>Hành trình 10 năm của VESAF khép lại, nhường chỗ cho chương mới của Quỹ Tăng trưởng chiến lược. Đó là một chặng đường hội tụ đủ vinh quang chói lọi của năm 2021 và sự cay đắng tủi nhục của năm 2025.</p>
+  <p>Câu chuyện này để lại một bài học xương máu cho giới tài chính: Phương pháp đầu tư cũng giống như một sinh vật sống. Nó phải không ngừng tiến hóa, không ngừng đập bỏ lớp vỏ cũ để thích nghi với sự tàn nhẫn của ngài thị trường (Mr. Market).</p>`,
 
   `<img src="/images/dcds8.png" style="width: 100%; height: auto; filter: grayscale(100%) contrast(1.2); border-radius: 4px; margin-bottom: 24px;" />
-  <p>Câu chuyện của 10 năm qua đã khép lại, nhưng hành trình của những kẻ đi săn Mid-Cap sẽ không bao giờ dừng lại. Có vô vàn những "Hidden Gems" mới đang âm thầm lớn lên trong nền kinh tế năng động nhất Đông Nam Á này.</p>
-  <p>Và miễn là còn những khoảng trống định giá, miễn là còn những doanh nghiệp tăng trưởng xuất sắc bị thị trường lãng quên, quỹ VESAF sẽ còn tiếp tục ở đó, giương buồm đi trước đám đông, để mang về những khoản lợi nhuận rực rỡ nhất cho các nhà đầu tư của mình.</p>`
+  <p>Đứng trước thập kỷ mới, khi thị trường chứng khoán Việt Nam chập chững bước vào cánh cửa Nâng hạng (Emerging Market), cuộc chơi đã không còn chỗ cho những tay săn nhỏ lẻ lướt sóng.</p>
+  <p>VinaCapital đã sẵn sàng. Con thuyền Quỹ Tăng trưởng chiến lược đã giương buồm, nhổ neo, rẽ sóng tiến vào đại dương xanh của những siêu doanh nghiệp toàn cầu. Và kỷ nguyên thứ hai, giờ đây mới thực sự bắt đầu.</p>`
 ];
 
 const nfdMap = {
