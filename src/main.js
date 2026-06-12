@@ -122,11 +122,101 @@ function initApp() {
         <a class="nav-link active" href="#/home" data-link-route="/home">
           <span class="nav-index">00</span><span>Preface</span>
         </a>
-        <a class="nav-link" href="#/minds" data-link-route="/minds">
-          <span class="nav-index">01</span><span>What's in their minds</span>
-        </a>
-        
-        <details open class="nav-section">
+        <details class="nav-section" data-default-open="true">
+          <summary><span>What's in their minds</span><span class="chev">⌄</span></summary>
+          <div class="nav-children" style="padding-left: 8px;">
+            <a class="nav-link" href="#/minds" data-link-route="/minds">
+              <span class="nav-index">01</span><span>Minds Overview</span>
+            </a>
+
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>Warren Buffett</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/minds/buffett" data-link-route="/minds/buffett">
+                  <span class="nav-index">WB</span><span>Index</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-berkshire" data-link-route="/minds/buffett-berkshire">
+                  <span class="nav-index">01</span><span>Berkshire Hathaway</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-aftermath" data-link-route="/minds/buffett-aftermath">
+                  <span class="nav-index">02</span><span>The Aftermath</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-sees-candies" data-link-route="/minds/buffett-sees-candies">
+                  <span class="nav-index">03</span><span>See's Candies</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-nfm" data-link-route="/minds/buffett-nfm">
+                  <span class="nav-index">04</span><span>Nebraska Furniture Mart</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-geico" data-link-route="/minds/buffett-geico">
+                  <span class="nav-index">05</span><span>GEICO</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-gen-re" data-link-route="/minds/buffett-gen-re">
+                  <span class="nav-index">06</span><span>General Re</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-midamerican" data-link-route="/minds/buffett-midamerican">
+                  <span class="nav-index">07</span><span>MidAmerican Energy</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-bnsf" data-link-route="/minds/buffett-bnsf">
+                  <span class="nav-index">08</span><span>BNSF</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-pcc" data-link-route="/minds/buffett-pcc">
+                  <span class="nav-index">09</span><span>Precision Castparts</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-alleghany" data-link-route="/minds/buffett-alleghany">
+                  <span class="nav-index">10</span><span>Alleghany</span>
+                </a>
+                <a class="nav-link" href="#/minds/buffett-apple" data-link-route="/minds/buffett-apple">
+                  <span class="nav-index">11</span><span>Apple Inc.</span>
+                </a>
+              </div>
+            </details>
+
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>DCDS Archive</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/minds/dcds" data-link-route="/minds/dcds">
+                  <span class="nav-index">DC</span><span>Index</span>
+                </a>
+                <a class="nav-link" href="#/minds/dcds-2004" data-link-route="/minds/dcds-2004"><span class="nav-index">04</span><span>2004 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2005" data-link-route="/minds/dcds-2005"><span class="nav-index">05</span><span>2005 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2008" data-link-route="/minds/dcds-2008"><span class="nav-index">08</span><span>2008 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2009" data-link-route="/minds/dcds-2009"><span class="nav-index">09</span><span>2009 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2011" data-link-route="/minds/dcds-2011"><span class="nav-index">11</span><span>2011 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2014" data-link-route="/minds/dcds-2014"><span class="nav-index">14</span><span>2014 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2015" data-link-route="/minds/dcds-2015"><span class="nav-index">15</span><span>2015 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2018" data-link-route="/minds/dcds-2018"><span class="nav-index">18</span><span>2018 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2020" data-link-route="/minds/dcds-2020"><span class="nav-index">20</span><span>2020 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2021" data-link-route="/minds/dcds-2021"><span class="nav-index">21</span><span>2021 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2022" data-link-route="/minds/dcds-2022"><span class="nav-index">22</span><span>2022 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2023" data-link-route="/minds/dcds-2023"><span class="nav-index">23</span><span>2023 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2024" data-link-route="/minds/dcds-2024"><span class="nav-index">24</span><span>2024 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2025" data-link-route="/minds/dcds-2025"><span class="nav-index">25</span><span>2025 Report</span></a>
+                <a class="nav-link" href="#/minds/dcds-2026" data-link-route="/minds/dcds-2026"><span class="nav-index">26</span><span>2026 Report</span></a>
+              </div>
+            </details>
+
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>VESAF Archive</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/minds/vesaf" data-link-route="/minds/vesaf">
+                  <span class="nav-index">VF</span><span>Index</span>
+                </a>
+                <a class="nav-link" href="#/minds/vesaf-2017" data-link-route="/minds/vesaf-2017"><span class="nav-index">17</span><span>2017 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2018" data-link-route="/minds/vesaf-2018"><span class="nav-index">18</span><span>2018 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2019" data-link-route="/minds/vesaf-2019"><span class="nav-index">19</span><span>2019 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2020" data-link-route="/minds/vesaf-2020"><span class="nav-index">20</span><span>2020 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2021" data-link-route="/minds/vesaf-2021"><span class="nav-index">21</span><span>2021 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2022" data-link-route="/minds/vesaf-2022"><span class="nav-index">22</span><span>2022 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2023" data-link-route="/minds/vesaf-2023"><span class="nav-index">23</span><span>2023 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2024" data-link-route="/minds/vesaf-2024"><span class="nav-index">24</span><span>2024 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2025" data-link-route="/minds/vesaf-2025"><span class="nav-index">25</span><span>2025 Report</span></a>
+                <a class="nav-link" href="#/minds/vesaf-2026" data-link-route="/minds/vesaf-2026"><span class="nav-index">26</span><span>2026 Report</span></a>
+              </div>
+            </details>
+          </div>
+        </details>
+
+        <details open class="nav-section" data-default-open="true">
           <summary><span>Quick Navigation</span><span class="chev">⌄</span></summary>
           <div class="nav-children">
             <a class="nav-link" href="#/home" data-link-route="/home">
@@ -362,14 +452,37 @@ function initApp() {
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card, .collection-card');
       
+      // Filter main content cards
+      const cards = document.querySelectorAll('.card, .collection-card');
       cards.forEach(card => {
         const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(query) ? '' : 'none';
+      });
+
+      // Filter sidebar nav links
+      const navLinks = document.querySelectorAll('.nav-section .nav-link');
+      const detailsEls = document.querySelectorAll('details.nav-section');
+      
+      if (query === '') {
+        navLinks.forEach(link => link.style.display = '');
+        detailsEls.forEach(d => {
+            d.open = d.dataset.defaultOpen === 'true'; 
+        });
+        return;
+      }
+
+      // Hide all details initially, then open if children match
+      detailsEls.forEach(d => d.open = false);
+
+      navLinks.forEach(link => {
+        const text = link.textContent.toLowerCase();
         if (text.includes(query)) {
-          card.style.display = '';
+          link.style.display = '';
+          const parentDetails = link.closest('details');
+          if (parentDetails) parentDetails.open = true;
         } else {
-          card.style.display = 'none';
+          link.style.display = 'none';
         }
       });
     });
