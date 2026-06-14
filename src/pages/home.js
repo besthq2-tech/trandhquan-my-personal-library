@@ -96,6 +96,12 @@ export default `
         </div>
       </div>
       <div class="collection-grid">
+        <a class="collection-card" href="#/investing">
+          <span style="color: #F59E0B;">Investments</span>
+          <h3>Bodie's Investments</h3>
+          <p>Portfolio theory, asset pricing, derivative markets, and applied portfolio management strategies based on the classic textbook.</p>
+        </a>
+
         <a class="collection-card" href="https://trandhquan-my-personal-vlsi-design-notebook.vercel.app/" target="_blank" rel="noopener">
           <span style="color: var(--accent);">VLSI</span>
           <h3>VLSI Design Notebook</h3>

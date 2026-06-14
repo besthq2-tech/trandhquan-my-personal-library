@@ -68,6 +68,35 @@ import cognitiveCh9HTML, { cognitiveCh9Pages } from './pages/cognitive_ch9.js';
 import cognitiveCh10HTML, { cognitiveCh10Pages } from './pages/cognitive_ch10.js';
 import cognitiveCh11HTML, { cognitiveCh11Pages } from './pages/cognitive_ch11.js';
 import cognitiveCh12HTML, { cognitiveCh12Pages } from './pages/cognitive_ch12.js';
+import investingIndexHTML from './pages/investing_index.js';
+import investingCh1HTML, { investingCh1Pages } from './pages/investing_ch1.js';
+import investingCh2HTML, { investingCh2Pages } from './pages/investing_ch2.js';
+import investingCh3HTML, { investingCh3Pages } from './pages/investing_ch3.js';
+import investingCh4HTML, { investingCh4Pages } from './pages/investing_ch4.js';
+import investingCh5HTML, { investingCh5Pages } from './pages/investing_ch5.js';
+import investingCh6HTML, { investingCh6Pages } from './pages/investing_ch6.js';
+import investingCh7HTML, { investingCh7Pages } from './pages/investing_ch7.js';
+import investingCh8HTML, { investingCh8Pages } from './pages/investing_ch8.js';
+import investingCh9HTML, { investingCh9Pages } from './pages/investing_ch9.js';
+import investingCh10HTML, { investingCh10Pages } from './pages/investing_ch10.js';
+import investingCh11HTML, { investingCh11Pages } from './pages/investing_ch11.js';
+import investingCh12HTML, { investingCh12Pages } from './pages/investing_ch12.js';
+import investingCh13HTML, { investingCh13Pages } from './pages/investing_ch13.js';
+import investingCh14HTML, { investingCh14Pages } from './pages/investing_ch14.js';
+import investingCh15HTML, { investingCh15Pages } from './pages/investing_ch15.js';
+import investingCh16HTML, { investingCh16Pages } from './pages/investing_ch16.js';
+import investingCh17HTML, { investingCh17Pages } from './pages/investing_ch17.js';
+import investingCh18HTML, { investingCh18Pages } from './pages/investing_ch18.js';
+import investingCh19HTML, { investingCh19Pages } from './pages/investing_ch19.js';
+import investingCh20HTML, { investingCh20Pages } from './pages/investing_ch20.js';
+import investingCh21HTML, { investingCh21Pages } from './pages/investing_ch21.js';
+import investingCh22HTML, { investingCh22Pages } from './pages/investing_ch22.js';
+import investingCh23HTML, { investingCh23Pages } from './pages/investing_ch23.js';
+import investingCh24HTML, { investingCh24Pages } from './pages/investing_ch24.js';
+import investingCh25HTML, { investingCh25Pages } from './pages/investing_ch25.js';
+import investingCh26HTML, { investingCh26Pages } from './pages/investing_ch26.js';
+import investingCh27HTML, { investingCh27Pages } from './pages/investing_ch27.js';
+import investingCh28HTML, { investingCh28Pages } from './pages/investing_ch28.js';
 import { initScrollAnimations } from './animations.js';
 
 const correctPassword = '231197';
@@ -301,6 +330,54 @@ function initApp() {
           </div>
         </details>
 
+        
+        <details class="nav-section" data-default-open="false">
+          <summary><span>Investments</span><span class="chev">⌄</span></summary>
+          <div class="nav-children" style="padding-left: 8px;">
+            <a class="nav-link" href="#/investing" data-link-route="/investing">
+              <span class="nav-index">03</span><span>Investing Index</span>
+            </a>
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>Chapters 1-14</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/investing/ch1" data-link-route="/investing/ch1"><span class="nav-index">01</span><span>Chapter 1</span></a>
+                <a class="nav-link" href="#/investing/ch2" data-link-route="/investing/ch2"><span class="nav-index">02</span><span>Chapter 2</span></a>
+                <a class="nav-link" href="#/investing/ch3" data-link-route="/investing/ch3"><span class="nav-index">03</span><span>Chapter 3</span></a>
+                <a class="nav-link" href="#/investing/ch4" data-link-route="/investing/ch4"><span class="nav-index">04</span><span>Chapter 4</span></a>
+                <a class="nav-link" href="#/investing/ch5" data-link-route="/investing/ch5"><span class="nav-index">05</span><span>Chapter 5</span></a>
+                <a class="nav-link" href="#/investing/ch6" data-link-route="/investing/ch6"><span class="nav-index">06</span><span>Chapter 6</span></a>
+                <a class="nav-link" href="#/investing/ch7" data-link-route="/investing/ch7"><span class="nav-index">07</span><span>Chapter 7</span></a>
+                <a class="nav-link" href="#/investing/ch8" data-link-route="/investing/ch8"><span class="nav-index">08</span><span>Chapter 8</span></a>
+                <a class="nav-link" href="#/investing/ch9" data-link-route="/investing/ch9"><span class="nav-index">09</span><span>Chapter 9</span></a>
+                <a class="nav-link" href="#/investing/ch10" data-link-route="/investing/ch10"><span class="nav-index">10</span><span>Chapter 10</span></a>
+                <a class="nav-link" href="#/investing/ch11" data-link-route="/investing/ch11"><span class="nav-index">11</span><span>Chapter 11</span></a>
+                <a class="nav-link" href="#/investing/ch12" data-link-route="/investing/ch12"><span class="nav-index">12</span><span>Chapter 12</span></a>
+                <a class="nav-link" href="#/investing/ch13" data-link-route="/investing/ch13"><span class="nav-index">13</span><span>Chapter 13</span></a>
+                <a class="nav-link" href="#/investing/ch14" data-link-route="/investing/ch14"><span class="nav-index">14</span><span>Chapter 14</span></a>
+              </div>
+            </details>
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>Chapters 15-28</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/investing/ch15" data-link-route="/investing/ch15"><span class="nav-index">15</span><span>Chapter 15</span></a>
+                <a class="nav-link" href="#/investing/ch16" data-link-route="/investing/ch16"><span class="nav-index">16</span><span>Chapter 16</span></a>
+                <a class="nav-link" href="#/investing/ch17" data-link-route="/investing/ch17"><span class="nav-index">17</span><span>Chapter 17</span></a>
+                <a class="nav-link" href="#/investing/ch18" data-link-route="/investing/ch18"><span class="nav-index">18</span><span>Chapter 18</span></a>
+                <a class="nav-link" href="#/investing/ch19" data-link-route="/investing/ch19"><span class="nav-index">19</span><span>Chapter 19</span></a>
+                <a class="nav-link" href="#/investing/ch20" data-link-route="/investing/ch20"><span class="nav-index">20</span><span>Chapter 20</span></a>
+                <a class="nav-link" href="#/investing/ch21" data-link-route="/investing/ch21"><span class="nav-index">21</span><span>Chapter 21</span></a>
+                <a class="nav-link" href="#/investing/ch22" data-link-route="/investing/ch22"><span class="nav-index">22</span><span>Chapter 22</span></a>
+                <a class="nav-link" href="#/investing/ch23" data-link-route="/investing/ch23"><span class="nav-index">23</span><span>Chapter 23</span></a>
+                <a class="nav-link" href="#/investing/ch24" data-link-route="/investing/ch24"><span class="nav-index">24</span><span>Chapter 24</span></a>
+                <a class="nav-link" href="#/investing/ch25" data-link-route="/investing/ch25"><span class="nav-index">25</span><span>Chapter 25</span></a>
+                <a class="nav-link" href="#/investing/ch26" data-link-route="/investing/ch26"><span class="nav-index">26</span><span>Chapter 26</span></a>
+                <a class="nav-link" href="#/investing/ch27" data-link-route="/investing/ch27"><span class="nav-index">27</span><span>Chapter 27</span></a>
+                <a class="nav-link" href="#/investing/ch28" data-link-route="/investing/ch28"><span class="nav-index">28</span><span>Chapter 28</span></a>
+              </div>
+            </details>
+          </div>
+        </details>
+
         <details open class="nav-section" data-default-open="true">
           <summary><span>Quick Navigation</span><span class="chev">⌄</span></summary>
           <div class="nav-children">
@@ -416,7 +493,36 @@ function initApp() {
     '/cognitive/ch9': cognitiveCh9HTML,
     '/cognitive/ch10': cognitiveCh10HTML,
     '/cognitive/ch11': cognitiveCh11HTML,
-    '/cognitive/ch12': cognitiveCh12HTML
+    '/cognitive/ch12': cognitiveCh12HTML,
+    '/investing': investingIndexHTML,
+    '/investing/ch1': investingCh1HTML,
+    '/investing/ch2': investingCh2HTML,
+    '/investing/ch3': investingCh3HTML,
+    '/investing/ch4': investingCh4HTML,
+    '/investing/ch5': investingCh5HTML,
+    '/investing/ch6': investingCh6HTML,
+    '/investing/ch7': investingCh7HTML,
+    '/investing/ch8': investingCh8HTML,
+    '/investing/ch9': investingCh9HTML,
+    '/investing/ch10': investingCh10HTML,
+    '/investing/ch11': investingCh11HTML,
+    '/investing/ch12': investingCh12HTML,
+    '/investing/ch13': investingCh13HTML,
+    '/investing/ch14': investingCh14HTML,
+    '/investing/ch15': investingCh15HTML,
+    '/investing/ch16': investingCh16HTML,
+    '/investing/ch17': investingCh17HTML,
+    '/investing/ch18': investingCh18HTML,
+    '/investing/ch19': investingCh19HTML,
+    '/investing/ch20': investingCh20HTML,
+    '/investing/ch21': investingCh21HTML,
+    '/investing/ch22': investingCh22HTML,
+    '/investing/ch23': investingCh23HTML,
+    '/investing/ch24': investingCh24HTML,
+    '/investing/ch25': investingCh25HTML,
+    '/investing/ch26': investingCh26HTML,
+    '/investing/ch27': investingCh27HTML,
+    '/investing/ch28': investingCh28HTML
   };
 
   // Routing logic
@@ -562,6 +668,35 @@ function initApp() {
         if (hash === '/cognitive/ch10') initBookPagination(cognitiveCh10Pages);
         if (hash === '/cognitive/ch11') initBookPagination(cognitiveCh11Pages);
         if (hash === '/cognitive/ch12') initBookPagination(cognitiveCh12Pages);
+        if (hash === '/investing/ch1') initBookPagination(investingCh1Pages);
+        if (hash === '/investing/ch2') initBookPagination(investingCh2Pages);
+        if (hash === '/investing/ch3') initBookPagination(investingCh3Pages);
+        if (hash === '/investing/ch4') initBookPagination(investingCh4Pages);
+        if (hash === '/investing/ch5') initBookPagination(investingCh5Pages);
+        if (hash === '/investing/ch6') initBookPagination(investingCh6Pages);
+        if (hash === '/investing/ch7') initBookPagination(investingCh7Pages);
+        if (hash === '/investing/ch8') initBookPagination(investingCh8Pages);
+        if (hash === '/investing/ch9') initBookPagination(investingCh9Pages);
+        if (hash === '/investing/ch10') initBookPagination(investingCh10Pages);
+        if (hash === '/investing/ch11') initBookPagination(investingCh11Pages);
+        if (hash === '/investing/ch12') initBookPagination(investingCh12Pages);
+        if (hash === '/investing/ch13') initBookPagination(investingCh13Pages);
+        if (hash === '/investing/ch14') initBookPagination(investingCh14Pages);
+        if (hash === '/investing/ch15') initBookPagination(investingCh15Pages);
+        if (hash === '/investing/ch16') initBookPagination(investingCh16Pages);
+        if (hash === '/investing/ch17') initBookPagination(investingCh17Pages);
+        if (hash === '/investing/ch18') initBookPagination(investingCh18Pages);
+        if (hash === '/investing/ch19') initBookPagination(investingCh19Pages);
+        if (hash === '/investing/ch20') initBookPagination(investingCh20Pages);
+        if (hash === '/investing/ch21') initBookPagination(investingCh21Pages);
+        if (hash === '/investing/ch22') initBookPagination(investingCh22Pages);
+        if (hash === '/investing/ch23') initBookPagination(investingCh23Pages);
+        if (hash === '/investing/ch24') initBookPagination(investingCh24Pages);
+        if (hash === '/investing/ch25') initBookPagination(investingCh25Pages);
+        if (hash === '/investing/ch26') initBookPagination(investingCh26Pages);
+        if (hash === '/investing/ch27') initBookPagination(investingCh27Pages);
+        if (hash === '/investing/ch28') initBookPagination(investingCh28Pages);
+
       } else {
         container.innerHTML = `
           <div class="page-shell">
