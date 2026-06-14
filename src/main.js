@@ -39,6 +39,36 @@ import vesaf2023HTML, { vesaf2023Pages } from './pages/vesaf_2023.js';
 import vesaf2024HTML, { vesaf2024Pages } from './pages/vesaf_2024.js';
 import vesaf2025HTML, { vesaf2025Pages } from './pages/vesaf_2025.js';
 import vesaf2026HTML, { vesaf2026Pages } from './pages/vesaf_2026.js';
+import psychIndexHTML from './pages/psychology_index.js';
+import psychCh1HTML, { psychCh1Pages } from './pages/psychology_ch1.js';
+import psychCh3HTML, { psychCh3Pages } from './pages/psychology_ch3.js';
+import psychCh4HTML, { psychCh4Pages } from './pages/psychology_ch4.js';
+import psychCh5HTML, { psychCh5Pages } from './pages/psychology_ch5.js';
+import psychCh6HTML, { psychCh6Pages } from './pages/psychology_ch6.js';
+import psychCh7HTML, { psychCh7Pages } from './pages/psychology_ch7.js';
+import psychCh8HTML, { psychCh8Pages } from './pages/psychology_ch8.js';
+import psychCh9HTML, { psychCh9Pages } from './pages/psychology_ch9.js';
+import psychCh10HTML, { psychCh10Pages } from './pages/psychology_ch10.js';
+import psychCh11HTML, { psychCh11Pages } from './pages/psychology_ch11.js';
+import psychCh12HTML, { psychCh12Pages } from './pages/psychology_ch12.js';
+import psychCh13HTML, { psychCh13Pages } from './pages/psychology_ch13.js';
+import psychCh14HTML, { psychCh14Pages } from './pages/psychology_ch14.js';
+import psychCh15HTML, { psychCh15Pages } from './pages/psychology_ch15.js';
+import psychCh16HTML, { psychCh16Pages } from './pages/psychology_ch16.js';
+import cognitiveIndexHTML from './pages/cognitive_index.js';
+import cognitiveCh1HTML, { cognitiveCh1Pages } from './pages/cognitive_ch1.js';
+import cognitiveCh2HTML, { cognitiveCh2Pages } from './pages/cognitive_ch2.js';
+import cognitiveCh3HTML, { cognitiveCh3Pages } from './pages/cognitive_ch3.js';
+import cognitiveCh4HTML, { cognitiveCh4Pages } from './pages/cognitive_ch4.js';
+import cognitiveCh5HTML, { cognitiveCh5Pages } from './pages/cognitive_ch5.js';
+import cognitiveCh6HTML, { cognitiveCh6Pages } from './pages/cognitive_ch6.js';
+import cognitiveCh7HTML, { cognitiveCh7Pages } from './pages/cognitive_ch7.js';
+import cognitiveCh8HTML, { cognitiveCh8Pages } from './pages/cognitive_ch8.js';
+import cognitiveCh9HTML, { cognitiveCh9Pages } from './pages/cognitive_ch9.js';
+import cognitiveCh10HTML, { cognitiveCh10Pages } from './pages/cognitive_ch10.js';
+import cognitiveCh11HTML, { cognitiveCh11Pages } from './pages/cognitive_ch11.js';
+import cognitiveCh12HTML, { cognitiveCh12Pages } from './pages/cognitive_ch12.js';
+import { initScrollAnimations } from './animations.js';
 
 const correctPassword = '231197';
 
@@ -216,6 +246,61 @@ function initApp() {
           </div>
         </details>
 
+        <details class="nav-section" data-default-open="false">
+          <summary><span>Psychology</span><span class="chev">⌄</span></summary>
+          <div class="nav-children" style="padding-left: 8px;">
+            <a class="nav-link" href="#/psychology" data-link-route="/psychology">
+              <span class="nav-index">01</span><span>Dev. Psychology Index</span>
+            </a>
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>Chapters</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/psychology/ch1" data-link-route="/psychology/ch1"><span class="nav-index">01</span><span>Human Development</span></a>
+                <a class="nav-link" href="#/psychology/ch3" data-link-route="/psychology/ch3"><span class="nav-index">03</span><span>Physical, Perceptual, Motor</span></a>
+                <a class="nav-link" href="#/psychology/ch4" data-link-route="/psychology/ch4"><span class="nav-index">04</span><span>Cognitive - Early Childhood</span></a>
+                <a class="nav-link" href="#/psychology/ch5" data-link-route="/psychology/ch5"><span class="nav-index">05</span><span>Socioemotional - Infancy</span></a>
+                <a class="nav-link" href="#/psychology/ch6" data-link-route="/psychology/ch6"><span class="nav-index">06</span><span>Cognitive & Physical Childhood</span></a>
+                <a class="nav-link" href="#/psychology/ch7" data-link-route="/psychology/ch7"><span class="nav-index">07</span><span>Socioemotional Childhood</span></a>
+                <a class="nav-link" href="#/psychology/ch8" data-link-route="/psychology/ch8"><span class="nav-index">08</span><span>Cognitive Adolescence</span></a>
+                <a class="nav-link" href="#/psychology/ch9" data-link-route="/psychology/ch9"><span class="nav-index">09</span><span>Socioemotional Adolescence</span></a>
+                <a class="nav-link" href="#/psychology/ch10" data-link-route="/psychology/ch10"><span class="nav-index">10</span><span>Cognitive Young Adulthood</span></a>
+                <a class="nav-link" href="#/psychology/ch11" data-link-route="/psychology/ch11"><span class="nav-index">11</span><span>Middle Adulthood</span></a>
+                <a class="nav-link" href="#/psychology/ch12" data-link-route="/psychology/ch12"><span class="nav-index">12</span><span>Work, Leisure, Retirement</span></a>
+                <a class="nav-link" href="#/psychology/ch13" data-link-route="/psychology/ch13"><span class="nav-index">13</span><span>Biosychosocial Middle Adulthood</span></a>
+                <a class="nav-link" href="#/psychology/ch14" data-link-route="/psychology/ch14"><span class="nav-index">14</span><span>Cognitive Later Life</span></a>
+                <a class="nav-link" href="#/psychology/ch15" data-link-route="/psychology/ch15"><span class="nav-index">15</span><span>Social Aspects Later Life</span></a>
+                <a class="nav-link" href="#/psychology/ch16" data-link-route="/psychology/ch16"><span class="nav-index">16</span><span>Dying and Bereavement</span></a>
+              </div>
+            </details>
+          </div>
+        </details>
+
+        <details class="nav-section" data-default-open="false">
+          <summary><span>Cognitive Psych</span><span class="chev">⌄</span></summary>
+          <div class="nav-children" style="padding-left: 8px;">
+            <a class="nav-link" href="#/cognitive" data-link-route="/cognitive">
+              <span class="nav-index">02</span><span>Cognitive Index</span>
+            </a>
+            <details class="nav-section" style="border-top: none;">
+              <summary><span>Chapters</span><span class="chev">⌄</span></summary>
+              <div class="nav-children">
+                <a class="nav-link" href="#/cognitive/ch1" data-link-route="/cognitive/ch1"><span class="nav-index">01</span><span>Intro to Cognitive</span></a>
+                <a class="nav-link" href="#/cognitive/ch2" data-link-route="/cognitive/ch2"><span class="nav-index">02</span><span>Neuroscience</span></a>
+                <a class="nav-link" href="#/cognitive/ch3" data-link-route="/cognitive/ch3"><span class="nav-index">03</span><span>Visual Perception</span></a>
+                <a class="nav-link" href="#/cognitive/ch4" data-link-route="/cognitive/ch4"><span class="nav-index">04</span><span>Attention & Conscious</span></a>
+                <a class="nav-link" href="#/cognitive/ch5" data-link-route="/cognitive/ch5"><span class="nav-index">05</span><span>Memory Models</span></a>
+                <a class="nav-link" href="#/cognitive/ch6" data-link-route="/cognitive/ch6"><span class="nav-index">06</span><span>Memory Processes</span></a>
+                <a class="nav-link" href="#/cognitive/ch7" data-link-route="/cognitive/ch7"><span class="nav-index">07</span><span>Landscape of Memory</span></a>
+                <a class="nav-link" href="#/cognitive/ch8" data-link-route="/cognitive/ch8"><span class="nav-index">08</span><span>Org. of Knowledge</span></a>
+                <a class="nav-link" href="#/cognitive/ch9" data-link-route="/cognitive/ch9"><span class="nav-index">09</span><span>Language</span></a>
+                <a class="nav-link" href="#/cognitive/ch10" data-link-route="/cognitive/ch10"><span class="nav-index">10</span><span>Language in Context</span></a>
+                <a class="nav-link" href="#/cognitive/ch11" data-link-route="/cognitive/ch11"><span class="nav-index">11</span><span>Problem Solving</span></a>
+                <a class="nav-link" href="#/cognitive/ch12" data-link-route="/cognitive/ch12"><span class="nav-index">12</span><span>Decision Making</span></a>
+              </div>
+            </details>
+          </div>
+        </details>
+
         <details open class="nav-section" data-default-open="true">
           <summary><span>Quick Navigation</span><span class="chev">⌄</span></summary>
           <div class="nav-children">
@@ -302,7 +387,36 @@ function initApp() {
     '/minds/vesaf-2023': vesaf2023HTML,
     '/minds/vesaf-2024': vesaf2024HTML,
     '/minds/vesaf-2025': vesaf2025HTML,
-    '/minds/vesaf-2026': vesaf2026HTML
+    '/minds/vesaf-2026': vesaf2026HTML,
+    '/psychology': psychIndexHTML,
+    '/psychology/ch1': psychCh1HTML,
+    '/psychology/ch3': psychCh3HTML,
+    '/psychology/ch4': psychCh4HTML,
+    '/psychology/ch5': psychCh5HTML,
+    '/psychology/ch6': psychCh6HTML,
+    '/psychology/ch7': psychCh7HTML,
+    '/psychology/ch8': psychCh8HTML,
+    '/psychology/ch9': psychCh9HTML,
+    '/psychology/ch10': psychCh10HTML,
+    '/psychology/ch11': psychCh11HTML,
+    '/psychology/ch12': psychCh12HTML,
+    '/psychology/ch13': psychCh13HTML,
+    '/psychology/ch14': psychCh14HTML,
+    '/psychology/ch15': psychCh15HTML,
+    '/psychology/ch16': psychCh16HTML,
+    '/cognitive': cognitiveIndexHTML,
+    '/cognitive/ch1': cognitiveCh1HTML,
+    '/cognitive/ch2': cognitiveCh2HTML,
+    '/cognitive/ch3': cognitiveCh3HTML,
+    '/cognitive/ch4': cognitiveCh4HTML,
+    '/cognitive/ch5': cognitiveCh5HTML,
+    '/cognitive/ch6': cognitiveCh6HTML,
+    '/cognitive/ch7': cognitiveCh7HTML,
+    '/cognitive/ch8': cognitiveCh8HTML,
+    '/cognitive/ch9': cognitiveCh9HTML,
+    '/cognitive/ch10': cognitiveCh10HTML,
+    '/cognitive/ch11': cognitiveCh11HTML,
+    '/cognitive/ch12': cognitiveCh12HTML
   };
 
   // Routing logic
@@ -419,6 +533,35 @@ function initApp() {
         if (hash === '/minds/vesaf-2024') initBookPagination(vesaf2024Pages);
         if (hash === '/minds/vesaf-2025') initBookPagination(vesaf2025Pages);
         if (hash === '/minds/vesaf-2026') initBookPagination(vesaf2026Pages);
+        
+        if (hash === '/psychology/ch1') initBookPagination(psychCh1Pages);
+        if (hash === '/psychology/ch3') initBookPagination(psychCh3Pages);
+        if (hash === '/psychology/ch4') initBookPagination(psychCh4Pages);
+        if (hash === '/psychology/ch5') initBookPagination(psychCh5Pages);
+        if (hash === '/psychology/ch6') initBookPagination(psychCh6Pages);
+        if (hash === '/psychology/ch7') initBookPagination(psychCh7Pages);
+        if (hash === '/psychology/ch8') initBookPagination(psychCh8Pages);
+        if (hash === '/psychology/ch9') initBookPagination(psychCh9Pages);
+        if (hash === '/psychology/ch10') initBookPagination(psychCh10Pages);
+        if (hash === '/psychology/ch11') initBookPagination(psychCh11Pages);
+        if (hash === '/psychology/ch12') initBookPagination(psychCh12Pages);
+        if (hash === '/psychology/ch13') initBookPagination(psychCh13Pages);
+        if (hash === '/psychology/ch14') initBookPagination(psychCh14Pages);
+        if (hash === '/psychology/ch15') initBookPagination(psychCh15Pages);
+        if (hash === '/psychology/ch16') initBookPagination(psychCh16Pages);
+        
+        if (hash === '/cognitive/ch1') initBookPagination(cognitiveCh1Pages);
+        if (hash === '/cognitive/ch2') initBookPagination(cognitiveCh2Pages);
+        if (hash === '/cognitive/ch3') initBookPagination(cognitiveCh3Pages);
+        if (hash === '/cognitive/ch4') initBookPagination(cognitiveCh4Pages);
+        if (hash === '/cognitive/ch5') initBookPagination(cognitiveCh5Pages);
+        if (hash === '/cognitive/ch6') initBookPagination(cognitiveCh6Pages);
+        if (hash === '/cognitive/ch7') initBookPagination(cognitiveCh7Pages);
+        if (hash === '/cognitive/ch8') initBookPagination(cognitiveCh8Pages);
+        if (hash === '/cognitive/ch9') initBookPagination(cognitiveCh9Pages);
+        if (hash === '/cognitive/ch10') initBookPagination(cognitiveCh10Pages);
+        if (hash === '/cognitive/ch11') initBookPagination(cognitiveCh11Pages);
+        if (hash === '/cognitive/ch12') initBookPagination(cognitiveCh12Pages);
       } else {
         container.innerHTML = `
           <div class="page-shell">
@@ -436,6 +579,9 @@ function initApp() {
     if (menuBtn) {
       menuBtn.setAttribute('aria-expanded', 'false');
     }
+    
+    // Initialize animations for the new route
+    setTimeout(initScrollAnimations, 50);
   }
 
   // Mobile hamburger drawer toggle
@@ -610,6 +756,14 @@ function initApp() {
       
       if (prevBtn) prevBtn.disabled = currentPage === 0;
       if (nextBtn) nextBtn.disabled = currentPage === pages.length - 1;
+      
+      // Initialize animations for the new page content
+      setTimeout(() => {
+        initScrollAnimations();
+        if (window.mermaid) {
+          mermaid.run({ querySelector: '.mermaid' }).catch(err => console.error('Mermaid render error:', err));
+        }
+      }, 50);
     }
 
     if (prevBtn && nextBtn) {
@@ -639,6 +793,26 @@ function initApp() {
       renderPage();
     }
   }
+
+  // Global Keyboard Pagination
+  document.addEventListener('keydown', (e) => {
+    // Prevent triggering if user is typing in an input field
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+    
+    if (e.key === 'ArrowLeft') {
+      const prevBtn = document.getElementById('prevPageBtn');
+      if (prevBtn && !prevBtn.disabled) {
+        prevBtn.click();
+      }
+    } else if (e.key === 'ArrowRight') {
+      const nextBtn = document.getElementById('nextPageBtn');
+      if (nextBtn && !nextBtn.disabled) {
+        nextBtn.click();
+      }
+    }
+  });
 
   // Start router
   window.addEventListener('hashchange', handleRouting);

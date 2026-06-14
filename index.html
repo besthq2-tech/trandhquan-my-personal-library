@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
+  <!-- Mermaid.js for structural diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    }
+  </script>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
